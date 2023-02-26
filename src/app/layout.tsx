@@ -1,4 +1,13 @@
 import './globals.css'
+import Navbar from "@/app/navbar";
+
+import {Lilita_One} from "@next/font/google";
+
+const lilitaOne = Lilita_One({
+    subsets: ['latin'],
+    weight: ['400'],
+    variable: '--font-lilitaOne'
+})
 
 export default function RootLayout({
   children,
@@ -12,7 +21,10 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <body className={`${lilitaOne.variable} font-sans`}>
+      <Navbar/>
+      {children}
+      </body>
     </html>
   )
 }

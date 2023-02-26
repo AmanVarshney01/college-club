@@ -14,7 +14,7 @@ module.exports = {
         sans: ['var(--font-lilitaOne)']
       },
       'animation': {
-        'text':'text 5s ease infinite',
+        'text':'text 8s ease infinite',
       },
       'keyframes': {
         'text': {
