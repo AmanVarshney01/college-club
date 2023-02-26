@@ -2,6 +2,7 @@ import './globals.css'
 import Navbar from "@/app/navbar";
 
 import {Lilita_One} from "@next/font/google";
+import React from "react";
 
 const lilitaOne = Lilita_One({
     subsets: ['latin'],
@@ -20,7 +21,7 @@ export default function RootLayout({
         <head /> will contain the components returned by the nearest parent
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
-      <head />
+      <head ><title>GFG GLAU</title></head>
       <body className={`${lilitaOne.variable} font-sans`}>
       <Navbar/>
       {children}
