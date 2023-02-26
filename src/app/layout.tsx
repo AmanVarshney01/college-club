@@ -1,8 +1,8 @@
 import './globals.css'
+import { AnalyticsWrapper } from './analytics';
 import Navbar from "@/app/navbar";
 
 import {Lilita_One} from "@next/font/google";
-import React from "react";
 
 const lilitaOne = Lilita_One({
     subsets: ['latin'],
@@ -25,6 +25,7 @@ export default function RootLayout({
       <body className={`${lilitaOne.variable} font-sans`}>
       <Navbar/>
       {children}
+      <AnalyticsWrapper />
       </body>
     </html>
   )
