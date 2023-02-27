@@ -1,6 +1,3 @@
-"use client";
-import {motion} from "framer-motion";
-
 import {Lilita_One} from "next/font/google";
 
 const lilitaOne = Lilita_One({
@@ -11,10 +8,7 @@ const lilitaOne = Lilita_One({
 
 export default function Home() {
     return (
-        <motion.main
-            initial={{width: 0}}
-            animate={{width: "100%"}}
-            exit={{x: window.innerWidth, transition: { duration: 0.3}}}
+        <main
             className={'w-screen h-screen flex justify-center items-center bg-[#131200]'}>
             <div className={"relative"}>
                 <h1 className={"text-[20rem] text-[#2f8d46] drop-shadow-lg"}>
@@ -24,6 +18,6 @@ export default function Home() {
                 </h1>
                 <span className={"text-2xl text-white absolute bottom-20 right-0 font-mono"}>GeeksForGeeks Student Chapter GLA University</span>
             </div>
-        </motion.main>
+        </main>
     )
 }
