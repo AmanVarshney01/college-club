@@ -24,7 +24,6 @@ export default function Home() {
                 </h1>
                 <span className={"text-2xl text-white absolute bottom-20 right-0 font-mono"}>GeeksForGeeks Student Chapter GLA University</span>
             </div>
-
         </motion.main>
     )
 }
