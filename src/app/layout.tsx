@@ -1,7 +1,9 @@
+"use client";
 import './globals.css'
 import { AnalyticsWrapper } from './analytics';
 import Navbar from "@/app/navbar";
 import Alert from "@/app/alert";
+import {AnimatePresence} from "framer-motion";
 
 export default function RootLayout({
   children,
@@ -18,7 +20,9 @@ export default function RootLayout({
       <body>
       <Alert  text={"Register Now! Entrevista: Mock placement Drive"}/>
       <Navbar/>
-      {children}
+      <AnimatePresence initial={false}>
+          {children}
+      </AnimatePresence>
       <AnalyticsWrapper />
       </body>
     </html>
