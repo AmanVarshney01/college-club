@@ -9,7 +9,7 @@ export default function Navbar() {
                     <Image className={"h-28 w-full"} placeholder='blur' src={glaLogo} alt="gla university"/>
                 </div>
                 <div className={"fixed bottom-0 left-0 right-0 w-screen mb-10"}>
-                    <ul className={"flex justify-center gap-8 text-white text-2xl"}>
+                    <ul className={"flex justify-center gap-8 text-white text-2xl font-mono"}>
                         <Button href={"/"} name={"Home"} />
                         <Button href={"/work"} name={"Our Work"} />
                         <Button href={"/about"} name={"About Us"} />
