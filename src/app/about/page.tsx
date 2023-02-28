@@ -1,29 +1,10 @@
+import Carousel from "@/app/about/Components/carousel";
 export default function Home() {
     return (
-        <main className={"bg-[#E26D5C] h-screen w-screen"}>
-            <div className="carousel carousel-center rounded-box h-1/3 w-full">
-                <div className="carousel-item">
-                    <img src="/photo.png" alt="Pizza" />
-                </div>
-                <div className="carousel-item">
-                    <img src="/photo.png" alt="Pizza" />
-                </div>
-                <div className="carousel-item">
-                    <img src="/photo.png" alt="Pizza" />
-                </div>
-                <div className="carousel-item">
-                    <img src="/photo.png" alt="Pizza" />
-                </div>
-                <div className="carousel-item">
-                    <img src="/photo.png" alt="Pizza" />
-                </div>
-                <div className="carousel-item">
-                    <img src="/photo.png" alt="Pizza" />
-                </div>
-                <div className="carousel-item">
-                    <img src="/photo.png" alt="Pizza" />
-                </div>
-            </div>
+        <main className={"bg-[#E26D5C] p-4 w-screen grid gap-4 place-items-center"}>
+            {/*<Carousel />*/}
+            <div className={"w-1/2 bg-green-300"}></div>
+            <div className={"w-1/2 bg-green-300"}></div>
         </main>
     )
 }

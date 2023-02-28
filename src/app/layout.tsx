@@ -1,7 +1,6 @@
 import './globals.css'
 import { AnalyticsWrapper } from './analytics';
 import Navbar from "@/app/navbar";
-import Alert from "@/app/Components/alert";
 
 export default function RootLayout({
   children,
@@ -16,7 +15,6 @@ export default function RootLayout({
       */}
       <head ><title>GFG GLAU</title></head>
       <body className={""}>
-      <Alert  text={"Register Now! Entrevista: Mock placement Drive"}/>
       <Navbar/>
       {children}
       <AnalyticsWrapper />
