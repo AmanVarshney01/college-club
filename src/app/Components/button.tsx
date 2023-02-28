@@ -12,7 +12,7 @@ export default function Button(props: ButtonProps) {
 
     return (
         <Link href={href}
-              className="relative inline-flex items-center justify-start inline-block lg:px-5 lg:py-3 px-3 py-2 overflow-hidden font-thin rounded-full group">
+              className=" relative inline-flex items-center justify-start inline-block lg:px-5 lg:py-3 px-3 py-2 overflow-hidden font-thin rounded-full group">
             <span
                 className="w-32 h-32 rotate-45 translate-x-12 -translate-y-2 absolute left-0 top-0 bg-white opacity-[3%]"></span>
             <span
