@@ -6,7 +6,7 @@ export default function Alert({text}: { text: string }) {
     const [show, setShow] = useState(true)
 
     return (
-        <div onMouseOver={() => setShow(true)} onMouseLeave={() => setShow(false)} className={"fixed z-10 top-0 right-0 m-8 flex justify-between"}>
+        <div onMouseOver={() => setShow(true)} onMouseLeave={() => setShow(false)} className={"fixed z-10 bottom-0 right-0 m-8 flex justify-between"}>
             {show && (<div className="px-5 bg-yellow-400 text-white rounded-2xl font-mono font-bold"><p className={"m-6"}>{text}</p>
             </div>)}
             <button className="ml-4 mt-4 mb-4 mr-0 motion-safe:animate-pulse hover:animate-none" onClick={() => setShow(!show)}>

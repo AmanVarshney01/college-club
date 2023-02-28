@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.headtext {
+    font-family: 'Josefin Sans', sans-serif;
+}
