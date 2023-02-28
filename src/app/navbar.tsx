@@ -14,6 +14,7 @@ export default function Navbar() {
                         <Button href={"/work"} name={"Our Work"} />
                         <Button href={"/about"} name={"About Us"} />
                         <Button href={"/contact"} name={"Contact Us"} />
+                        <Button href={"/contact"} name={"Upcoming Event"} />
                     </ul>
                 </div>
             </nav>
