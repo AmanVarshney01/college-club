@@ -2,7 +2,7 @@ import Bgicons from "@/app/Components/bgicons";
 
 export default function HomePage () {
     return (
-        <div id="homepage" className={"h-screen relative flex justify-left items-center bg-[#131200]"}>
+        <div id="homepage" className={"h-screen relative flex flex-row justify-left items-center bg-[#131200]"}>
             <Bgicons/>
             <div className={"flex flex-col z-10 mx-10 mt-24"}>
                 <h1 className={"text-[#2f8d46] drop-shadow-lg"}>
@@ -13,6 +13,9 @@ export default function HomePage () {
                 </span>
                 </h1>
                 <span className={"lg:text-2xl text-[1rem] ml-10 text-white text-start font-mono"}>GeeksForGeeks Student Chapter GLA University</span>
+            </div>
+            <div className={"w-1/3 h-3/5 bg-white self-end mx-auto rounded-t-lg z-10"}>
+
             </div>
         </div>
     )
