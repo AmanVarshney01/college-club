@@ -18,7 +18,7 @@ export default function Button(props: ButtonProps) {
             <span
                 className="absolute top-0 left-0 w-48 h-48 -mt-1 transition-all duration-500 ease-in-out rotate-45 -translate-x-56 -translate-y-24 bg-white opacity-100 group-hover:-translate-x-8"></span>
             <span
-                className="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-gray-900 2xl:text-[1.5rem]">{name}</span>
+                className="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-gray-900 2xl:text-[1rem]">{name}</span>
             <span className="absolute inset-0 border-2 border-white rounded-full"></span>
         </Link>
     )

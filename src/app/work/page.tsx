@@ -1,6 +1,6 @@
-export default function Home() {
+export default function WorkHome() {
     return (
-        <main className={"h-screen w-screen bg-[#D9D0DE]"}>
+        <main className={"h-screen bg-[#D9D0DE]"}>
             <h1>Work Page</h1>
         </main>
     )
