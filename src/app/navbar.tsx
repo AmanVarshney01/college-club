@@ -13,10 +13,10 @@ export default function Navbar() {
                     </div>
                     <div className={"mr-10 z-10 "}>
                         <ul className={"flex gap-8 text-white font-mono w-fit"}>
-                            <Button href={"/"} name={"Home"} />
-                            <Button href={"/work"} name={"Work"} />
-                            <Button href={"/about"} name={"About"} />
-                            <Button href={"/contact"} name={"Contact"} />
+                            <Button href={"/#homepage"} name={"Home"} />
+                            <Button href={"/#workpage"} name={"Work"} />
+                            <Button href={"/#aboutpage"} name={"About"} />
+                            <Button href={"/#contactpage"} name={"Contact"} />
                             {/*<Button href={"/contact"} name={"Event"} />*/}
                         </ul>
                     </div>

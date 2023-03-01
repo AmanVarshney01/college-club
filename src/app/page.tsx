@@ -1,25 +1,25 @@
-import AboutHome from "@/app/about/page";
-import ContactHome from "@/app/contact/page";
-import WorkHome from "@/app/work/page";
+import AboutHome from "@/app/about/AboutPage";
+import ContactHome from "@/app/contact/ContactPage";
+import WorkHome from "@/app/work/WorkPage";
 import HomePage from "@/app/Components/HomePage";
 
 export default function Home() {
     return (
-        <main className={'snap-y snap-mandatory'}>
+        <main className={''}>
 
-            <section className={"snap-start"}>
+            <section className={""}>
                 <HomePage />
             </section>
 
-            <section className={"snap-start"}>
+            <section id="workpage" className={""}>
                 <WorkHome/>
             </section>
 
-            <section className={"snap-start"}>
+            <section id="aboutpage" className={""}>
                 <AboutHome/>
             </section>
 
-            <section className={"snap-start"}>
+            <section id="contactpage" className={""}>
                 <ContactHome/>
             </section>
         </main>
