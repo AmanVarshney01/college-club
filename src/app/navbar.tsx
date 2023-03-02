@@ -5,7 +5,8 @@ import Image from "next/image";
 
 export default function Navbar() {
     return (
-            <nav className={"fixed top-0 right-0 w-full top-0 z-20 "}>
+        <nav className={"fixed top-0 w-full z-20"}>
+            <div>
                 <div className={"flex flex-row justify-between items-center"}>
                     <div className={" ml-10 my-2 z-10 flex flex-row gap-5"}>
                         <Image className={"h-20 w-full"} placeholder='blur' src={glaLogo} alt="gla university"/>
@@ -13,15 +14,15 @@ export default function Navbar() {
                     </div>
                     <div className={"mr-10 z-10 "}>
                         <ul className={"flex gap-8 text-white font-mono w-fit"}>
-                            <Button href={"/#homepage"} name={"Home"} />
-                            <Button href={"/#workpage"} name={"Work"} />
-                            <Button href={"/#aboutpage"} name={"About"} />
-                            <Button href={"/#contactpage"} name={"Contact"} />
+                            <Button href={"/#homepage"} name={"Home"}/>
+                            <Button href={"/#workpage"} name={"Work"}/>
+                            <Button href={"/#aboutpage"} name={"About"}/>
+                            <Button href={"/#contactpage"} name={"Contact"}/>
                             {/*<Button href={"/contact"} name={"Event"} />*/}
                         </ul>
                     </div>
                 </div>
-
-            </nav>
+            </div>
+        </nav>
     )
 }

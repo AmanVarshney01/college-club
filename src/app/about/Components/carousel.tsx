@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Carousel() {
     return (
         // <div className="carousel rounded-box h-2/3">
@@ -24,7 +26,7 @@ export default function Carousel() {
         //     </div>
         // </div>
         //
-        <div className="carousel rounded-box w-full h-1/2">
+        <div className="carousel rounded-box w-full">
             <div className="carousel-item w-1/2">
                 <img src="/photo.png" className="w-full" />
             </div>
