@@ -1,7 +1,8 @@
 export default function ContactHome() {
     return (
-        <main className={"bg-[#DB5461] h-screen"}>
-            <h1>Contact Page</h1>
+        <main className={"bg-[#D1E3DD] px-4 py-8 h-screen grid gap-4 grid-cols-2 font-mono"}>
+            <div className={"grid place-content-center text-3xl"}>Contact form</div>
+            <div className={"grid place-content-center text-3xl"}>FAQs</div>
         </main>
     )
 }

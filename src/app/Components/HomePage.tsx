@@ -1,4 +1,5 @@
 import Bgicons from "@/app/Components/bgicons";
+import EventLabel from "@/app/Components/eventlabel";
 
 export default function HomePage () {
     return (
@@ -14,8 +15,11 @@ export default function HomePage () {
                 </h1>
                 <span className={"lg:text-2xl text-[1rem] ml-10 text-white text-start font-mono"}>GeeksForGeeks Student Chapter GLA University</span>
             </div>
-            <div className={"w-1/3 h-3/5 bg-white self-end mx-auto rounded-t-lg z-10"}>
-
+            <div className={"p-4 pb-8 w-1/3 bg-black bg-opacity-30 backdrop-filter backdrop-blur-lg self-end mx-auto rounded-t-3xl z-10 flex flex-col"}>
+                <EventLabel name={"Entrevista"} />
+                <EventLabel name={"Solving For India Fun Activities"} />
+                <EventLabel name={"Brain It Out"} />
+                <EventLabel name={"Disha"} />
             </div>
         </div>
     )
