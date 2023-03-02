@@ -1,10 +1,10 @@
-import Bgicons from "@/app/Components/bgicons";
+// import Bgicons from "@/app/Components/bgicons";
 import EventLabel from "@/app/Components/eventlabel";
 
 export default function HomePage () {
     return (
         <div id="homepage" className={"relative h-screen flex flex-row justify-left items-center bg-[#131200]"}>
-            <Bgicons/>
+            {/*<Bgicons/>*/}
             <div className={"flex flex-col z-10 mx-10 mt-24"}>
                 <h1 className={"text-[#2f8d46] drop-shadow-lg"}>
                 <span
@@ -15,11 +15,12 @@ export default function HomePage () {
                 </h1>
                 <span className={"lg:text-2xl text-[1rem] ml-10 text-white text-start font-mono"}>GeeksForGeeks Student Chapter GLA University</span>
             </div>
-            <div className={"p-4 pb-8 w-1/3 bg-black bg-opacity-30 backdrop-filter backdrop-blur-lg self-end mx-auto rounded-t-3xl z-10 flex flex-col"}>
-                <EventLabel name={"Entrevista"} />
-                <EventLabel name={"Solving For India Fun Activities"} />
-                <EventLabel name={"Brain It Out"} />
-                <EventLabel name={"Disha"} />
+            <div className={"p-4 my-4 w-1/3 self-end mx-auto rounded-t-3xl z-10 grid grid-rows-2 gap-8"}>
+                {/*bg-black bg-opacity-30 backdrop-filter backdrop-blur-lg*/}
+                <EventLabel href={""} name={"Entrevista"} />
+                <EventLabel href={""} name={"Solving For India Fun Activities"} />
+                <EventLabel href={""} name={"Brain It Out"} />
+                <EventLabel href={""} name={"Disha"} />
             </div>
         </div>
     )
