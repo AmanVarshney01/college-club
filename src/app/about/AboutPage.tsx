@@ -1,7 +1,7 @@
 import Carousel from "@/app/about/Components/carousel";
 export default function AboutHome() {
     return (
-        <main className={"bg-[#EAEAEA] px-4 py-8 h-screen grid gap-4 grid-cols-2"}>
+        <main className={"bg-[#131200] px-4 py-8 h-screen grid gap-4 grid-cols-2"}>
             <div>
                 <Carousel />
                 <p>geeksforgeeks description</p>

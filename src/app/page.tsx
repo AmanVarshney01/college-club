@@ -5,7 +5,7 @@ import HomePage from "@/app/Components/HomePage";
 
 export default function Home() {
     return (
-        <main className={''}>
+        <main className={'text-white'}>
 
             <section className={""}>
                 <HomePage />
