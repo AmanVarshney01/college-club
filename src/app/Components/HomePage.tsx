@@ -4,7 +4,7 @@ import EventLabel from "@/app/Components/eventlabel";
 export default function HomePage () {
     return (
         <div id="homepage" className={"relative h-screen flex flex-row justify-left items-center bg-[#131200]"}>
-            {/*<Bgicons/>*/}
+            <Bgicons/>
             <div className={"flex flex-col z-10 mx-10 mt-24"}>
                 <h1 className={"text-[#2f8d46] drop-shadow-lg"}>
                 <span
