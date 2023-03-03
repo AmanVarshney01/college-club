@@ -2,7 +2,7 @@ import Carousel from "@/app/about/Components/carousel";
 import NameCard from "@/app/about/Components/namecard";
 export default function AboutHome() {
     return (
-        <div className={"bg-[#131200] px-4 py-8 h-screen grid grid-cols-2"}>
+        <div className={"bg-[#141414] px-4 py-8 grid grid-cols-2"}>
             <div className={""}>
                 <div className={""}>
                     <Carousel />

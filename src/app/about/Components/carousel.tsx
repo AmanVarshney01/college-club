@@ -1,6 +1,6 @@
 "use client";
-import Image from "next/image";
 import photo from 'public/photo.png'
+import Image from "next/image";
 import {useState} from "react";
 import {BsChevronCompactLeft, BsChevronCompactRight} from "react-icons/bs";
 
@@ -8,22 +8,22 @@ export default function Carousel() {
 
     const slides = [
         {
-            image: photo,
+            photo_key: photo,
         },
         {
-            image: photo,
+            photo_key: photo,
         },
         {
-            image: photo,
+            photo_key: photo,
         },
         {
-            image: photo,
+            photo_key: photo,
         },
         {
-            image: photo,
+            photo_key: photo,
         },
         {
-            image: photo,
+            photo_key: photo,
         },
     ]
 
@@ -38,7 +38,7 @@ export default function Carousel() {
     return (
         <div className={"max-w-[1400px] h-[700px] w-full m-auto py2-16 px-4 relative group"}>
             <div className={"w-full h-full bg-center bg-cover duration-500"}>
-                <Image className={"rounded-2xl"} src={slides[currentIndex].image} alt={"photo"} />
+                <Image className={"rounded-2xl"} src={slides[currentIndex].photo_key} alt={"photo"} />
             </div>
             <div>
                 <BsChevronCompactLeft onClick={prevSlide} size={30} className={"hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer"} />

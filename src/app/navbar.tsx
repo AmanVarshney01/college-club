@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Navbar() {
     return (
-        <div className={"fixed top-0 w-full z-20 bg-[#131200] transition duration-100"}>
+        <div className={"fixed top-0 w-full z-20 bg-[#191A19] transition duration-100"}>
             <div className={"flex flex-row justify-between items-center"}>
                 <div className={" ml-10 my-1 z-10 flex flex-row gap-5"}>
                     <Image className={"h-20 w-full"} placeholder='blur' src={glaLogo} alt="gla university"/>
