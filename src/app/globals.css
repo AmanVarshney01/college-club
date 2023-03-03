@@ -6,3 +6,19 @@
     /*font-family: 'Josefin Sans', sans-serif;*/
     font-family: 'Montserrat', sans-serif;
 }
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: #131200;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #A5CBC3;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3C685E;
+}

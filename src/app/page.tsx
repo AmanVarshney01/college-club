@@ -1,28 +1,37 @@
 import AboutHome from "@/app/about/AboutPage";
 import ContactHome from "@/app/contact/ContactPage";
 import WorkHome from "@/app/work/WorkPage";
-import HomePage from "@/app/Components/HomePage";
-import Navbar from "@/app/navbar";
+import HomePage from "@/app/home/HomePage";
+// import {gsap} from 'gsap';
+// import {ScrollTrigger} from 'gsap/ScrollTrigger'
+// import {useEffect} from "react";
 
 export default function Home() {
-    return (
-        <main className={'text-white scroll-smooth font-mono'}>
-            <Navbar />
-            <section className={""}>
-                <HomePage />
-            </section>
 
-            <section id="workpage" className={""}>
+    // useEffect(() => {
+    //     gsap.registerPlugin(ScrollTrigger);
+    //
+    //     ScrollTrigger.defaults({
+    //         toggleActions: "restart pause resume pause",
+    //         scroller: "#container"
+    //     });
+    // })
+
+    return (
+        <main id="container" className={'text-white scroll-smooth font-mono overflow-y-scroll snap-y snap-mandatory  '}>
+            <section>
+                <HomePage/>
+            </section>
+            <section>
                 <WorkHome/>
             </section>
-
-            <section id="aboutpage" className={""}>
+            <section>
                 <AboutHome/>
             </section>
-
-            <section id="contactpage" className={""}>
+            <section>
                 <ContactHome/>
             </section>
+
         </main>
     )
 }
