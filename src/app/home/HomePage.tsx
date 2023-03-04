@@ -7,12 +7,10 @@ export default function HomePage () {
         <div className={"relative h-screen flex flex-row justify-left items-center bg-[#141414]"}>
             {/*<Bgicons/>*/}
             <MainTitle />
-            <div className={"p-4 my-4 w-1/3 self-end mx-auto rounded-t-3xl z-10 grid grid-rows-2 gap-8"}>
+            <div className={"p-4 my-20 w-1/3 self-end mx-auto rounded-t-3xl z-10 grid grid-rows-2 gap-8 -skew-y-6"}>
                 {/*bg-black bg-opacity-30 backdrop-filter backdrop-blur-lg*/}
-                <EventLabel href={""} name={"Entrevista"} />
-                <EventLabel href={""} name={"Solving For India Fun Activities"} />
-                <EventLabel href={""} name={"Brain It Out"} />
-                <EventLabel href={""} name={"Disha"} />
+                <EventLabel href={""} name={"Linkedin 500+ Followers"} />
+                <EventLabel href={""} name={"Instagram 300+ Followers"} />
             </div>
         </div>
     )
