@@ -17,7 +17,7 @@ export default function WorkHome() {
         }, {
             translateX: "-300vw",
             ease: "none",
-            duration: 1,
+            duration: 3,
             scrollTrigger: {
                 trigger: triggerRef.current,
                 start: "top top",
@@ -36,7 +36,7 @@ export default function WorkHome() {
     return (
         <div className={"overflow-hidden"}>
             <div ref={triggerRef}>
-                <div ref={sectionRef} className={" h-screen w-full flex flex-row relative"}>
+                <div ref={sectionRef} className={"h-screen w-full flex flex-row relative"}>
                     <EventShowcase title={"Event Name"} description={"wonderful event"} />
                     <EventShowcase title={"Event Name"} description={"wonderful event"} />
                     <EventShowcase title={"Event Name"} description={"wonderful event"} />
