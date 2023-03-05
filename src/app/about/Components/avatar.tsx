@@ -1,4 +1,4 @@
-export default function NameCard () {
+export default function Avatar () {
     return (
         <div className={"flex flex-row h-min justify-evenly"}>
             <div className="card w-72 bg-base-100 shadow-xl bg-transparent p-0 m-0 border-0 shadow-none">
