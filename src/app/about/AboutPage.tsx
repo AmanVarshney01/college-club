@@ -2,7 +2,7 @@ import Avatar from "@/app/about/Components/avatar";
 
 export default function AboutHome() {
     return (
-        <div className={"bg-blue-400 w-full h-screen flex flex-col"}>
+        <div className={"bg-[#141414] w-full h-screen flex flex-col"}>
             {/*<div className={"bg-green- 300"}></div>*/}
             <div className={"grow"}>
 

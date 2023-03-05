@@ -17,7 +17,7 @@ export default function WorkHome() {
         }, {
             translateX: "-300vw",
             ease: "none",
-            duration: 3,
+            duration: 1,
             scrollTrigger: {
                 trigger: triggerRef.current,
                 start: "top top",
