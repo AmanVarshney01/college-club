@@ -1,15 +1,4 @@
-'use client';
-// import {useEffect} from "react";
-// import gsap from "gsap";
-
 export default function MainTitle() {
-
-    // useEffect(() => {
-    //     gsap.to('#title', {
-    //         duration: 2,
-    //         x: 100
-    //     })
-    // })
 
     return (
         <div className={"flex flex-col z-10 mx-10 mt-24"}>

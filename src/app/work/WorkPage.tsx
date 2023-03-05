@@ -34,13 +34,13 @@ export default function WorkHome() {
     }, [])
 
     return (
-        <div id="showcase" className={"overflow-hidden"}>
+        <div className={"overflow-hidden"}>
             <div ref={triggerRef}>
-                <div ref={sectionRef} className={"h-screen w-[400vw] flex flex-row relative"}>
-                    <EventShowcase />
-                    <EventShowcase />
-                    <EventShowcase />
-                    <EventShowcase />
+                <div ref={sectionRef} className={" h-screen w-full flex flex-row relative"}>
+                    <EventShowcase title={"Event Name"} description={"wonderful event"} />
+                    <EventShowcase title={"Event Name"} description={"wonderful event"} />
+                    <EventShowcase title={"Event Name"} description={"wonderful event"} />
+                    <EventShowcase title={"Event Name"} description={"wonderful event"} />
                 </div>
             </div>
         </div>

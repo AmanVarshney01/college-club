@@ -2,6 +2,7 @@ import NavButton from "@/app/home/Components/NavButton";
 import glaLogo from 'public/gla logo A+.png';
 import glaGlauLogo from 'public/gfgglau.png';
 import Image from "next/image";
+import arrow from 'public/arrow.svg'
 // import {useEffect} from "react";
 
 export default function Navbar() {
@@ -54,6 +55,9 @@ export default function Navbar() {
                         {/*<Button href={"/contact"} name={"Event"} />*/}
                     </ul>
                 </div>
+            </div>
+            <div onClick={scrollToHome} className={"fixed bottom-6 right-6 m-2 bg-[#D8E9A8] rounded-full"}>
+                <Image className={""} src={arrow} alt={"Up"} />
             </div>
         </div>
     )
