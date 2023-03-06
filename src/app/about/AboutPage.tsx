@@ -1,4 +1,6 @@
 import Avatar from "@/app/about/Components/avatar";
+import Image from "next/image";
+import portrait from 'public/portrait.jpg'
 
 export default function AboutHome() {
     return (
@@ -7,8 +9,7 @@ export default function AboutHome() {
             <div className={"grow"}>
 
             </div>
-            <div className={"flex flex-row place-items-end justify-center gap-4 h-screen w-full overflow-x-scroll flex-shrink-0"}>
-                <Avatar/>
+            <div className={"flex flex-row place-items-end gap-4 h-screen w-full overflow-x-scroll flex-shrink-0 flex-nowrap"}>
                 <Avatar/>
                 <Avatar/>
                 <Avatar/>
