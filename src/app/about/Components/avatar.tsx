@@ -1,6 +1,5 @@
-import photo from 'public/photo.png'
 import Image from "next/image";
-import portrait from "../../../../public/portrait.jpg";
+import portrait from "public/portrait.jpg";
 export default function Avatar () {
     return (
         <div className={"w-64 h-96 flex-shrink-0 bg-white relative group"}>
