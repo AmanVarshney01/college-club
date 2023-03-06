@@ -4,21 +4,22 @@ import portrait from 'public/portrait.jpg'
 
 export default function AboutHome() {
     return (
-        <div className={"bg-[#141414] w-full h-screen flex flex-col"}>
-            {/*<div className={"bg-green- 300"}></div>*/}
-            <div className={"grow"}>
-
+        <div className={"headtext bg-[#121212] w-full h-screen flex flex-col"}>
+            <div className={"grow flex flex-row w-full"}>
+                <div className={"w-fit h-fit m-28"}>
+                    <h2 className={"text-9xl"}>Our Team</h2>
+                    <h3 className={"text-right text-lg"}>that make us great</h3>
+                </div>
+                <div className={""}></div>
             </div>
-            <div className={"flex flex-row place-items-end gap-4 h-screen w-full overflow-x-scroll flex-shrink-0 flex-nowrap"}>
-                <Avatar/>
-                <Avatar/>
-                <Avatar/>
-                <Avatar/>
-                <Avatar/>
-                <Avatar/>
-                <Avatar/>
-                <Avatar/>
-                <Avatar/>
+            <div className={"flex flex-row place-items-end gap-4 w-full overflow-x-scroll flex-shrink-0 flex-nowrap h-min"}>
+                <Avatar name={"Aman Varshney"} post={"President"} photo={portrait}/>
+                <Avatar name={"Aman Varshney"} post={"President"} photo={portrait}/>
+                <Avatar name={"Aman Varshney"} post={"President"} photo={portrait}/>
+                <Avatar name={"Aman Varshney"} post={"President"} photo={portrait}/>
+                <Avatar name={"Aman Varshney"} post={"President"} photo={portrait}/>
+                <Avatar name={"Aman Varshney"} post={"President"} photo={portrait}/>
+                <Avatar name={"Aman Varshney"} post={"President"} photo={portrait}/>
             </div>
         </div>
     )

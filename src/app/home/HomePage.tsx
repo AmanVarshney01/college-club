@@ -4,7 +4,7 @@ import MainTitle from "@/app/home/Components/maintitle";
 
 export default function HomePage () {
     return (
-        <div className={"relative h-screen flex flex-row justify-left items-center bg-[#141414]"}>
+        <div className={"relative h-screen flex flex-row justify-left items-center bg-[#121212]"}>
             {/*<Bgicons/>*/}
             <MainTitle />
             {/*<div className={"p-4 my-20 w-1/3 self-end mx-auto rounded-t-3xl z-10 grid grid-rows-2 gap-8"}>*/}

@@ -37,7 +37,7 @@ export default function WorkHome() {
         <div className={"overflow-hidden"}>
             <div ref={triggerRef}>
                 <div ref={sectionRef} className={"h-screen w-full flex flex-row relative"}>
-                    <section className={"w-full h-screen bg-[#141414] flex-shrink-0"}>
+                    <section className={"w-full h-screen bg-[#121212] flex-shrink-0"}>
                         <div>
                             <h2>What we do..</h2>
                             <p>GeeksforGeeks Student Chapter at GLA University is not just about serious technical pursuits; we also offer a range of fun and playful tech-related events and activities. As an extension of the renowned GeeksforGeeks platform, our club is committed to fostering a vibrant and engaging community of technology enthusiasts.

@@ -24,6 +24,7 @@
     background: #3C685E;
 }
 
-/*.showcase {*/
-/*    overflow-x: auto;*/
-/*}*/
+::selection {
+    background: #D8E9A8;
+    color: black;
+}
