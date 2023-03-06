@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+html {
+    @apply snap-y overflow-y-scroll;
+}
+
 .headtext {
     /*font-family: 'Josefin Sans', sans-serif;*/
     font-family: 'Montserrat', sans-serif;
@@ -28,3 +33,4 @@
     background: #D8E9A8;
     color: black;
 }
+

@@ -1,5 +1,4 @@
 import Avatar from "@/app/about/Components/avatar";
-import Image from "next/image";
 import portrait from 'public/portrait.jpg'
 
 export default function AboutHome() {

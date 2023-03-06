@@ -22,8 +22,9 @@ export default function WorkHome() {
                 trigger: triggerRef.current,
                 start: "top top",
                 end: "2000 top",
-                scrub: 0.6,
-                pin: true
+                scrub: 1,
+                pin: true,
+                snap: 1 / (5 - 1),
             }
         })
 

@@ -29,6 +29,7 @@ export default function RootLayout({
     return (
         <html lang="en">
         <head>
+            <title>GFG GLAU</title>
             <link rel="preconnect" href="https://fonts.googleapis.com"/>
             <link rel="preconnect" href="https://fonts.gstatic.com"/>
             <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"/>
@@ -37,7 +38,7 @@ export default function RootLayout({
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
                   rel="stylesheet"/>
         </head>
-        <body className={"relative"}>
+        <body className={"relative "}>
         {/*<Alert  text={"Register Now! Entrevista: Mock placement Drive"}/>*/}
         {children}
         <AnalyticsWrapper/>
