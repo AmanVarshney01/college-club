@@ -15,10 +15,10 @@ export default function Navbar() {
         }, 500)
     }
 
-    const scrollToAbout = () => {
-        const aboutpage: any = document.querySelector('#aboutpage')
+    const scrollToTeam = () => {
+        const teampage: any = document.querySelector('#teampage')
 
-        aboutpage.scrollIntoView({
+        teampage.scrollIntoView({
             behavior: 'smooth'
         }, 500)
     }
@@ -39,6 +39,7 @@ export default function Navbar() {
         }, 500)
     }
 
+
     return (
         <div className={"absolute top-0 w-full z-20 bg-transparent transition duration-100 mt-16 px-10"}>
             <div className={"flex flex-row justify-between items-center"}>
@@ -48,8 +49,8 @@ export default function Navbar() {
                 </div>
                 <div className={"mr-10 z-10"}>
                     <ul className={"flex gap-8 text-white font-mono w-fit"}>
-                        <NavButton scrollTo={scrollToWork} name={"Events"}/>
-                        <NavButton scrollTo={scrollToAbout} name={"Team"}/>
+                        <NavButton scrollTo={scrollToWork} name={"Work"}/>
+                        <NavButton scrollTo={scrollToTeam} name={"Team"}/>
                         <NavButton scrollTo={scrollToContact} name={"Contact"}/>
                         <NavButton scrollTo={scrollToContact} name={"FAQs"}/>
                     </ul>

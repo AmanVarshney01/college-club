@@ -1,5 +1,5 @@
 "use client";
-import AboutHome from "@/app/about/AboutPage";
+import TeamHome from "@/app/team/TeamPage";
 import ContactHome from "@/app/contact/ContactPage";
 import WorkHome from "@/app/work/WorkPage";
 import HomePage from "@/app/home/HomePage";
@@ -19,8 +19,8 @@ export default function Home() {
             <section id="workpage" className={"snap-start"}>
                 <WorkHome/>
             </section>
-            <section id="aboutpage" className={"snap-center"}>
-                <AboutHome/>
+            <section id="teampage" className={"snap-center"}>
+                <TeamHome/>
             </section>
             <section id="contactpage" className={"snap-center"}>
                 <ContactHome/>
