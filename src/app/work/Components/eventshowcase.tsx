@@ -1,8 +1,8 @@
 export default function EventShowcase({title, description}: {title: string, description: string}) {
     return (
-        <div className={"headtext w-screen h-screen flex flex-row flex-shrink-0 bg-[#121212]"}>
+        <div className={"w-screen h-screen flex flex-row flex-shrink-0 bg-[#121212]"}>
             <div className={"flex flex-col place-items-center basis-2/5"}>
-                <div className={"m-24"}><h2 className={"headtext text-7xl"}>{title}</h2></div>
+                <div className={"m-24"}><h2 className={"text-7xl"}>{title}</h2></div>
                 <div className={"h-min"}><p>{description}</p></div>
                 <div className={"h-full w-full"}></div>
             </div>

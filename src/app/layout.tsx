@@ -3,7 +3,6 @@ import {AnalyticsWrapper} from './analytics';
 // import Navbar from "@/app/navbar";
 // import Alert from "@/app/Components/alert";
 
-
 export const metadata = {
     title: 'GFG GLAU',
     description: 'Official Website of GFG GLAU',
@@ -34,7 +33,7 @@ export default function RootLayout({
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
                   rel="stylesheet"/>
         </head>
-        <body className={"relative "}>
+        <body className={"relative"}>
         {/*<Alert  text={"Register Now! Entrevista: Mock placement Drive"}/>*/}
         {children}
         <AnalyticsWrapper/>

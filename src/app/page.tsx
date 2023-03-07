@@ -3,9 +3,6 @@ import TeamHome from "@/app/team/TeamPage";
 import ContactHome from "@/app/contact/ContactPage";
 import WorkHome from "@/app/work/WorkPage";
 import HomePage from "@/app/home/HomePage";
-// import {gsap} from 'gsap';
-// import {ScrollTrigger} from 'gsap/ScrollTrigger'
-// import {useEffect} from "react";
 import Navbar from "@/app/navbar";
 
 export default function Home() {

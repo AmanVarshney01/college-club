@@ -35,7 +35,7 @@ export default function WorkHome() {
     }, [])
 
     return (
-        <div className={"overflow-hidden headtext"}>
+        <div className={"overflow-hidden montserrat"}>
             <div ref={triggerRef}>
                 <div ref={sectionRef} className={"h-screen w-full flex flex-row relative"}>
                     <section className={"w-full h-screen bg-[#121212] flex-shrink-0 flex-row flex"}>

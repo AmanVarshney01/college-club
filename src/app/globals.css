@@ -7,7 +7,7 @@ html {
     @apply snap-y overflow-y-scroll;
 }
 
-.headtext {
+.montserrat {
     /*font-family: 'Josefin Sans', sans-serif;*/
     font-family: 'Montserrat', sans-serif;
 }
