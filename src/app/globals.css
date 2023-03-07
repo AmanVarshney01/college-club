@@ -7,10 +7,10 @@ html {
     @apply snap-y overflow-y-scroll;
 }
 
-.montserrat {
-    /*font-family: 'Josefin Sans', sans-serif;*/
-    font-family: 'Montserrat', sans-serif;
-}
+/*.montserrat {*/
+/*    !*font-family: 'Josefin Sans', sans-serif;*!*/
+/*    font-family: 'Montserrat', sans-serif;*/
+/*}*/
 
 ::-webkit-scrollbar {
     width: 4px;

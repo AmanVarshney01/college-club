@@ -1,3 +1,4 @@
+"use client";
 import EventShowcase from "@/app/work/Components/eventshowcase";
 import {gsap} from "gsap";
 import {ScrollTrigger} from "gsap/dist/ScrollTrigger";

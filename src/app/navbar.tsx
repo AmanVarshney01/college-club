@@ -1,3 +1,4 @@
+"use client";
 import NavButton from "@/app/home/Components/NavButton";
 import glaLogo from 'public/gla logo A+.png';
 import glaGlauLogo from 'public/gfgglau.png';
