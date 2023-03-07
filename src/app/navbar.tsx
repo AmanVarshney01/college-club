@@ -3,7 +3,6 @@ import glaLogo from 'public/gla logo A+.png';
 import glaGlauLogo from 'public/gfgglau.png';
 import Image from "next/image";
 import arrow from 'public/arrow.svg'
-// import {useEffect} from "react";
 
 export default function Navbar() {
 
