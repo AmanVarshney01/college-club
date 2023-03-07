@@ -9,7 +9,6 @@ export const metadata = {
     description: 'Official Website of GFG GLAU',
     creator: 'Aman Varshney',
     keywords: ['geeksforgeeks', 'gla university', 'gfg glau', "geeksforgeeks student chapter gla university"],
-    // url: 'https://gfg-glau.vercel.app/',
     icons: {
         icon: '/gfgglau.png'
     },
@@ -30,9 +29,6 @@ export default function RootLayout({
         <html lang="en">
         <head>
             <title>GFG GLAU</title>
-            <link rel="preconnect" href="https://fonts.googleapis.com"/>
-            <link rel="preconnect" href="https://fonts.gstatic.com"/>
-            <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet"/>
             <link rel="preconnect" href="https://fonts.googleapis.com"/>
             <link rel="preconnect" href="https://fonts.gstatic.com"/>
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
