@@ -58,7 +58,7 @@ export default function Navbar() {
                 <div className={"mr-10 z-10"}>
                     <ul className={"flex gap-8 text-white font-mono w-fit"}>
                         <NavButton scrollTo={scrollToAbout} name={"About"}/>
-                        <NavButton scrollTo={scrollToWork} name={"Work"}/>
+                        <NavButton scrollTo={scrollToWork} name={"Events"}/>
                         <NavButton scrollTo={scrollToTeam} name={"Team"}/>
                         <NavButton scrollTo={scrollToContact} name={"Contact"}/>
                         <NavButton scrollTo={scrollToContact} name={"FAQs"}/>
