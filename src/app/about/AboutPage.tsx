@@ -19,28 +19,30 @@ export default function AboutPage () {
             </div>
             <div className={"w-max h-full basis-3/5 flex flex-col justify-center py-12"}>
                 <div className={'flex flex-col place-items-center'}>
-                    <div className={"w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
+                    <div className={"w-10 h-10 bg-[#4E9F3D] rounded-full relative"}>
                         {/*<span className={"text-white text-4xl"}>1</span>*/}
-                        <span className={"absolute left-20 text-2xl w-max"}>Disha</span>
-                    </div>
-                    <div className={"w-1 h-40 bg-white"}></div>
-                </div>
-
-                <div className={'mx-auto flex flex-col place-items-center'}>
-                    <div className={"w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
-                        <span className={"absolute right-20 text-2xl w-max"}>Brain It Out</span>
-                    </div>
-                    <div className={"w-1 h-40 bg-white"}></div>
-                </div>
-                <div className={'mx-auto flex flex-col place-items-center'}>
-                    <div className={"w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
-                        <span className={"absolute left-20 text-2xl w-max"}>Solving For India</span>
+                        <span className={"absolute left-20 text-2xl w-max"}>Entrevista (Upcoming)</span>
                     </div>
                     <div className={"w-1 h-40 bg-gray-100 opacity-20"}></div>
                 </div>
-                <div className={'mx-auto flex flex-col place-items-center'}>
+
+                <div className={'mx-auto flex flex-col place-items-center opacity-50'}>
                     <div className={"w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
-                        <span className={"absolute right-20 text-2xl w-man"}>Entrevista</span>
+                        <span className={"absolute right-20 text-2xl w-max"}>Solving For India</span>
+                    </div>
+                    <div className={"w-1 h-40 bg-gray-100 opacity-20"}></div>
+                </div>
+
+                <div className={'mx-auto flex flex-col place-items-center opacity-50'}>
+                    <div className={"w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
+                        <span className={"absolute left-20 text-2xl w-max"}>Brain It Out</span>
+                    </div>
+                    <div className={"w-1 h-40 bg-gray-100 opacity-20"}></div>
+                </div>
+
+                <div className={'mx-auto flex flex-col place-items-center opacity-50'}>
+                    <div className={"w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
+                        <span className={"absolute right-20 text-2xl w-man"}>Disha</span>
                     </div>
                     {/*<div className={"w-1 h-40 bg-white"}></div>*/}
                 </div>

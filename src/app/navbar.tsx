@@ -16,6 +16,14 @@ export default function Navbar() {
         }, 500)
     }
 
+    const scrollToFaqs = () => {
+        const faqspage: any = document.querySelector('#faqspage')
+
+        faqspage.scrollIntoView({
+            behavior: 'smooth'
+        }, 500)
+    }
+
     const scrollToAbout = () => {
         const aboutpage: any = document.querySelector('#aboutpage')
 
@@ -76,8 +84,8 @@ export default function Navbar() {
                         <NavButton scrollTo={scrollToAbout} name={"About"}/>
                         <NavButton scrollTo={scrollToWork} name={"Events"}/>
                         <NavButton scrollTo={scrollToTeam} name={"Team"}/>
+                        <NavButton scrollTo={scrollToFaqs} name={"FAQs"}/>
                         <NavButton scrollTo={scrollToContact} name={"Contact"}/>
-                        <NavButton scrollTo={scrollToContact} name={"FAQs"}/>
                     </ul>
                 </div>
             </div>
@@ -85,7 +93,7 @@ export default function Navbar() {
                 isVisible
                 &&
                 <div onClick={scrollToHome} className={"fixed bottom-6 right-6 m-2 bg-[#D8E9A8] rounded-full drop-shadow-md hover:bg-[#1E5128] transition duration-500 active:motion-safe:animate-bounce"}>
-                    <Image className={""} src={arrow} alt={"Up"} />
+                    <Image className={""} src={arrow} alt={"Go to Top"} />
                 </div>
             }
         </div>
