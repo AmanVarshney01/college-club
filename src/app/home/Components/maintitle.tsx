@@ -1,5 +1,4 @@
 export default function MainTitle() {
-
     return (
         <div className={`montserrat flex flex-col z-10 mx-10 mt-24`}>
             <h1 className={"text-[#2f8d46] drop-shadow-lg"}>
@@ -10,7 +9,7 @@ export default function MainTitle() {
                     <span>GLAU</span>
                 </span>
             </h1>
-            <span className={"lg:text-2xl text-[1rem] ml-10 text-white text-start"}>GeeksForGeeks Student Chapter GLA University</span>
+            <span className={"2xl:text-2xl text-[1rem] ml-10 text-white text-start"}>GeeksForGeeks Student Chapter GLA University</span>
         </div>
     )
 }
