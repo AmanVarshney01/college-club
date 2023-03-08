@@ -3,7 +3,8 @@ import NavButton from "@/app/home/Components/NavButton";
 import glaLogo from 'public/gla logo A+.png';
 import glaGlauLogo from 'public/gfgglau.png';
 import Image from "next/image";
-import arrow from 'public/arrow.svg'
+import arrow from 'public/arrow.svg';
+import {useEffect, useState} from "react";
 
 export default function Navbar() {
 
@@ -47,6 +48,21 @@ export default function Navbar() {
         }, 500)
     }
 
+    const [isVisible, setIsVisible] = useState(false);
+
+    const handleScroll = () => {
+        const currentScrollPos = window.scrollY;
+
+        if (currentScrollPos > 300){
+            setIsVisible(true);
+        } else {
+            setIsVisible(false)
+        }
+    }
+
+    useEffect(() => {
+        document.addEventListener("scroll", handleScroll)
+    })
 
     return (
         <div className={"absolute top-0 w-full z-20 bg-transparent transition duration-100 mt-16 px-10"}>
@@ -65,9 +81,13 @@ export default function Navbar() {
                     </ul>
                 </div>
             </div>
-            <div onClick={scrollToHome} className={"fixed bottom-6 right-6 m-2 bg-[#D8E9A8] rounded-full drop-shadow-md hover:bg-[#1E5128] transition duration-500 active:motion-safe:animate-bounce"}>
-                <Image className={""} src={arrow} alt={"Up"} />
-            </div>
+            {
+                isVisible
+                &&
+                <div onClick={scrollToHome} className={"fixed bottom-6 right-6 m-2 bg-[#D8E9A8] rounded-full drop-shadow-md hover:bg-[#1E5128] transition duration-500 active:motion-safe:animate-bounce"}>
+                    <Image className={""} src={arrow} alt={"Up"} />
+                </div>
+            }
         </div>
     )
 }

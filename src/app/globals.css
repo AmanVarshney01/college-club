@@ -4,7 +4,7 @@
 
 
 html {
-    @apply snap-y overflow-y-scroll;
+    @apply snap-y overflow-y-scroll snap-always;
 }
 
 /*.montserrat {*/

@@ -20,16 +20,17 @@ export default function AboutPage () {
             <div className={"w-max h-full basis-3/5 flex flex-col justify-center py-12"}>
                 <div className={'flex flex-col place-items-center'}>
                     <div className={"w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
+                        {/*<span className={"text-white text-4xl"}>1</span>*/}
                         <span className={"absolute left-20 text-2xl w-max"}>Disha</span>
                     </div>
-                    <div className={"w-1 h-40 bg-gray-100 opacity-20"}></div>
+                    <div className={"w-1 h-40 bg-white"}></div>
                 </div>
 
                 <div className={'mx-auto flex flex-col place-items-center'}>
                     <div className={"w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
                         <span className={"absolute right-20 text-2xl w-max"}>Brain It Out</span>
                     </div>
-                    <div className={"w-1 h-40 bg-gray-100 opacity-20"}></div>
+                    <div className={"w-1 h-40 bg-white"}></div>
                 </div>
                 <div className={'mx-auto flex flex-col place-items-center'}>
                     <div className={"w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
