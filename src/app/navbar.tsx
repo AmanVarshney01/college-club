@@ -15,6 +15,14 @@ export default function Navbar() {
         }, 500)
     }
 
+    const scrollToAbout = () => {
+        const aboutpage: any = document.querySelector('#aboutpage')
+
+        aboutpage.scrollIntoView({
+            behavior: 'smooth'
+        }, 500)
+    }
+
     const scrollToTeam = () => {
         const teampage: any = document.querySelector('#teampage')
 
@@ -49,6 +57,7 @@ export default function Navbar() {
                 </div>
                 <div className={"mr-10 z-10"}>
                     <ul className={"flex gap-8 text-white font-mono w-fit"}>
+                        <NavButton scrollTo={scrollToAbout} name={"About"}/>
                         <NavButton scrollTo={scrollToWork} name={"Work"}/>
                         <NavButton scrollTo={scrollToTeam} name={"Team"}/>
                         <NavButton scrollTo={scrollToContact} name={"Contact"}/>

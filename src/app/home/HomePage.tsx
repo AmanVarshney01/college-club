@@ -1,5 +1,4 @@
 // import Bgicons from "@/app/home/Components/bgicons";
-// import EventLabel from "@/app/home/Components/eventlabel";
 import MainTitle from "@/app/home/Components/maintitle";
 
 export default function HomePage () {

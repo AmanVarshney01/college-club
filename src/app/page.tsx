@@ -3,6 +3,7 @@ import ContactHome from "@/app/contact/ContactPage";
 import WorkHome from "@/app/work/WorkPage";
 import HomePage from "@/app/home/HomePage";
 import Navbar from "@/app/navbar";
+import AboutPage from "@/app/about/AboutPage";
 
 import {Montserrat} from "next/font/google";
 
@@ -19,6 +20,9 @@ export default function Home() {
             <Navbar />
             <section id="homepage" className={"snap-center"}>
                 <HomePage/>
+            </section>
+            <section id="aboutpage" className={"snap-center"}>
+                <AboutPage/>
             </section>
             <section id="workpage" className={"snap-start"}>
                 <WorkHome/>
