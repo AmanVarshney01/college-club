@@ -9,7 +9,7 @@ export default function HomePage () {
             {/*<Bgicons/>*/}
             <MainTitle />
             <div className={"self-end opacity-40 w-1/3 mx-auto"}>
-                <Image src={bg12} alt={""} />
+                <Image src={bg12} alt={"tech illustration"} />
             </div>
         </div>
     )

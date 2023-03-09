@@ -19,22 +19,27 @@ export default function Home() {
     return (
         <main id="container" className={`text-white ${montserrat.className}`}>
             <Navbar />
-            <section id="homepage" className={"snap-center"}>
+            <section id="homepage" className={"snap-start"}>
                 <HomePage/>
             </section>
-            <section id="aboutpage" className={"snap-center"}>
+
+            <section id="aboutpage" className={"snap-start"}>
                 <AboutPage/>
             </section>
+
             <section id="workpage" className={"snap-start"}>
                 <WorkHome/>
             </section>
-            <section id="teampage" className={"snap-center"}>
+
+            <section id="teampage" className={"snap-start"}>
                 <TeamHome/>
             </section>
-            <section id="faqspage" className={"snap-center"}>
+
+            <section id="faqspage" className={"snap-start"}>
                 <FaqsPage />
             </section>
-            <section id="contactpage" className={"snap-center"}>
+
+            <section id="contactpage" className={"snap-start"}>
                 <ContactPage/>
             </section>
         </main>

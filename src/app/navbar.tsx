@@ -92,7 +92,7 @@ export default function Navbar() {
             {
                 isVisible
                 &&
-                <div onClick={scrollToHome} className={"fixed bottom-6 right-6 m-2 bg-[#D8E9A8] rounded-full drop-shadow-md hover:bg-[#1E5128] transition duration-500 active:motion-safe:animate-bounce"}>
+                <div onClick={scrollToHome} className={"fixed bottom-6 right-6 m-2 bg-[#D8E9A8] rounded-full drop-shadow-md hover:bg-[#3C685E] transition duration-500 active:motion-safe:animate-bounce"}>
                     <Image className={""} src={arrow} alt={"Go to Top"} />
                 </div>
             }
