@@ -18,7 +18,7 @@ const montserrat = Montserrat({
 export default function Home() {
 
     return (
-        <ThemeProvider attribute="class">
+        <ThemeProvider attribute="class" defaultTheme={"dark"} disableTransitionOnChange enableSystem={false}>
             <main id="container" className={`text-white ${montserrat.className}`}>
                 <Navbar />
                 <section id="homepage" className={"snap-start"}>
