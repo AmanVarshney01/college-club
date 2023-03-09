@@ -3,7 +3,7 @@ import portrait from 'public/portrait.jpg'
 
 export default function AboutHome() {
     return (
-        <div className={"montserrat bg-[#121212] w-full h-screen flex flex-col"}>
+        <div className={"montserrat bg-transparent w-full h-screen flex flex-col"}>
             <div className={"grow flex flex-row w-full"}>
                 <div className={"w-fit h-fit m-28"}>
                     <h2 className={"text-9xl"}>Our Team</h2>

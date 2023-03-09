@@ -1,7 +1,5 @@
 import './globals.css'
 import {AnalyticsWrapper} from './analytics';
-// import Navbar from "@/app/navbar";
-// import Alert from "@/app/Components/alert";
 
 export const metadata = {
     title: 'GFG GLAU',
@@ -35,7 +33,7 @@ export default function RootLayout({
         </head>
         <body className={"relative"}>
         {/*<Alert  text={"Register Now! Entrevista: Mock placement Drive"}/>*/}
-        {children}
+            {children}
         <AnalyticsWrapper/>
         </body>
         </html>

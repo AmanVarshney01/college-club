@@ -5,6 +5,7 @@ import glaGlauLogo from 'public/gfgglau.png';
 import Image from "next/image";
 import arrow from 'public/arrow.svg';
 import {useEffect, useState} from "react";
+import ThemeToggle from "@/themeToggle";
 
 export default function Navbar() {
 
@@ -80,12 +81,13 @@ export default function Navbar() {
                     <Image className={"h-24 w-full"} placeholder='blur' src={glaGlauLogo} alt="gla university"/>
                 </div>
                 <div className={"mr-10 z-10"}>
-                    <ul className={"flex gap-8 text-white font-mono w-fit"}>
+                    <ul className={"flex gap-8 dark:text-white text-black w-fit"}>
                         <NavButton scrollTo={scrollToAbout} name={"About"}/>
                         <NavButton scrollTo={scrollToWork} name={"Events"}/>
                         <NavButton scrollTo={scrollToTeam} name={"Team"}/>
                         <NavButton scrollTo={scrollToFaqs} name={"FAQs"}/>
                         <NavButton scrollTo={scrollToContact} name={"Contact"}/>
+                        <ThemeToggle />
                     </ul>
                 </div>
             </div>

@@ -9,7 +9,7 @@ export default function MainTitle() {
                     <span>GLAU</span>
                 </span>
             </h1>
-            <span className={"2xl:text-2xl text-[1rem] ml-10 text-white text-start"}>GeeksForGeeks Student Chapter GLA University</span>
+            <span className={"2xl:text-2xl text-[1rem] ml-10 dark:text-white text-black text-start"}>GeeksForGeeks Student Chapter GLA University</span>
         </div>
     )
 }

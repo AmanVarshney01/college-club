@@ -2,7 +2,7 @@ import SocialButton from "@/app/about/Components/socialButton";
 
 export default function AboutPage () {
     return (
-        <section className={"w-full h-screen bg-[#121212] flex-shrink-0 flex-row flex"}>
+        <section className={"w-full h-screen bg-transparent flex-shrink-0 flex-row flex"}>
             <div className={"h-full w-1/2 m-24 flex flex-col gap-16 basis-2/5"}>
                 <h2 className={"text-7xl"}>Who Are We?</h2>
                 <p className={"text-xl text-gray-200"}>GeeksforGeeks Student Chapter at GLA University is not just about serious technical

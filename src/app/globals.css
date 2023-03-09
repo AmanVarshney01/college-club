@@ -7,10 +7,9 @@ html {
     @apply snap-y overflow-y-scroll snap-always;
 }
 
-/*.montserrat {*/
-/*    !*font-family: 'Josefin Sans', sans-serif;*!*/
-/*    font-family: 'Montserrat', sans-serif;*/
-/*}*/
+body {
+    @apply dark:bg-[#121212] bg-[#F8F4EA];
+}
 
 ::-webkit-scrollbar {
     width: 4px;
@@ -18,11 +17,11 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-    background: #141414;
+    @apply dark:bg-[#121212] bg-white
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #D8E9A8;
+    @apply bg-[#D8E9A8] dark:bg-[#D8E9A8]
 }
 
 ::-webkit-scrollbar-thumb:hover {
