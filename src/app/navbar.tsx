@@ -5,7 +5,7 @@ import glaGlauLogo from 'public/gfgglau.png';
 import Image from "next/image";
 import arrow from 'public/arrow.svg';
 import {useEffect, useState} from "react";
-import ThemeToggle from "@/themeToggle";
+import ThemeToggle from "@/app/themeToggle";
 
 export default function Navbar() {
 
