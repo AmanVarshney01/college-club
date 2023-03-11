@@ -19,7 +19,7 @@ export default function AboutPage () {
             </div>
             <div className={"w-max h-full basis-3/5 flex flex-col justify-center py-12"}>
                 <div className={'flex flex-col place-items-center'}>
-                    <div className={"w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
+                    <div className={"w-10 h-10 bg-[#4E9F3D] rounded-full relative"}>
                         {/*<span className={"text-white text-4xl"}>1</span>*/}
                         <span className={"absolute left-20 text-2xl w-max"}>Entrevista (Upcoming)</span>
                     </div>

@@ -1,0 +1,60 @@
+"use client";
+import {FormEvent, useState} from "react";
+
+export default function ContactForm () {
+
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [number, setNumber] = useState('')
+    const [message, setMessage] = useState('')
+
+    const onSubmit = async (e: FormEvent) => {
+        e.preventDefault()
+        // console.log(name, email, message, number)
+
+        try {
+            const res = await fetch('/api/contact', {
+                method: 'POST',
+                body: JSON.stringify({
+                    name, email, number, message
+                }),
+                headers: {
+                    'content-type': 'application/json'
+                }
+            })
+        } catch (err: any) {
+            console.log('Err', err)
+        }
+
+    }
+
+    return (
+        <form onSubmit={onSubmit} className=" h-fit flex flex-col rounded-lg gap-16 px-10 py-5">
+            <div className={" flex flex-col gap-5"}>
+                <h2 className={"text-4xl"}>Contact Us</h2>
+                {/*<p className={"text-lg"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorum, expedita ipsum laborum nemo nisi quisquam saepe! Dolor eveniet labore</p>*/}
+            </div>
+            <div className={"flex flex-col gap-12 place-items-start w-full h-max"}>
+                <div className={"w-full"}>
+                    <label className={"block text-md"} htmlFor="name">Name</label>
+                    <input onChange={(e) => setName(e.target.value)} value={name} className={"border-b border-l-0 border-r-0 border-t-0 bg-[#121212] w-full border-gray-500 p-2 rounded-md focus:border-[#D8E9A8] focus:ring-[#D8E9A8]"} type="text" name="name"/>
+                </div>
+                <div className={"flex flex-row justify-around w-full gap-12"}>
+                    <div className={"w-1/2"}>
+                        <label className={"block text-md"} htmlFor="phone">Phone Number</label>
+                        <input onChange={(e) => setNumber(e.target.value)} value={number} className={" w-full border-b border-l-0 border-r-0 border-t-0 bg-[#121212] border-gray-500 p-2 rounded-md focus:border-[#D8E9A8] focus:ring-[#D8E9A8]"} type="tel" name="phone" id="phone"/>
+                    </div>
+                    <div className={"w-1/2"}>
+                        <label className={"block text-md"} htmlFor="email">Email</label>
+                        <input onChange={(e) => setEmail(e.target.value)} value={email} className={"w-full border-b border-l-0 border-r-0 border-t-0 bg-[#121212] border-gray-500 p-2 rounded-md focus:border-[#D8E9A8] focus:ring-[#D8E9A8]"} type="email" name="email"/>
+                    </div>
+                </div>
+                <div className={"w-full"}>
+                    <label className={"block text-md"} htmlFor="subject">Message</label>
+                    <textarea onChange={(e) => setMessage(e.target.value)} value={message} className={"w-full border-b border-l-0 border-r-0 border-t-0 bg-[#121212] border-gray-500 p-2 rounded-md focus:border-[#D8E9A8] focus:ring-[#D8E9A8]"} name="subject"/>
+                </div>
+                <button type="submit" className={" rounded-lg py-3 w-full border-2 border-white text-white text-xl hover:border-[#D8E9A8] focus:border-[#D8E9A8] focus:ring-[#D8E9A8]"}>Submit</button>
+            </div>
+        </form>
+    )
+}
