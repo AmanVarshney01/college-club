@@ -8,10 +8,9 @@ export default function ContactForm () {
     const [number, setNumber] = useState('')
     const [message, setMessage] = useState('')
 
-    const onSubmit = async (e: FormEvent) => {
+    const onSubmit = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault()
         // console.log(name, email, message, number)
-
         try {
             const res = await fetch('/api/contact', {
                 method: 'POST',
@@ -22,6 +21,12 @@ export default function ContactForm () {
                     'content-type': 'application/json'
                 }
             })
+
+            setName('')
+            setEmail('')
+            setNumber('')
+            setMessage('')
+
         } catch (err: any) {
             console.log('Err', err)
         }
@@ -29,7 +34,7 @@ export default function ContactForm () {
     }
 
     return (
-        <form onSubmit={onSubmit} className=" h-fit flex flex-col rounded-lg gap-16 px-10 py-5">
+        <form onSubmit={onSubmit} method="post" className=" h-fit flex flex-col rounded-lg gap-16 px-10 py-5">
             <div className={" flex flex-col gap-5"}>
                 <h2 className={"text-4xl"}>Contact Us</h2>
                 {/*<p className={"text-lg"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorum, expedita ipsum laborum nemo nisi quisquam saepe! Dolor eveniet labore</p>*/}
