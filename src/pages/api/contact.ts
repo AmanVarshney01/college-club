@@ -48,17 +48,12 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
                 ]
             }
         });
-
         return res.status(201).json({
             data: response.data
         })
+
     }catch (e: any) {
         return res.status(e.code).send({message: e.message})
     }
 
-    // console.log(req.body)
-    //
-    // res.status(200).json({
-    //     name: 'john doe'
-    // })
 }
