@@ -10,7 +10,6 @@ export default function ContactForm () {
 
     const onSubmit = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault()
-        // console.log(name, email, message, number)
         try {
             const res = await fetch('/api/contact', {
                 method: 'POST',
@@ -36,7 +35,7 @@ export default function ContactForm () {
     }
 
     return (
-        <form onSubmit={onSubmit} method="post" className=" h-fit flex flex-col rounded-lg gap-16 px-10 py-5">
+        <form onSubmit={onSubmit} method="post" className="w-11/12 flex flex-col rounded-lg gap-16 px-10 py-5">
             <div className={" flex flex-col gap-5"}>
                 <h2 className={"text-4xl"}>Contact Us</h2>
                 {/*<p className={"text-lg"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorum, expedita ipsum laborum nemo nisi quisquam saepe! Dolor eveniet labore</p>*/}
@@ -60,7 +59,7 @@ export default function ContactForm () {
                     <label className={"block text-md"} htmlFor="subject">Message</label>
                     <textarea maxLength={250} required onChange={(e) => setMessage(e.target.value)} value={message} className={"w-full border-b border-l-0 border-r-0 border-t-0 bg-[#121212] border-gray-500 p-2 rounded-md focus:border-[#D8E9A8] focus:ring-[#D8E9A8]"} name="subject"/>
                 </div>
-                <button type="submit" className={" rounded-lg py-3 w-full border-2 border-white text-white text-xl hover:border-[#D8E9A8] focus:border-[#D8E9A8] focus:ring-[#D8E9A8]"}>Submit</button>
+                <button type="submit" className={" rounded-lg py-3 w-full border-2 border-white text-white text-xl hover:border-[#D8E9A8] hover:text-[#D8E9A8] focus:border-[#D8E9A8] focus:ring-[#D8E9A8]"}>Submit</button>
             </div>
         </form>
     )

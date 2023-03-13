@@ -10,6 +10,12 @@ export default function EventShowcase({title, subTitle, description}: {title: st
                 </div>
                 <div className={"h-min"}><p>{description}</p></div>
                 <div className={"h-full w-full"}></div>
+                <div className={"w-full h-max flex justify-center"}>
+                    <div className={"flex flex-row text-xl px-6 py-10 border my-12"}>
+                        <span className={"mx-3.5"}>Number of Event Participants:</span>
+                        <span className={""}>7000+</span>
+                    </div>
+                </div>
             </div>
             <div className={"basis-3/5 h-full w-full"}>Photo Collage</div>
         </div>
