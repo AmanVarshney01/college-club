@@ -11,6 +11,9 @@ export default function AboutPage () {
                     fostering a vibrant and engaging community of technology enthusiasts. In addition to our
                     workshops, seminars, and competitions, we organize a variety of events that encourage
                     members to explore the more playful and creative side of technology.</p>
+                <div className={"underline"}>
+                    <a target="_blank" href="https://www.geeksforgeeks.org/geeksforgeeks-student-chapter/">Learn about GeeksforGeeks Student Chapter</a>
+                </div>
                 <div className={"w-max mx-auto flex gap-6 my-auto"}>
                     <span className={"text-gray-400"}>Learn more about us on:</span>
                     <SocialButton href={"https://www.linkedin.com/company/gfg-glau/"} name={"Linkedin"} color={"bg-[#0072b1]"} />
