@@ -15,6 +15,9 @@ export default function FaqsPage () {
         const a4 = document.querySelector("#answer-4") as HTMLElement
 
         q1.addEventListener("click", () => {
+            // a2.classList.remove("answer")
+            // a3.classList.remove("answer")
+            // a4.classList.remove("answer")
             a1.classList.toggle("answer")
         })
 
@@ -33,37 +36,37 @@ export default function FaqsPage () {
     })
 
     return (
-        <section className={"w-full h-screen bg-transparent flex items-center"}>
-            <div className={"w-full grid grid-flow-row items-center gap-16"}>
+        <section className={"w-full h-screen bg-transparent flex items-end justify-center"}>
+            <div className={"w-2/5 my-12 flex flex-col gap-5"}>
                 <div className={""}>
-                    <div id={"question-1"} className={"cursor-pointer shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
-                        <h3 className={"text-5xl"}>How to join club?</h3>
+                    <div id={"question-1"} className={"rounded-md cursor-pointer shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
+                        <h3 className={"text-2xl"}>How to join club?</h3>
                     </div>
-                    <div id='answer-1' className={"answer bg-[#D3D3D3] text-black p-8 shadow text-semibold"}>
+                    <div id='answer-1' className={"rounded-md answer bg-[#D3D3D3] text-black p-8 shadow text-semibold"}>
                         <p className={"text-xl"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet aut consequuntur dolores ea eius enim esse illo in ipsa ipsam modi, nisi reiciendis, similique temporibus velit voluptatibus! Consequatur, consequuntur?</p>
                     </div>
                 </div>
                 <div className={""}>
-                    <div id={"question-2"} className={"cursor-pointer shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
-                        <h3 className={"text-5xl"}>How to join club?</h3>
+                    <div id={"question-2"} className={"rounded-md cursor-pointer shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
+                        <h3 className={"text-2xl"}>How to join club?</h3>
                     </div>
-                    <div id='answer-2' className={"answer bg-[#D3D3D3] text-black p-8 shadow text-semibold"}>
+                    <div id='answer-2' className={"rounded-md answer bg-[#D3D3D3] text-black p-8 shadow text-semibold"}>
                         <p className={"text-xl"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet aut consequuntur dolores ea eius enim esse illo in ipsa ipsam modi, nisi reiciendis, similique temporibus velit voluptatibus! Consequatur, consequuntur?</p>
                     </div>
                 </div>
                 <div className={""}>
-                    <div id={"question-3"} className={"cursor-pointer shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
-                        <h3 className={"text-5xl"}>How to join club?</h3>
+                    <div id={"question-3"} className={"rounded-md cursor-pointer shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
+                        <h3 className={"text-2xl"}>How to join club?</h3>
                     </div>
-                    <div id='answer-3' className={"answer bg-[#D3D3D3] text-black p-8 shadow text-semibold"}>
+                    <div id='answer-3' className={"rounded-md answer bg-[#D3D3D3] text-black p-8 shadow text-semibold"}>
                         <p className={"text-xl"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet aut consequuntur dolores ea eius enim esse illo in ipsa ipsam modi, nisi reiciendis, similique temporibus velit voluptatibus! Consequatur, consequuntur?</p>
                     </div>
                 </div>
                 <div className={""}>
-                    <div id={"question-4"} className={"cursor-pointer shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
-                        <h3 className={"text-5xl"}>How to join club?</h3>
+                    <div id={"question-4"} className={"rounded-md cursor-pointer shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
+                        <h3 className={"text-2xl"}>How to join club?</h3>
                     </div>
-                    <div id='answer-4' className={"answer bg-[#D3D3D3] text-black p-8 shadow text-semibold"}>
+                    <div id='answer-4' className={"rounded-md answer bg-[#D3D3D3] text-black p-8 shadow text-semibold"}>
                         <p className={"text-xl"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet aut consequuntur dolores ea eius enim esse illo in ipsa ipsam modi, nisi reiciendis, similique temporibus velit voluptatibus! Consequatur, consequuntur?</p>
                     </div>
                 </div>

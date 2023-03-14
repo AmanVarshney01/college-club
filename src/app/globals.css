@@ -4,7 +4,7 @@
 
 
 html {
-    @apply snap-y overflow-y-scroll snap-always;
+    @apply snap-y overflow-y-scroll snap-always overflow-hidden;
 }
 
 body {

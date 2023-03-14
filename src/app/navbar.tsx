@@ -81,13 +81,14 @@ export default function Navbar() {
                     <Image className={"h-24 w-full"} placeholder='blur' src={glaGlauLogo} alt="gla university"/>
                 </div>
                 <div className={"mr-10 z-10"}>
-                    <ul className={"flex gap-8 dark:text-white text-black w-fit"}>
+                    <ul className={"flex gap-8 dark:text-white text-black w-fit relative"}>
                         <NavButton scrollTo={scrollToAbout} name={"About"}/>
                         <NavButton scrollTo={scrollToWork} name={"Events"}/>
                         <NavButton scrollTo={scrollToTeam} name={"Team"}/>
                         <NavButton scrollTo={scrollToFaqs} name={"FAQs"}/>
                         <NavButton scrollTo={scrollToContact} name={"Contact"}/>
                         <ThemeToggle />
+                        <div className={" w-[28rem] h-[28rem] absolute -top-48 -right-36 pointer-events-none bg-[#F2545B] rounded-full mix-blend-multiply filter blur-xl opacity-10"}></div>
                     </ul>
                 </div>
             </div>

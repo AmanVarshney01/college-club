@@ -1,6 +1,6 @@
 export default function MainTitle() {
     return (
-        <div className={`montserrat flex flex-col z-10 mx-10 mt-24`}>
+        <div className={`montserrat flex flex-col z-10 mx-10 mt-24 relative`}>
             <h1 className={"text-[#2f8d46] drop-shadow-lg"}>
                 <span
                     id="title"
@@ -8,6 +8,7 @@ export default function MainTitle() {
                     <span >GFG</span>
                     <span>GLAU</span>
                 </span>
+                <div className={"w-[28rem] h-[28rem] absolute top-28 -left-12 pointer-events-none bg-[#8447FF] rounded-full mix-blend-multiply filter blur-xl opacity-10"}></div>
             </h1>
             <span className={"2xl:text-2xl text-[1rem] ml-10 dark:text-white text-black text-start"}>GeeksForGeeks Student Chapter GLA University</span>
         </div>

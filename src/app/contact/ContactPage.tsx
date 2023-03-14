@@ -4,7 +4,7 @@ export default function ContactPage() {
     return (
         <section className={"flex flex-col bg-transparent px-4 py-8 h-screen w-full"}>
             <div className={""}>
-                <h2 className={"text-9xl"}>Contact Us</h2>
+                <h2 className={"text-8xl"}>Contact Us</h2>
             </div>
             <div className={"flex flex-row h-full"}>
                 <div className={"flex-1 flex justify-center items-center"}>
