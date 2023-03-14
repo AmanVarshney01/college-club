@@ -8,7 +8,7 @@ export default function MainTitle() {
                     <span >GFG</span>
                     <span>GLAU</span>
                 </span>
-                <div className={"w-[28rem] h-[28rem] absolute top-28 -left-12 pointer-events-none bg-[#8447FF] rounded-full mix-blend-multiply filter blur-xl opacity-10"}></div>
+                <div className={"w-[28rem] h-[28rem] absolute top-32 -left-24 pointer-events-none bg-[#DC493A] rounded-full mix-blend-multiply filter blur-xl opacity-10"}></div>
             </h1>
             <span className={"2xl:text-2xl text-[1rem] ml-10 dark:text-white text-black text-start"}>GeeksForGeeks Student Chapter GLA University</span>
         </div>

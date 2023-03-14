@@ -77,8 +77,8 @@ export default function Navbar() {
         <div className={"absolute top-0 w-full z-20 bg-transparent transition duration-100 mt-16 px-10"}>
             <div className={"flex flex-row justify-between items-center"}>
                 <div className={" ml-10 my-1 z-10 flex flex-row gap-5 items-center"}>
-                    <a href="https://www.gla.ac.in/" target="_blank" className={"h-20 w-full"}><Image className={"h-20 w-full"} placeholder='blur' src={glaLogo} alt="gla university"/></a>
-                    <Image className={"h-24 w-full"} placeholder='blur' src={glaGlauLogo} alt="gla university"/>
+                    <a href="https://www.gla.ac.in/" target="_blank" className={"h-20 w-full"}><Image height={100} width={100} className={"h-20 w-full"} placeholder='blur' src={glaLogo} alt="gla university"/></a>
+                    <Image height={100} width={100} className={"h-24 w-full"} placeholder='blur' src={glaGlauLogo} alt="gla university"/>
                 </div>
                 <div className={"mr-10 z-10"}>
                     <ul className={"flex gap-8 dark:text-white text-black w-fit relative"}>
@@ -88,7 +88,7 @@ export default function Navbar() {
                         <NavButton scrollTo={scrollToFaqs} name={"FAQs"}/>
                         <NavButton scrollTo={scrollToContact} name={"Contact"}/>
                         <ThemeToggle />
-                        <div className={" w-[28rem] h-[28rem] absolute -top-48 -right-36 pointer-events-none bg-[#F2545B] rounded-full mix-blend-multiply filter blur-xl opacity-10"}></div>
+                        <div className={" w-[28rem] h-[28rem] absolute -top-48 -right-36 pointer-events-none bg-[#4392F1] rounded-full mix-blend-multiply filter blur-xl opacity-10"}></div>
                     </ul>
                 </div>
             </div>

@@ -14,7 +14,7 @@ export default function AboutPage () {
                 <div className={"underline"}>
                     <a target="_blank" href="https://www.geeksforgeeks.org/geeksforgeeks-student-chapter/">Learn about GeeksforGeeks Student Chapter</a>
                 </div>
-                <div className={"w-max mx-auto flex gap-6 my-auto"}>
+                <div className={"w-max flex gap-6 my-auto"}>
                     <span className={"text-gray-400"}>Learn more about us on:</span>
                     <SocialButton href={"https://www.linkedin.com/company/gfg-glau/"} name={"Linkedin"} color={"bg-[#0072b1]"} />
                     <SocialButton href={"https://www.instagram.com/gfg_glau/"} name={"Instagram"} color={"bg-[#e95950]"} />

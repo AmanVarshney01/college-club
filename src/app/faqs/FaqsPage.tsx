@@ -36,8 +36,9 @@ export default function FaqsPage () {
     })
 
     return (
-        <section className={"w-full h-screen bg-transparent flex items-end justify-center"}>
-            <div className={"w-2/5 my-12 flex flex-col gap-5"}>
+        <section className={"w-full h-screen bg-transparent flex justify-center"}>
+
+            <div className={"w-2/5 my-12 flex flex-col gap-5 self-end"}>
                 <div className={""}>
                     <div id={"question-1"} className={"rounded-md cursor-pointer shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
                         <h3 className={"text-2xl"}>How to join club?</h3>
