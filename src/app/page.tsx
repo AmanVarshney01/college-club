@@ -3,7 +3,6 @@ import TeamHome from "@/app/team/TeamPage";
 import ContactPage from "@/app/contact/ContactPage";
 import WorkHome from "@/app/work/WorkPage";
 import HomePage from "@/app/home/HomePage";
-import Navbar from "@/app/navbar";
 import AboutPage from "@/app/about/AboutPage";
 import FaqsPage from "@/app/faqs/FaqsPage";
 import {Montserrat} from "next/font/google";
@@ -20,7 +19,6 @@ export default function Home() {
     return (
         <ThemeProvider attribute="class" defaultTheme={"dark"} disableTransitionOnChange enableSystem={false}>
             <main id="container" className={`text-white ${montserrat.className}`}>
-                <Navbar />
                 <section id="homepage" className={"snap-start"}>
                     <HomePage/>
                 </section>

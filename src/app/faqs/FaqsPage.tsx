@@ -38,7 +38,7 @@ export default function FaqsPage() {
     return (
         <section className={"w-full h-screen px-4 py-8 bg-transparent flex flex-col"}>
             <div className={"text-8xl w-full flex-2 m-10"}><h2>FAQs</h2></div>
-            <div className={"self-end w-full flex-1"}>
+            <div className={"w-full flex-1"}>
                 <div className={" my-12 flex flex-col gap-5 justify-end"}>
                     <div className={""}>
                         <div id={"question-1"}
