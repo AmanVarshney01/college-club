@@ -13,9 +13,9 @@ export default function HomePage () {
             <Bgicons/>
             <Navbar />
             <MainTitle />
-            <div className={"self-end opacity-80 w-1/3 mx-auto image-fade"}>
+            <div className={"self-end opacity-80 w-1/3 mx-auto image-fade relative"}>
                 <Image src={bg12} alt={"tech illustration"} />
-                <div className={"right-22 top-2/3 w-[24rem] h-[24rem] absolute pointer-events-none bg-[#E59500] rounded-full mix-blend-multiply filter blur-xl opacity-10"}></div>
+                <div className={"right-0 top-12 w-[20rem] h-[20rem] absolute pointer-events-none bg-[#E59500] rounded-full mix-blend-multiply filter blur-xl opacity-10"}></div>
             </div>
         </div>
     )

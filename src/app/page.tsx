@@ -7,6 +7,7 @@ import AboutPage from "@/app/about/AboutPage";
 import FaqsPage from "@/app/faqs/FaqsPage";
 import {Montserrat} from "next/font/google";
 import {ThemeProvider} from "next-themes";
+// import Cursor from "@/app/cursor";
 
 
 const montserrat = Montserrat({
@@ -19,6 +20,7 @@ export default function Home() {
     return (
         <ThemeProvider attribute="class" defaultTheme={"dark"} disableTransitionOnChange enableSystem={false}>
             <main id="container" className={`text-white ${montserrat.className}`}>
+                {/*<Cursor />*/}
                 <section id="homepage" className={"snap-start"}>
                     <HomePage/>
                 </section>

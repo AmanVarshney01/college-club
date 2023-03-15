@@ -76,9 +76,9 @@ export default function Navbar() {
     return (
         <div className={"absolute top-0 w-full z-20 bg-transparent transition duration-100 mt-16 px-10"}>
             <div className={"flex flex-row justify-between items-center"}>
-                <div className={" ml-10 my-1 z-10 flex flex-row gap-5 items-center"}>
-                    <a href="https://www.gla.ac.in/" target="_blank" className={"h-20 w-full"}><Image height={100} width={100} className={"h-20 w-full"} placeholder='blur' src={glaLogo} alt="gla university"/></a>
-                    <Image height={100} width={100} className={"h-24 w-full"} placeholder='blur' src={glaGlauLogo} alt="gla university"/>
+                <div className={" ml-10 my-1 z-10 flex flex-row gap-5 items-center w-fit"}>
+                    <a href="https://www.gla.ac.in/" target="_blank" className={"w-[15%]"}><Image className={""} placeholder='blur' src={glaLogo} alt="gla university"/></a>
+                    <Image className={"w-[15%]"} placeholder='blur' src={glaGlauLogo} alt="gla university"/>
                 </div>
                 <div className={"mr-10 z-10"}>
                     <ul className={"flex gap-8 dark:text-white text-black w-fit relative"}>
