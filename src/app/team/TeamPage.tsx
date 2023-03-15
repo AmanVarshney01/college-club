@@ -5,8 +5,8 @@ export default function AboutHome() {
     return (
         <div className={"montserrat bg-transparent w-full h-screen flex flex-col"}>
             <div className={"grow flex flex-row w-full"}>
-                <div className={"w-fit h-fit m-28"}>
-                    <h2 className={"text-9xl"}>Our Team</h2>
+                <div className={"w-fit h-fit m-10"}>
+                    <h2 className={"text-8xl"}>Our Team</h2>
                     <h3 className={"text-right text-xl"}>that make us great</h3>
                 </div>
                 <div className={""}></div>

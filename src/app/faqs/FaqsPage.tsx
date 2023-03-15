@@ -1,6 +1,6 @@
 import {useEffect} from "react";
 
-export default function FaqsPage () {
+export default function FaqsPage() {
 
     useEffect(() => {
 
@@ -36,42 +36,59 @@ export default function FaqsPage () {
     })
 
     return (
-        <section className={"w-full h-screen bg-transparent flex justify-center"}>
-
-            <div className={"w-2/5 my-12 flex flex-col gap-5 self-end"}>
-                <div className={""}>
-                    <div id={"question-1"} className={"rounded-md cursor-pointer shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
-                        <h3 className={"text-2xl"}>How to join club?</h3>
+        <section className={"w-full h-screen px-4 py-8 bg-transparent flex flex-col"}>
+            <div className={"text-8xl w-full flex-2 m-10"}><h2>FAQs</h2></div>
+            <div className={"self-end w-full flex-1"}>
+                <div className={" my-12 flex flex-col gap-5 justify-end"}>
+                    <div className={""}>
+                        <div id={"question-1"}
+                             className={"rounded-md cursor-pointer shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
+                            <h3 className={"text-2xl"}>How to join club?</h3>
+                        </div>
+                        <div id='answer-1'
+                             className={"rounded-md answer bg-[#D3D3D3] text-black p-8 shadow text-semibold"}>
+                            <p className={"text-xl"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                amet aut consequuntur dolores ea eius enim esse illo in ipsa ipsam modi, nisi
+                                reiciendis, similique temporibus velit voluptatibus! Consequatur, consequuntur?</p>
+                        </div>
                     </div>
-                    <div id='answer-1' className={"rounded-md answer bg-[#D3D3D3] text-black p-8 shadow text-semibold"}>
-                        <p className={"text-xl"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet aut consequuntur dolores ea eius enim esse illo in ipsa ipsam modi, nisi reiciendis, similique temporibus velit voluptatibus! Consequatur, consequuntur?</p>
+                    <div className={""}>
+                        <div id={"question-2"}
+                             className={"rounded-md cursor-pointer shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
+                            <h3 className={"text-2xl"}>How to join club?</h3>
+                        </div>
+                        <div id='answer-2'
+                             className={"rounded-md answer bg-[#D3D3D3] text-black p-8 shadow text-semibold"}>
+                            <p className={"text-xl"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                amet aut consequuntur dolores ea eius enim esse illo in ipsa ipsam modi, nisi
+                                reiciendis, similique temporibus velit voluptatibus! Consequatur, consequuntur?</p>
+                        </div>
                     </div>
-                </div>
-                <div className={""}>
-                    <div id={"question-2"} className={"rounded-md cursor-pointer shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
-                        <h3 className={"text-2xl"}>How to join club?</h3>
+                    <div className={""}>
+                        <div id={"question-3"}
+                             className={"rounded-md cursor-pointer shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
+                            <h3 className={"text-2xl"}>How to join club?</h3>
+                        </div>
+                        <div id='answer-3'
+                             className={"rounded-md answer bg-[#D3D3D3] text-black p-8 shadow text-semibold"}>
+                            <p className={"text-xl"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                amet aut consequuntur dolores ea eius enim esse illo in ipsa ipsam modi, nisi
+                                reiciendis, similique temporibus velit voluptatibus! Consequatur, consequuntur?</p>
+                        </div>
                     </div>
-                    <div id='answer-2' className={"rounded-md answer bg-[#D3D3D3] text-black p-8 shadow text-semibold"}>
-                        <p className={"text-xl"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet aut consequuntur dolores ea eius enim esse illo in ipsa ipsam modi, nisi reiciendis, similique temporibus velit voluptatibus! Consequatur, consequuntur?</p>
-                    </div>
-                </div>
-                <div className={""}>
-                    <div id={"question-3"} className={"rounded-md cursor-pointer shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
-                        <h3 className={"text-2xl"}>How to join club?</h3>
-                    </div>
-                    <div id='answer-3' className={"rounded-md answer bg-[#D3D3D3] text-black p-8 shadow text-semibold"}>
-                        <p className={"text-xl"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet aut consequuntur dolores ea eius enim esse illo in ipsa ipsam modi, nisi reiciendis, similique temporibus velit voluptatibus! Consequatur, consequuntur?</p>
-                    </div>
-                </div>
-                <div className={""}>
-                    <div id={"question-4"} className={"rounded-md cursor-pointer shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
-                        <h3 className={"text-2xl"}>How to join club?</h3>
-                    </div>
-                    <div id='answer-4' className={"rounded-md answer bg-[#D3D3D3] text-black p-8 shadow text-semibold"}>
-                        <p className={"text-xl"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet aut consequuntur dolores ea eius enim esse illo in ipsa ipsam modi, nisi reiciendis, similique temporibus velit voluptatibus! Consequatur, consequuntur?</p>
+                    <div className={""}>
+                        <div id={"question-4"}
+                             className={"rounded-md cursor-pointer shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
+                            <h3 className={"text-2xl"}>How to join club?</h3>
+                        </div>
+                        <div id='answer-4'
+                             className={"rounded-md answer bg-[#D3D3D3] text-black p-8 shadow text-semibold"}>
+                            <p className={"text-xl"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                amet aut consequuntur dolores ea eius enim esse illo in ipsa ipsam modi, nisi
+                                reiciendis, similique temporibus velit voluptatibus! Consequatur, consequuntur?</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-    )
+        </section>)
 }
