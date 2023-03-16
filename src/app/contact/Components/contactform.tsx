@@ -36,10 +36,6 @@ export default function ContactForm () {
 
     return (
         <form onSubmit={onSubmit} method="post" className="w-3/4 flex flex-col rounded-lg gap-16 px-10 py-5">
-            <div className={" flex flex-col gap-5"}>
-                {/*<h2 className={"text-4xl"}>Contact Us</h2>*/}
-                {/*<p className={"text-lg"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorum, expedita ipsum laborum nemo nisi quisquam saepe! Dolor eveniet labore</p>*/}
-            </div>
             <div className={"flex flex-col gap-12 place-items-start w-full h-max"}>
                 <div className={"w-full"}>
                     <label className={"block text-md"} htmlFor="name">Name</label>
