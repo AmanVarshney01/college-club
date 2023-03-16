@@ -34,7 +34,7 @@ export default function ContactPage() {
                         </div>
 
                         <div>
-                            <span className={"text-xl font-medium border-b w-full"}>Kartik Arora (President No. 2)</span>
+                            <span className={"text-xl font-medium border-b w-full"}>Kartik Arora (President No. 3)</span>
                             <div className={"mt-5"}>
                                 <span className={"text-lg mx-4"}>Gmail:</span>
                                 <span>pta_nhi_kya_hai@gmail.com</span>

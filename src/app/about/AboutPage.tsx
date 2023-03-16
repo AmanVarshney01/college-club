@@ -43,13 +43,14 @@ export default function AboutPage () {
                     <div className={"w-1 h-40 bg-gray-100 opacity-20"}></div>
                 </div>
 
-                <div className={'mx-auto flex flex-col place-items-center opacity-50'}>
+                <div className={'mx-auto flex flex-col place-items-center opacity-50 relative'}>
                     <div className={"w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
                         <span className={"absolute right-20 text-2xl w-man"}>Disha</span>
                     </div>
+                    {/*<div className={" w-[40rem] h-[40rem] absolute bottom-0 -right-38 z-50 pointer-events-none bg-[#bedba8] rounded-full mix-blend-multiply filter blur-xl opacity-10"}></div>*/}
+
                     {/*<div className={"w-1 h-40 bg-white"}></div>*/}
                 </div>
-
             </div>
         </section>
     )

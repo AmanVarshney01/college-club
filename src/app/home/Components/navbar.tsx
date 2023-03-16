@@ -88,7 +88,7 @@ export default function Navbar() {
                         <NavButton scrollTo={scrollToFaqs} name={"FAQs"}/>
                         <NavButton scrollTo={scrollToContact} name={"Contact"}/>
                         <ThemeToggle />
-                        <div className={" w-[28rem] h-[28rem] absolute -top-64 -right-36 pointer-events-none bg-[#4392F1] rounded-full mix-blend-multiply filter blur-xl opacity-10"}></div>
+                        {/*<div className={" w-[28rem] h-[28rem] absolute -top-48 -right-36 pointer-events-none bg-[#bedba8] rounded-full mix-blend-multiply filter blur-xl opacity-10"}></div>*/}
                     </ul>
                 </div>
             </div>

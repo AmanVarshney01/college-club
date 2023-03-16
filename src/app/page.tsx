@@ -7,6 +7,7 @@ import AboutPage from "@/app/about/AboutPage";
 import FaqsPage from "@/app/faqs/FaqsPage";
 import {Montserrat} from "next/font/google";
 import {ThemeProvider} from "next-themes";
+import Footer from "@/app/footer/Footer";
 // import Cursor from "@/app/cursor";
 
 
@@ -43,6 +44,10 @@ export default function Home() {
 
                 <section id="contactpage" className={"snap-start"}>
                     <ContactPage/>
+                </section>
+
+                <section id="footer" className={"snap-end"}>
+                    <Footer />
                 </section>
             </main>
         </ThemeProvider>
