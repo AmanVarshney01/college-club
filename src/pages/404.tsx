@@ -11,7 +11,7 @@ export default function Custom404() {
             height: '100vh',
             width: "100%",
             gap: '2rem',
-            backgroundColor: '#F2F2F2',
+            backgroundColor: '#121212',
             margin: '0px',
             padding: '0px',
         }}>
@@ -20,7 +20,7 @@ export default function Custom404() {
             }} src={mrincredible} alt={"cute mr.incredible"}/>
 
             <h1 style={{
-                fontSize: '3rem', fontFamily: 'monospace',
+                fontSize: '3rem', fontFamily: 'monospace', color: '#F2F2F2'
             }}>404 - Page Not Found</h1>
         </div>);
 };
