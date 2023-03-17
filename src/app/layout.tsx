@@ -31,7 +31,7 @@ export default function RootLayout({
             {/*<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"*/}
             {/*      rel="stylesheet"/>*/}
         </head>
-        <body className={"relative"}>
+        <body className={""}>
         {/*<Alert  text={"Register Now! Entrevista: Mock placement Drive"}/>*/}
             {children}
         <AnalyticsWrapper/>
