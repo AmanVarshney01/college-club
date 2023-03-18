@@ -14,7 +14,7 @@ export default function HomePage () {
             <div>
                 <Navbar />
             </div>
-            <div className={"self-start justify-self-start h-full w-full"}>
+            <div className={"items-center justify-start h-full w-full flex"}>
                 <MainTitle />
             </div>
             {/*<div className={"self-end opacity-80 w-1/3 mx-auto image-fade relative"}>*/}
