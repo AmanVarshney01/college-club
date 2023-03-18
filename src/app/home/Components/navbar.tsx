@@ -74,7 +74,7 @@ export default function Navbar() {
     })
 
     return (
-        <div className={"w-full z-20 bg-transparent transition duration-100 mt-16 2xl:px-10 px-2"}>
+        <div className={"w-full z-20 bg-transparent transition duration-100 mt-16"}>
             <div className={"flex 2xl:flex-row flex-col-reverse justify-between items-center mx-10"}>
                 <div className={" z-10 flex flex-row gap-5 items-center w-fit"}>
                     <a href="https://www.gla.ac.in/" target="_blank" className={"2xl:w-[15%] w-[30%]"}><Image className={""} placeholder='blur' src={glaLogo} alt="gla university"/></a>
