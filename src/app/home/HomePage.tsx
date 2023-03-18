@@ -1,7 +1,7 @@
 import Bgicons from "@/app/home/Components/bgicons";
 import MainTitle from "@/app/home/Components/maintitle";
-import bg12 from 'public/bg_svg/bg12.svg'
-import Image from "next/image";
+// import bg12 from 'public/bg_svg/bg12.svg'
+// import Image from "next/image";
 import Navbar from "@/app/home/Components/navbar";
 // import {useEffect} from "react";
 
@@ -9,7 +9,7 @@ export default function HomePage () {
 
 
     return (
-        <div className={"relative h-screen flex flex-col justify-between items-center bg-transparent px-10"}>
+        <div className={"relative h-screen flex flex-col justify-between items-center bg-transparent 2xl:px-10 px-2"}>
             <Bgicons/>
             <div>
                 <Navbar />

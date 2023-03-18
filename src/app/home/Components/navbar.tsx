@@ -74,14 +74,14 @@ export default function Navbar() {
     })
 
     return (
-        <div className={"w-full z-20 bg-transparent transition duration-100 mt-16 px-10"}>
-            <div className={"flex flex-row justify-between items-center"}>
-                <div className={" ml-10 my-1 z-10 flex flex-row gap-5 items-center w-fit"}>
-                    <a href="https://www.gla.ac.in/" target="_blank" className={"w-[15%]"}><Image className={""} placeholder='blur' src={glaLogo} alt="gla university"/></a>
-                    <Image className={"w-[15%]"} placeholder='blur' src={glaGlauLogo} alt="gla university"/>
+        <div className={"w-full z-20 bg-transparent transition duration-100 mt-16 2xl:px-10 px-2"}>
+            <div className={"flex 2xl:flex-row flex-col-reverse justify-between items-center mx-10"}>
+                <div className={" z-10 flex flex-row gap-5 items-center w-fit"}>
+                    <a href="https://www.gla.ac.in/" target="_blank" className={"2xl:w-[15%] w-[30%]"}><Image className={""} placeholder='blur' src={glaLogo} alt="gla university"/></a>
+                    <Image className={"2xl:w-[15%] w-[30%]"} placeholder='blur' src={glaGlauLogo} alt="gla university"/>
                 </div>
-                <div className={"mr-10 z-10"}>
-                    <ul className={"flex gap-8 dark:text-white text-black w-fit relative"}>
+                <div className={"z-10"}>
+                    <ul className={"flex 2xl:gap-8 gap-3 dark:text-white text-black w-fit relative"}>
                         <NavButton scrollTo={scrollToAbout} name={"About"}/>
                         <NavButton scrollTo={scrollToWork} name={"Events"}/>
                         <NavButton scrollTo={scrollToTeam} name={"Team"}/>

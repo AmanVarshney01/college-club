@@ -17,6 +17,6 @@ export default function NavButton(props: ButtonProps) {
         //         className="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-gray-900 2xl:text-[1rem]">{name}</span>
         //     <span className="absolute inset-0 border-2 border-white rounded-full"></span>
         // </button>
-        <button onClick={scrollTo} className={"transition ease-in duration-200 text-2xl hover:text-[#D8E9A8]"}><span className={""}>{name}</span></button>
+        <button onClick={scrollTo} className={"transition ease-in duration-200 2xl:text-2xl text-md hover:text-[#D8E9A8]"}><span className={""}>{name}</span></button>
     )
 }

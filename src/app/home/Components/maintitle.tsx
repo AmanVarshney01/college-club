@@ -1,10 +1,10 @@
 export default function MainTitle() {
     return (
-        <div className={`montserrat flex flex-col z-10 m-12 relative`}>
+        <div className={`montserrat flex flex-col z-10 2xl:m-12 m-3 relative`}>
             <h1 className={"text-[#2f8d46] drop-shadow-lg"}>
                 <span
                     id="title"
-                    className={`text-[15rem] flex flex-col drop-shadow-lg leading-none bg-gradient-to-br from-[#4E9F3D] text-transparent bg-clip-text to-[#4E9F3D] via-[#D8E9A8]`}>
+                    className={`2xl:text-[15rem] text-[7rem] flex flex-col drop-shadow-lg leading-none bg-gradient-to-br from-[#4E9F3D] text-transparent bg-clip-text to-[#4E9F3D] via-[#D8E9A8]`}>
                     <span>GFG</span>
                     <span>GLAU</span>
                 </span>
