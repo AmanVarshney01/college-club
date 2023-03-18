@@ -1,6 +1,9 @@
 import SocialButton from "@/app/about/Components/socialButton";
 
 export default function AboutPage () {
+
+    let poleHeight = 32
+
     return (
         <section className={"w-full h-screen bg-transparent flex-shrink-0 flex-row flex"}>
             <div className={"h-full w-1/2 m-24 flex flex-col gap-16 basis-2/5"}>
@@ -24,23 +27,31 @@ export default function AboutPage () {
                 <div className={'flex flex-col place-items-center'}>
                     <div className={"w-10 h-10 bg-[#4E9F3D] rounded-full relative"}>
                         {/*<span className={"text-white text-4xl"}>1</span>*/}
-                        <span className={"absolute left-20 text-2xl w-max"}>Entrevista (Upcoming)</span>
+                        <span className={"absolute left-20 text-2xl w-max"}>IT Tech Mela</span>
                     </div>
-                    <div className={"w-1 h-40 bg-gray-100 opacity-50"}></div>
+                    <div className={`w-1 h-${poleHeight} bg-gray-100 opacity-50`}></div>
+                </div>
+
+                <div className={'flex flex-col place-items-center opacity-50'}>
+                    <div className={"w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
+                        {/*<span className={"text-white text-4xl"}>1</span>*/}
+                        <span className={"absolute left-20 text-2xl w-max"}>Entrevista</span>
+                    </div>
+                    <div className={`w-1 h-${poleHeight} bg-gray-100 opacity-20`}></div>
                 </div>
 
                 <div className={'mx-auto flex flex-col place-items-center opacity-50'}>
                     <div className={"w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
                         <span className={"absolute right-20 text-2xl w-max"}>Solving For India</span>
                     </div>
-                    <div className={"w-1 h-40 bg-gray-100 opacity-20"}></div>
+                    <div className={`w-1 h-${poleHeight} bg-gray-100 opacity-20`}></div>
                 </div>
 
                 <div className={'mx-auto flex flex-col place-items-center opacity-50'}>
                     <div className={"w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
                         <span className={"absolute left-20 text-2xl w-max"}>Brain It Out</span>
                     </div>
-                    <div className={"w-1 h-40 bg-gray-100 opacity-20"}></div>
+                    <div className={`w-1 h-${poleHeight} bg-gray-100 opacity-20`}></div>
                 </div>
 
                 <div className={'mx-auto flex flex-col place-items-center opacity-50 relative'}>

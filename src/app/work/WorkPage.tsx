@@ -3,6 +3,7 @@ import EventShowcase from "@/app/work/Components/eventshowcase";
 import {gsap} from "gsap";
 import {ScrollTrigger} from "gsap/dist/ScrollTrigger";
 import {useEffect, useRef} from "react";
+import funactivity from 'public/funactivity.png'
 
 export default function WorkHome() {
 
@@ -39,10 +40,10 @@ export default function WorkHome() {
         <div className={"overflow-hidden"}>
             <div ref={triggerRef}>
                 <div ref={sectionRef} className={"h-screen w-full flex flex-row relative"}>
-                    <EventShowcase title={"Entrevista"} subTitle={"Mock Placement Drive"} description={"wonderful event"}/>
-                    <EventShowcase title={"Solving For India"} subTitle={"Fun Activities"} description={"wonderful event"}/>
-                    <EventShowcase title={"Brain It Out"} subTitle={""} description={"wonderful event"}/>
-                    <EventShowcase title={"Disha"} subTitle={"Guide to what's next"} description={"wonderful event"}/>
+                    <EventShowcase imgSrc={funactivity} title={"Entrevista"} subTitle={"Mock Placement Drive"} description={"wonderful event"}/>
+                    <EventShowcase imgSrc={funactivity} title={"Solving For India"} subTitle={"Fun Activities"} description={"wonderful event"}/>
+                    <EventShowcase imgSrc={funactivity} title={"Brain It Out"} subTitle={""} description={"wonderful event"}/>
+                    <EventShowcase imgSrc={funactivity} title={"Disha"} subTitle={"Guide to what's next"} description={"wonderful event"}/>
                 </div>
             </div>
         </div>

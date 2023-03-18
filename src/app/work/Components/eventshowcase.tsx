@@ -1,4 +1,6 @@
-export default function EventShowcase({title, subTitle, description}: {title: string, subTitle: string, description: string}) {
+import Image from "next/image";
+
+export default function EventShowcase({title, subTitle, description, imgSrc}: {title: string, subTitle: string, description: string, imgSrc: any,}) {
     return (
         <div className={"w-screen h-screen flex flex-row flex-shrink-0 bg-transparent"}>
             <div className={"flex flex-col place-items-center basis-2/5"}>
@@ -18,7 +20,9 @@ export default function EventShowcase({title, subTitle, description}: {title: st
                     </div>
                 </div>
             </div>
-            <div className={"basis-3/5 h-full w-full"}>Photo Collage</div>
+            <div className={"basis-3/5 h-full w-full flex flex-row items-center justify-center"}>
+                <Image className={" bg-cover w-fit h-fit "} src={imgSrc} alt={title} />
+            </div>
         </div>
     )
 }
