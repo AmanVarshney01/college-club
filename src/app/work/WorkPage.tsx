@@ -17,7 +17,7 @@ export default function WorkHome() {
         const pin = gsap.fromTo(sectionRef.current, {
             translateX: 0
         }, {
-            translateX: "-300vw",
+            translateX: "-400vw",
             ease: "none",
             duration: 1,
             scrollTrigger: {
@@ -26,7 +26,7 @@ export default function WorkHome() {
                 end: "2000 top",
                 scrub: 1,
                 pin: true,
-                snap: 1 / (4 - 1),
+                snap: 1 / (5 - 1),
             }
         })
 
@@ -40,6 +40,7 @@ export default function WorkHome() {
         <div className={"overflow-hidden"}>
             <div ref={triggerRef}>
                 <div ref={sectionRef} className={"h-screen w-full flex flex-row relative"}>
+                    <EventShowcase imgSrc={funactivity} title={"IT Tech Mela"} subTitle={""} description={"wonderful event"}/>
                     <EventShowcase imgSrc={funactivity} title={"Entrevista"} subTitle={"Mock Placement Drive"} description={"wonderful event"}/>
                     <EventShowcase imgSrc={funactivity} title={"Solving For India"} subTitle={"Fun Activities"} description={"wonderful event"}/>
                     <EventShowcase imgSrc={funactivity} title={"Brain It Out"} subTitle={""} description={"wonderful event"}/>

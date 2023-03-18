@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    cursor: none;
+}
 
 html {
     @apply snap-y overflow-y-scroll snap-always overflow-hidden scroll-smooth;
@@ -37,4 +40,8 @@ body {
 
 .answer {
     @apply hidden;
+}
+
+.linkCursor {
+    @apply w-10 h-10 border-white
 }
