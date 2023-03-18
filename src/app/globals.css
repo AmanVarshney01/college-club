@@ -9,6 +9,7 @@ html {
 
 body {
     @apply dark:bg-[#121212] bg-[#F2F2F2];
+    cursor: none;
 }
 
 ::-webkit-scrollbar {

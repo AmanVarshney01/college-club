@@ -13,6 +13,6 @@ export default function Cursor() {
     })
 
     return (
-        <div id="cursor" className={"z-50 w-20 h-20 bg-green-800 opacity-50 rounded-full absolute pointer-events-none"}></div>
+        <div id="cursor" className={"z-50 w-3 h-3 rounded-full fixed pointer-events-none bg-[#D8E9A8] "}></div>
     )
 }
