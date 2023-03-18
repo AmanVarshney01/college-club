@@ -12,8 +12,6 @@ export default function ContactForm () {
         e.preventDefault()
         try {
 
-            alert("Please Wait ⏳")
-
             const res = await fetch('/api/contact', {
                 method: 'POST',
                 body: JSON.stringify({
