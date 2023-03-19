@@ -4,7 +4,7 @@ import glaLogo from 'public/gla logo A+.png';
 import glaGlauLogo from 'public/gfgglau.png';
 import Image from "next/image";
 import arrow from 'public/arrow.svg';
-import {useState, useRef, useLayoutEffect} from "react";
+import {useState, useRef, useEffect} from "react";
 import ThemeToggle from "@/app/themeToggle";
 
 export default function Navbar({timeline, ease}: {timeline: any, ease: any}) {
@@ -72,7 +72,7 @@ export default function Navbar({timeline, ease}: {timeline: any, ease: any}) {
     let logo1: any = useRef(null)
     let logo2: any = useRef(null)
 
-    useLayoutEffect(() => {
+    useEffect(() => {
 
 
             timeline.from(logo1, 1, {
@@ -87,14 +87,14 @@ export default function Navbar({timeline, ease}: {timeline: any, ease: any}) {
 
         document.addEventListener("scroll", handleScroll)
 
-    }, [])
+    }, [timeline])
 
     return (
         <div className={"w-full z-20 bg-transparent transition duration-100 mt-16"}>
             <div className={"flex 2xl:flex-row flex-col-reverse justify-between items-center mx-10"}>
                 <div className={" z-10 flex flex-row gap-5 items-center w-fit"}>
                     <a ref={el => logo1 = el} href="https://www.gla.ac.in/" target="_blank" className={"2xl:w-[15%] w-[30%]"}><Image className={""} src={glaLogo} alt="gla university"/></a>
-                    <Image ref={el => logo2 = el} className={"2xl:w-[15%] w-[30%]"} placeholder='blur' src={glaGlauLogo} alt="gla university"/>
+                    <Image ref={el => logo2 = el} className={"2xl:w-[15%] w-[30%]"} src={glaGlauLogo} alt="gla university"/>
                 </div>
                 <div className={"z-10"}>
                     <ul className={"flex 2xl:gap-8 gap-3 dark:text-white text-black w-fit relative"}>

@@ -1,8 +1,8 @@
 "use client";
-import EventShowcase from "@/app/work/Components/eventshowcase";
+import EventShowcase from "@/app/work/Components/EventShowcase";
 import {gsap} from "gsap";
 import {ScrollTrigger} from "gsap/dist/ScrollTrigger";
-import {useLayoutEffect, useRef} from "react";
+import {useEffect, useRef} from "react";
 import funactivity from 'public/funactivity.png'
 
 export default function WorkHome() {
@@ -12,7 +12,7 @@ export default function WorkHome() {
 
     gsap.registerPlugin(ScrollTrigger);
 
-    useLayoutEffect(() => {
+    useEffect(() => {
 
         const pin = gsap.fromTo(sectionRef.current, {
             translateX: 0

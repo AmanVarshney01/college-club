@@ -37,7 +37,7 @@ export default function ContactForm () {
     }
 
     return (
-        <form onSubmit={onSubmit} method="post" className="w-3/4 flex flex-col rounded-lg gap-16 ">
+        <form onSubmit={onSubmit} method="post" className=" w-3/4 flex flex-col rounded-lg gap-16 ">
             <div className={"flex flex-col gap-12 place-items-start w-full h-max"}>
                 <div className={"w-full"}>
                     <label className={"block text-md"} htmlFor="name">Name</label>

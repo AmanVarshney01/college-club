@@ -20,8 +20,8 @@ export default function EventShowcase({title, subTitle, description, imgSrc}: {t
                     </div>
                 </div>
             </div>
-            <div className={"basis-3/5 h-full w-full flex flex-row items-center justify-center"}>
-                <Image className={" bg-cover w-fit h-fit "} src={imgSrc} alt={title} />
+            <div className={"basis-3/5 flex flex-row items-center justify-center"}>
+                <Image className={"h-[90%] w-auto"} src={imgSrc} alt={title} />
             </div>
         </div>
     )
