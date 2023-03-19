@@ -12,7 +12,7 @@ export default function ContactForm () {
         e.preventDefault()
         try {
 
-            const res = await fetch('/api/contact', {
+            await fetch('/api/contact', {
                 method: 'POST',
                 body: JSON.stringify({
                     name, email, number, message
@@ -31,6 +31,7 @@ export default function ContactForm () {
 
         } catch (err: any) {
             console.log('Err', err)
+            alert("Please Try again")
         }
 
     }
