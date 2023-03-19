@@ -9,6 +9,6 @@ export default function ThemeToggle () {
     // const currentTheme = theme === 'light' ? 'dark': 'dark';
 
     return (
-        <button className={""} onClick={() => currentTheme == "dark" ? setTheme('light') : setTheme('dark')}>🌓</button>
+        <button id="linkCursor"  className={""} onClick={() => currentTheme == "dark" ? setTheme('light') : setTheme('dark')}>🌓</button>
     )
 }

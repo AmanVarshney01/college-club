@@ -13,7 +13,7 @@ export default function AboutPage () {
                     workshops, seminars, and competitions, we organize a variety of events that encourage
                     members to explore the more playful and creative side of technology.</p>
                 <div className={"underline"}>
-                    <a target="_blank" href="https://www.geeksforgeeks.org/geeksforgeeks-student-chapter/">Learn about GeeksforGeeks Student Chapter</a>
+                    <a id="linkCursor"  target="_blank" href="https://www.geeksforgeeks.org/geeksforgeeks-student-chapter/">Learn about GeeksforGeeks Student Chapter</a>
                 </div>
                 <div className={"w-full flex flex-col 2xl:flex-row 2xl:gap-6 gap-1"}>
                     <span className={"text-gray-400 text-sm 2xl:text-lg"}>Learn more about us on:</span>

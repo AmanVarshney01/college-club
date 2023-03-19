@@ -40,9 +40,9 @@ export default function FaqsPage() {
             <div className={"text-8xl w-full flex-2 m-10"}><h2>FAQs</h2></div>
             <div className={"w-full flex-1"}>
                 <div className={" my-12 flex flex-col gap-5 justify-end"}>
-                    <div className={""}>
+                    <div id="linkCursor"  className={""}>
                         <div id={"question-1"}
-                             className={"rounded-md cursor-pointer shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
+                             className={"rounded-md shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
                             <h3 className={"text-2xl"}>What is GeeksforGeeks Student Chapter?</h3>
                         </div>
                         <div id='answer-1'
@@ -50,9 +50,9 @@ export default function FaqsPage() {
                             <p className={"text-xl"}>GeeksforGeeks Student Chapter is a community of like-minded individuals who are passionate about computer science and programming. Our aim is to provide a platform for students to enhance their technical skills, gain practical experience, and network with peers in the industry.</p>
                         </div>
                     </div>
-                    <div className={""}>
+                    <div id="linkCursor" className={""}>
                         <div id={"question-2"}
-                             className={"rounded-md cursor-pointer shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
+                             className={"rounded-md shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
                             <h3 className={"text-2xl"}>Who can join GeeksforGeeks Student Chapter?</h3>
                         </div>
                         <div id='answer-2'
@@ -60,9 +60,9 @@ export default function FaqsPage() {
                             <p className={"text-xl"}>Any student who is interested in computer science and programming can join our club. We welcome students from all majors and backgrounds, as long as they share our passion for technology.</p>
                         </div>
                     </div>
-                    <div className={""}>
+                    <div id="linkCursor" className={""}>
                         <div id={"question-3"}
-                             className={"rounded-md cursor-pointer shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
+                             className={"rounded-md shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
                             <h3 className={"text-2xl"}>How can I become a member of GeeksforGeeks Student Chapter?</h3>
                         </div>
                         <div id='answer-3'
@@ -70,9 +70,9 @@ export default function FaqsPage() {
                             <p className={"text-xl"}>To become a member, you need to attend our club meetings and participate in our events. You can also sign up for our mailing list to stay up-to-date with our latest activities.</p>
                         </div>
                     </div>
-                    <div className={""}>
+                    <div id="linkCursor" className={""}>
                         <div id={"question-4"}
-                             className={"rounded-md cursor-pointer shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
+                             className={"rounded-md shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
                             <h3 className={"text-2xl"}>What kind of events does GeeksforGeeks Student Chapter organize?</h3>
                         </div>
                         <div id='answer-4'
