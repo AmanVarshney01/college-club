@@ -22,31 +22,31 @@ export default function Home() {
         <ThemeProvider attribute="class" defaultTheme={"dark"} disableTransitionOnChange enableSystem={false}>
             <main id="container" className={`text-white ${montserrat.className}`}>
                 <Cursor />
-                <section id="homepage" className={"snap-start"}>
+                <section id="homepage" className={""}>
                     <HomePage/>
                 </section>
 
-                <section id="aboutpage" className={"snap-start"}>
+                <section id="aboutpage" className={""}>
                     <AboutPage/>
                 </section>
 
-                <section id="workpage" className={"snap-start"}>
+                <section id="workpage" className={""}>
                     <WorkHome/>
                 </section>
 
-                <section id="teampage" className={"snap-start"}>
+                <section id="teampage" className={""}>
                     <TeamHome/>
                 </section>
 
-                <section id="faqspage" className={"snap-start"}>
+                <section id="faqspage" className={""}>
                     <FaqsPage />
                 </section>
 
-                <section id="contactpage" className={"snap-start"}>
+                <section id="contactpage" className={""}>
                     <ContactPage/>
                 </section>
 
-                <section id="footer" className={"snap-end"}>
+                <section id="footer" className={""}>
                     <Footer />
                 </section>
             </main>

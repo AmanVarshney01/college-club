@@ -4,15 +4,18 @@ import MainTitle from "@/app/home/Components/maintitle";
 // import Image from "next/image";
 import Navbar from "@/app/home/Components/navbar";
 // import {useEffect} from "react";
+import {gsap, Power3} from 'gsap';
 
 export default function HomePage () {
 
+    let tl = gsap.timeline();
+    let ease: any = Power3.easeOut(2);
 
     return (
         <div className={"relative h-screen flex flex-col justify-between items-center bg-transparent 2xl:px-20 px-4 "}>
             <Bgicons/>
             <div>
-                <Navbar />
+                <Navbar timeline={tl} ease={ease}/>
             </div>
             <div className={"items-center justify-start h-full w-full flex"}>
                 <MainTitle />
