@@ -2,17 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    cursor: none;
-}
-
 html {
     @apply snap-y overflow-y-scroll snap-always overflow-hidden scroll-smooth;
 }
 
 body {
     @apply dark:bg-[#121212] bg-[#F2F2F2];
-    cursor: none;
+    cursor: url('cursor.svg') 15 15, default;
 }
 
 ::-webkit-scrollbar {
@@ -42,6 +38,7 @@ body {
     @apply hidden;
 }
 
-.linkCursor {
-    @apply w-10 h-10 border-white
+#linkCursor {
+    /*@apply border-white*/
+    cursor: url('cursor_pointer.svg') 15 15, pointer;
 }
