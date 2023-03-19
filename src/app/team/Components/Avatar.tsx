@@ -14,9 +14,9 @@ export default function Avatar ({name, post, photo}: {name: string, post: string
                             <span className={"text-xl font-semibold"}>{name}</span>
                             <span>{post}</span>
                             <div className={"flex flex-row justify-evenly w-full px-6 border-t pt-4"}>
-                                <a href=""><Image width={25} height={25} src={instagram} alt={"instagram"} /></a>
-                                <a href=""><Image width={25} height={25} src={linkedin} alt={"linkedin"} /></a>
-                                <a href=""><Image width={25} height={25} src={whatsapp} alt={"whatsapp"} /></a>
+                                <a href="" className={"bg-white rounded-full border border-white"}><Image width={25} height={25} src={instagram} alt={"instagram"} /></a>
+                                <a href="" className={"bg-white rounded-full border border-white"}><Image width={25} height={25} src={linkedin} alt={"linkedin"} /></a>
+                                <a href="" className={"bg-white rounded-full border border-white"}><Image width={25} height={25} src={whatsapp} alt={"whatsapp"} /></a>
                             </div>
                         </div>
                     </div>

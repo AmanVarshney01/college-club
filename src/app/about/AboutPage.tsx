@@ -2,8 +2,6 @@ import SocialButton from "@/app/about/Components/socialButton";
 
 export default function AboutPage () {
 
-    let poleHeight = 32
-
     return (
         <section className={"w-full h-screen bg-transparent flex-shrink-0 2xl:flex-row flex-col flex"}>
             <div className={"h-full 2xl:w-1/2 2xl:m-24 m-5 flex flex-col 2xl:gap-16 gap-6 2xl:basis-2/5"}>
@@ -23,35 +21,35 @@ export default function AboutPage () {
                     <SocialButton href={"https://www.instagram.com/gfg_glau/"} name={"Instagram"} color={"bg-[#e95950]"} />
                 </div>
             </div>
-            <div className={"w-max h-full 2xl:basis-3/5 flex flex-col justify-center py-12"}>
-                <div className={'flex flex-col place-items-center'}>
+            <div className={"w-max h-full py-24 2xl:basis-3/5 flex flex-col justify-center"}>
+                <div className={'flex flex-col place-items-center flex-1'}>
                     <div className={"w-10 h-10 bg-[#4E9F3D] rounded-full relative"}>
                         {/*<span className={"text-white text-4xl"}>1</span>*/}
-                        <span className={"absolute left-20 text-2xl w-max"}>IT Tech Mela</span>
+                        <span className={"absolute right-20 text-2xl w-max"}>IT Tech Mela</span>
                     </div>
-                    <div className={`w-1 h-${poleHeight} bg-gray-100 opacity-50`}></div>
+                    <div className={`w-1 grow bg-gray-100 opacity-50`}></div>
                 </div>
 
-                <div className={'flex flex-col place-items-center opacity-50'}>
-                    <div className={"w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
+                <div className={'flex flex-col place-items-center opacity-50 flex-1'}>
+                    <div className={" w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
                         {/*<span className={"text-white text-4xl"}>1</span>*/}
                         <span className={"absolute left-20 text-2xl w-max"}>Entrevista</span>
                     </div>
-                    <div className={`w-1 h-${poleHeight} bg-gray-100 opacity-20`}></div>
+                    <div className={`w-1 grow bg-gray-100 opacity-20`}></div>
                 </div>
 
-                <div className={'mx-auto flex flex-col place-items-center opacity-50'}>
+                <div className={'mx-auto flex flex-col place-items-center opacity-50 flex-1'}>
                     <div className={"w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
                         <span className={"absolute right-20 text-2xl w-max"}>Solving For India</span>
                     </div>
-                    <div className={`w-1 h-${poleHeight} bg-gray-100 opacity-20`}></div>
+                    <div className={`w-1 grow bg-gray-100 opacity-20`}></div>
                 </div>
 
-                <div className={'mx-auto flex flex-col place-items-center opacity-50'}>
+                <div className={'mx-auto flex flex-col place-items-center opacity-50 flex-1'}>
                     <div className={"w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
                         <span className={"absolute left-20 text-2xl w-max"}>Brain It Out</span>
                     </div>
-                    <div className={`w-1 h-${poleHeight} bg-gray-100 opacity-20`}></div>
+                    <div className={`w-1 grow bg-gray-100 opacity-20`}></div>
                 </div>
 
                 <div className={'mx-auto flex flex-col place-items-center opacity-50 relative'}>
