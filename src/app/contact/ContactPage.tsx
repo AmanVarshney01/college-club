@@ -2,11 +2,11 @@ import ContactForm from "@/app/contact/Components/ContactForm";
 
 export default function ContactPage() {
     return (
-        <section className={"flex flex-col bg-transparent px-4 py-8 h-screen w-full"}>
+        <section className={"flex flex-col bg-transparent px-4 py-8 min-h-screen w-full"}>
             <div className={"h-min w-full"}>
-                <h2 className={"text-8xl m-10"}>Contact Us</h2>
+                <h2 className={"2xl:text-8xl text-4xl 2xl:m-10 m-2"}>Contact Us</h2>
             </div>
-            <div className={"flex flex-row h-full"}>
+            <div className={"flex 2xl:flex-row flex-col h-full"}>
                 <div className={"flex-1 w-full h-full"}>
                     <div className={"m-20 flex flex-col gap-12"}>
                         <div>
@@ -46,7 +46,7 @@ export default function ContactPage() {
                         </div>
                     </div>
                 </div>
-                <div className={"flex-1 h-full grid place-items-center"}>
+                <div className={"flex-1 grid place-items-center"}>
                     <ContactForm />
                 </div>
             </div>

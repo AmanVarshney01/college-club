@@ -36,14 +36,14 @@ export default function FaqsPage() {
     })
 
     return (
-        <section className={"w-full h-screen px-4 py-8 bg-transparent flex flex-col"}>
-            <div className={"text-8xl w-full flex-2 m-10"}><h2>FAQs</h2></div>
+        <section className={"w-full min-h-screen px-4 py-8 bg-transparent flex flex-col"}>
+            <div className={"2xl:text-8xl text-4xl w-full flex-2 2xl:m-10 m-2"}><h2>FAQs</h2></div>
             <div className={"w-full flex-1"}>
                 <div className={" my-12 flex flex-col gap-5 justify-end"}>
                     <div id="linkCursor"  className={""}>
                         <div id={"question-1"}
                              className={"rounded-md shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
-                            <h3 className={"text-2xl"}>What is GeeksforGeeks Student Chapter?</h3>
+                            <h3 className={"text-sm 2xl:text-2xl"}>What is GeeksforGeeks Student Chapter?</h3>
                         </div>
                         <div id='answer-1'
                              className={"rounded-md answer bg-[#D3D3D3] text-black p-8 shadow text-semibold"}>
@@ -53,7 +53,7 @@ export default function FaqsPage() {
                     <div id="linkCursor" className={""}>
                         <div id={"question-2"}
                              className={"rounded-md shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
-                            <h3 className={"text-2xl"}>Who can join GeeksforGeeks Student Chapter?</h3>
+                            <h3 className={"2xl:text-2xl text-sm"}>Who can join GeeksforGeeks Student Chapter?</h3>
                         </div>
                         <div id='answer-2'
                              className={"rounded-md answer bg-[#D3D3D3] text-black p-8 shadow text-semibold"}>
@@ -63,7 +63,7 @@ export default function FaqsPage() {
                     <div id="linkCursor" className={""}>
                         <div id={"question-3"}
                              className={"rounded-md shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
-                            <h3 className={"text-2xl"}>How can I become a member of GeeksforGeeks Student Chapter?</h3>
+                            <h3 className={"2xl:text-2xl text-sm"}>How can I become a member of GeeksforGeeks Student Chapter?</h3>
                         </div>
                         <div id='answer-3'
                              className={"rounded-md answer bg-[#D3D3D3] text-black p-8 shadow text-semibold"}>
@@ -73,7 +73,7 @@ export default function FaqsPage() {
                     <div id="linkCursor" className={""}>
                         <div id={"question-4"}
                              className={"rounded-md shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
-                            <h3 className={"text-2xl"}>What kind of events does GeeksforGeeks Student Chapter organize?</h3>
+                            <h3 className={"2xl:text-2xl text-sm"}>What kind of events does GeeksforGeeks Student Chapter organize?</h3>
                         </div>
                         <div id='answer-4'
                              className={"rounded-md answer bg-[#D3D3D3] text-black p-8 shadow text-semibold"}>

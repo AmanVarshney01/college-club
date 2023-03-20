@@ -3,7 +3,7 @@ import SocialButton from "@/app/about/Components/socialButton";
 export default function AboutPage () {
 
     return (
-        <section className={"w-full h-screen bg-transparent flex-shrink-0 2xl:flex-row flex-col flex"}>
+        <section className={"w-full min-h-screen bg-transparent flex-shrink-0 2xl:flex-row flex-col flex"}>
             <div className={"h-full 2xl:w-1/2 2xl:m-24 m-5 flex flex-col 2xl:gap-16 gap-6 2xl:basis-2/5"}>
                 <h2 className={"2xl:text-7xl text-4xl"}>Who Are We?</h2>
                 <p className={"2xl:text-xl text-lg text-gray-200"}>GeeksforGeeks Student Chapter at GLA University is not just about serious technical
@@ -21,7 +21,7 @@ export default function AboutPage () {
                     <SocialButton href={"https://www.instagram.com/gfg_glau/"} name={"Instagram"} color={"bg-[#e95950]"} />
                 </div>
             </div>
-            <div className={"w-max h-full py-24 2xl:basis-3/5 flex flex-col justify-center"}>
+            <div className={"w-max max-h-full py-24 2xl:basis-3/5 flex flex-col justify-center"}>
                 <div className={'flex flex-col place-items-center flex-1'}>
                     <div className={"w-10 h-10 bg-[#4E9F3D] rounded-full relative"}>
                         {/*<span className={"text-white text-4xl"}>1</span>*/}

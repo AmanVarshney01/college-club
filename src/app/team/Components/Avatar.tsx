@@ -4,7 +4,7 @@ import whatsapp from 'public/socialIcons/whatsapp.png'
 import linkedin from 'public/socialIcons/linkedin.png'
 export default function Avatar ({name, post, photo}: {name: string, post: string, photo: any}) {
     return (
-        <div className={"w-64 flex-shrink-0 bg-white relative group"}>
+        <div className={"2xl:w-64 w-32 flex-shrink-0 bg-white relative group"}>
             <Image className={"bg-cover"} src={photo} alt={name} />
             <div className={"h-36 w-64 bg-[#181818]"}>
                 <div className={""}>
