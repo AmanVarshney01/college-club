@@ -5,6 +5,8 @@ import MainTitle from "@/app/home/Components/maintitle";
 import Navbar from "@/app/home/Components/navbar";
 // import {useEffect} from "react";
 import {gsap, Power3} from 'gsap';
+// import Image from "next/image";
+// import gla from 'public/gla.jpg'
 
 export default function HomePage () {
 
@@ -24,6 +26,7 @@ export default function HomePage () {
             {/*    <Image src={bg12} alt={"tech illustration"} />*/}
             {/*    /!*<div className={"right-0 top-12 w-[20rem] h-[20rem] absolute pointer-events-none bg-[#bedba8] rounded-full mix-blend-multiply filter blur-xl opacity-10"}></div>*!/*/}
             {/*</div>*/}
+            {/*<Image className={"absolute top-0 left-0 h-screen w-full "} src={gla} alt={"gla"}/>*/}
         </div>
     )
 }

@@ -5,7 +5,7 @@ import linkedin from 'public/socialIcons/linkedin.png'
 export default function Avatar ({name, post, photo}: {name: string, post: string, photo: any}) {
     return (
         <div className={"2xl:w-64 w-32 flex-shrink-0 bg-white relative group"}>
-            <Image className={"bg-cover"} src={photo} alt={name} />
+            <Image loading="lazy" className={"bg-cover"} src={photo} alt={name} />
             <div className={"h-36 w-64 bg-[#181818]"}>
                 <div className={""}>
                     {/*<div className={"absolute bottom-0 w-full opacity-70 blur-sm bg-black"}></div>*/}
