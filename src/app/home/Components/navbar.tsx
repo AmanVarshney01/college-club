@@ -91,7 +91,7 @@ export default function Navbar({timeline, ease}: {timeline: any, ease: any}) {
 
     return (
         <div className={"w-full z-20 bg-transparent transition duration-100 mt-16"}>
-            <div className={"flex 2xl:flex-row flex-col-reverse justify-between items-center mx-10"}>
+            <div className={"flex flex-row justify-between items-center mx-10"}>
                 <div className={" z-10 flex flex-row gap-5 items-center w-fit"}>
                     <a id="linkCursor"  ref={el => logo1 = el} href="https://www.gla.ac.in/" target="_blank" className={"2xl:w-[15%] w-[30%]"}><Image className={""} src={glaLogo} alt="gla university"/></a>
                     <Image id="linkCursor"  ref={el => logo2 = el} className={"2xl:w-[15%] w-[30%]"} src={glaGlauLogo} alt="gla university"/>
