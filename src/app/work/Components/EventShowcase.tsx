@@ -21,7 +21,7 @@ export default function EventShowcase({title, subTitle, description, imgSrc}: {t
                 </div>
             </div>
             <div className={"basis-3/5 flex flex-row items-center justify-center"}>
-                <Image className={"h-[90%] w-auto"} src={imgSrc} alt={title} />
+                <Image loading="lazy" className={"h-[90%] w-auto"} src={imgSrc} alt={title} />
             </div>
         </div>
     )

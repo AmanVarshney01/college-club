@@ -69,8 +69,8 @@ export default function Navbar({timeline, ease}: {timeline: any, ease: any}) {
         <div className={"w-full z-20 bg-transparent transition duration-100 mt-16 px-10"}>
             <div className={"flex flex-row justify-between items-center gap-16 w-full"}>
                 <div className={" z-10 flex flex-row gap-5 items-center w-fit"}>
-                    <a id="linkCursor"  ref={el => logo1 = el} href="https://www.gla.ac.in/" target="_blank" className={"2xl:w-full"}><Image width={120} className={""} src={glaLogo} alt="gla university"/></a>
-                    <Image id="linkCursor" width={120}  ref={el => logo2 = el} className={"2xl:w-full"} src={glaGlauLogo} alt="gla university"/>
+                    <a id="linkCursor"  ref={el => logo1 = el} href="https://www.gla.ac.in/" target="_blank" className={"2xl:w-full"}><Image loading="lazy" width={120} className={""} src={glaLogo} alt="gla university"/></a>
+                    <Image loading="lazy" id="linkCursor" width={120}  ref={el => logo2 = el} className={"2xl:w-full"} src={glaGlauLogo} alt="gla university"/>
                 </div>
                 <ul className={"flex 2xl:gap-8 gap-3 dark:text-white text-black w-fit relative"}>
                     <NavButton scrollTo={scrollToAbout} name={"About"}/>
