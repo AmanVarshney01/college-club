@@ -66,23 +66,21 @@ export default function Navbar({timeline, ease}: {timeline: any, ease: any}) {
     }, [timeline])
 
     return (
-        <div className={"w-full z-20 bg-transparent transition duration-100 mt-16"}>
-            <div className={"flex flex-row justify-between items-center mx-10"}>
+        <div className={"w-full z-20 bg-transparent transition duration-100 mt-16 px-10"}>
+            <div className={"flex flex-row justify-between items-center gap-16 w-full"}>
                 <div className={" z-10 flex flex-row gap-5 items-center w-fit"}>
-                    <a id="linkCursor"  ref={el => logo1 = el} href="https://www.gla.ac.in/" target="_blank" className={"2xl:w-[15%] w-[30%]"}><Image className={""} src={glaLogo} alt="gla university"/></a>
-                    <Image id="linkCursor"  ref={el => logo2 = el} className={"2xl:w-[15%] w-[30%]"} src={glaGlauLogo} alt="gla university"/>
+                    <a id="linkCursor"  ref={el => logo1 = el} href="https://www.gla.ac.in/" target="_blank" className={"2xl:w-full"}><Image width={120} className={""} src={glaLogo} alt="gla university"/></a>
+                    <Image id="linkCursor" width={120}  ref={el => logo2 = el} className={"2xl:w-full"} src={glaGlauLogo} alt="gla university"/>
                 </div>
-                <div className={"z-10"}>
-                    <ul className={"flex 2xl:gap-8 gap-3 dark:text-white text-black w-fit relative"}>
-                        <NavButton scrollTo={scrollToAbout} name={"About"}/>
-                        <NavButton scrollTo={scrollToWork} name={"Events"}/>
-                        <NavButton scrollTo={scrollToTeam} name={"Team"}/>
-                        <NavButton scrollTo={scrollToFaqs} name={"FAQs"}/>
-                        <NavButton scrollTo={scrollToContact} name={"Contact"}/>
-                        <ThemeToggle />
-                        {/*<div className={" w-[28rem] h-[28rem] absolute -top-48 -right-36 pointer-events-none bg-[#bedba8] rounded-full mix-blend-multiply filter blur-xl opacity-10"}></div>*/}
-                    </ul>
-                </div>
+                <ul className={"flex 2xl:gap-8 gap-3 dark:text-white text-black w-fit relative"}>
+                    <NavButton scrollTo={scrollToAbout} name={"About"}/>
+                    <NavButton scrollTo={scrollToWork} name={"Events"}/>
+                    <NavButton scrollTo={scrollToTeam} name={"Team"}/>
+                    <NavButton scrollTo={scrollToFaqs} name={"FAQs"}/>
+                    <NavButton scrollTo={scrollToContact} name={"Contact"}/>
+                    <ThemeToggle />
+                    {/*<div className={" w-[28rem] h-[28rem] absolute -top-48 -right-36 pointer-events-none bg-[#bedba8] rounded-full mix-blend-multiply filter blur-xl opacity-10"}></div>*/}
+                </ul>
             </div>
         </div>
     )

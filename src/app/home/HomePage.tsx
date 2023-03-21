@@ -16,9 +16,7 @@ export default function HomePage () {
     return (
         <div className={"relative h-screen flex flex-col justify-between items-center bg-transparent 2xl:px-20 px-4 "}>
             <Bgicons/>
-            <div>
-                <Navbar timeline={tl} ease={ease}/>
-            </div>
+            <Navbar timeline={tl} ease={ease}/>
             <div className={"items-center justify-start h-full w-full flex"}>
                 <MainTitle />
             </div>
