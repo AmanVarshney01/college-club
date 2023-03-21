@@ -7,14 +7,16 @@ export const metadata = {
     creator: 'Aman Varshney',
     keywords: ['geeksforgeeks', 'gla university', 'gfg glau', "geeksforgeeks student chapter gla university"],
     icons: {
-        icon: '/gfgglau.png'
+        icon: '/gfgglau.png',
+        shortcut: '/gfgglau.png'
     },
     category: 'technology',
     appLinks: {
         web: {
             url: 'https://gfg-glau.vercel.app/',
         }
-    }
+    },
+    themeColor: '#121212'
 }
 
 export default function RootLayout({

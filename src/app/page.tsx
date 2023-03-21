@@ -15,7 +15,6 @@ import {ThemeProvider} from "next-themes";
 // import {useEffect} from "react";
 import dynamic from "next/dynamic";
 
-
 const montserrat = Montserrat({
     subsets: ['latin'],
     display: 'swap',
@@ -27,6 +26,7 @@ const Faqs = dynamic(() => import('@/app/faqs/FaqsPage'))
 const Work = dynamic(() => import('@/app/work/WorkPage'))
 const Footer = dynamic(() => import('@/app/footer/Footer'))
 const Team = dynamic(() => import('@/app/team/TeamPage'))
+const GoToTop = dynamic(() => import('@/app/GoToTop'))
 
 export default function Home() {
     //
@@ -44,6 +44,7 @@ export default function Home() {
         <ThemeProvider attribute="class" defaultTheme={"dark"} disableTransitionOnChange enableSystem={false}>
             <main id="container" className={`text-white ${montserrat.className}`}>
                 {/*<Cursor />*/}
+                <GoToTop />
                 <section id="homepage" className={"snap-start"}>
                     <HomePage/>
                 </section>

@@ -15,7 +15,7 @@ export default function Custom404() {
             margin: '0px',
             padding: '0px',
         }}>
-            <Image placeholder='blur' style={{
+            <Image loading="lazy" placeholder='blur' style={{
                 width: 'auto', height: '35%',
             }} src={mrincredible} alt={"cute mr.incredible"}/>
 

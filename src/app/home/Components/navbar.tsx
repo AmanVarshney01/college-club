@@ -3,19 +3,10 @@ import NavButton from "@/app/home/Components/NavButton";
 import glaLogo from 'public/gla logo A+.png';
 import glaGlauLogo from 'public/gfgglau.png';
 import Image from "next/image";
-import arrow from 'public/arrow.svg';
-import {useState, useRef, useEffect} from "react";
+import {useRef, useEffect} from "react";
 import ThemeToggle from "@/app/themeToggle";
 
 export default function Navbar({timeline, ease}: {timeline: any, ease: any}) {
-
-    const scrollToHome = () => {
-        const homepage: any = document.querySelector('#homepage')
-
-        homepage.scrollIntoView({
-            behavior: 'smooth'
-        }, 500)
-    }
 
     const scrollToFaqs = () => {
         const faqspage: any = document.querySelector('#faqspage')
@@ -57,18 +48,6 @@ export default function Navbar({timeline, ease}: {timeline: any, ease: any}) {
         }, 500)
     }
 
-    const [isVisible, setIsVisible] = useState(false);
-
-    const handleScroll = () => {
-        const currentScrollPos = window.scrollY;
-
-        if (currentScrollPos > 300){
-            setIsVisible(true);
-        } else {
-            setIsVisible(false)
-        }
-    }
-
     let logo1: any = useRef(null)
     let logo2: any = useRef(null)
 
@@ -83,9 +62,6 @@ export default function Navbar({timeline, ease}: {timeline: any, ease: any}) {
                 opacity: 0,
                 y:  '-100'
             })
-
-
-        document.addEventListener("scroll", handleScroll)
 
     }, [timeline])
 
@@ -108,13 +84,6 @@ export default function Navbar({timeline, ease}: {timeline: any, ease: any}) {
                     </ul>
                 </div>
             </div>
-            {
-                isVisible
-                &&
-                <div id="linkCursor" onClick={scrollToHome} className={"z-50 fixed bottom-6 right-6 m-2 bg-[#D8E9A8] rounded-full drop-shadow-md hover:bg-[#3C685E] transition duration-500 active:motion-safe:animate-bounce"}>
-                    <Image className={""} src={arrow} alt={"Go to Top"} />
-                </div>
-            }
         </div>
     )
 }
