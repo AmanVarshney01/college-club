@@ -4,11 +4,8 @@ import {gsap} from "gsap";
 import {ScrollTrigger} from "gsap/dist/ScrollTrigger";
 import {useEffect, useRef} from "react";
 import funactivity from 'public/funactivity.png'
-import dynamic from "next/dynamic";
 
-// const EventShowcase = dynamic(() => import('@/app/work/Components/EventShowcase'))
-
-export default function WorkHome() {
+export default function Work() {
 
     const sectionRef = useRef(null);
     const triggerRef = useRef(null);
@@ -42,7 +39,7 @@ export default function WorkHome() {
     return (
         <div className={"overflow-x-hidden"}>
             <div ref={triggerRef}>
-                <div ref={sectionRef} className={"min-h-screen w-full flex flex-row relative"}>
+                <div ref={sectionRef} className={"h-screen flex flex-row relative"}>
                     <EventShowcase imgSrc={funactivity} title={"IT Tech Mela"} subTitle={""} description={"wonderful event"}/>
                     <EventShowcase imgSrc={funactivity} title={"Entrevista"} subTitle={"Mock Placement Drive"} description={"wonderful event"}/>
                     <EventShowcase imgSrc={funactivity} title={"Solving For India"} subTitle={"Fun Activities"} description={"wonderful event"}/>

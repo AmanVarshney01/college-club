@@ -4,13 +4,14 @@ import {useEffect, useState} from "react";
 
 export default function GoToTop () {
 
-    const [isVisible, setIsVisible] = useState(false);
+    const [isVisible, setIsVisible] = useState<boolean>(false);
 
     const scrollToHome = () => {
         const homepage: any = document.querySelector('#homepage')
 
         homepage.scrollIntoView({
-            behavior: 'smooth'
+            behavior: 'smooth',
+            block: 'start'
         }, 500)
     }
 
@@ -25,8 +26,11 @@ export default function GoToTop () {
     }
 
     useEffect(() => {
-        document.addEventListener("scroll", handleScroll)
-    })
+        document.addEventListener("scroll", handleScroll);
+        return () => {
+            document.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
 
     return (
         <div>
@@ -34,9 +38,8 @@ export default function GoToTop () {
                 isVisible
                 &&
                 <div id="linkCursor" onClick={scrollToHome} className={"z-50 fixed bottom-6 right-6 m-2 bg-[#D8E9A8] rounded-full drop-shadow-md hover:bg-[#181818] transition duration-500 active:motion-safe:animate-bounce"}>
-                    <Image className={""} src={arrow} alt={"Go to Top"} />
-                </div>
-            }
+                    <Image className={""} src={arrow} alt={"Go to Top"} width={50} height={50} />
+                </div>}
         </div>
     )
 }
