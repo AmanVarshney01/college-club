@@ -33,7 +33,7 @@ export default function GoToTop () {
             {
                 isVisible
                 &&
-                <div id="linkCursor" onClick={scrollToHome} className={"z-50 fixed bottom-6 right-6 m-2 bg-[#181818] rounded-full drop-shadow-md hover:bg-[#D8E9A8] transition duration-500 active:motion-safe:animate-bounce"}>
+                <div id="linkCursor" onClick={scrollToHome} className={"z-50 fixed bottom-6 right-6 m-2 bg-[#D8E9A8] rounded-full drop-shadow-md hover:bg-[#181818] transition duration-500 active:motion-safe:animate-bounce"}>
                     <Image className={""} src={arrow} alt={"Go to Top"} />
                 </div>
             }

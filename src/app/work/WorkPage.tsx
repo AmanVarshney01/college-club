@@ -1,9 +1,12 @@
 "use client";
-import EventShowcase from "@/app/work/Components/EventShowcase";
+// import EventShowcase from "@/app/work/Components/EventShowcase";
 import {gsap} from "gsap";
 import {ScrollTrigger} from "gsap/dist/ScrollTrigger";
 import {useEffect, useRef} from "react";
 import funactivity from 'public/funactivity.png'
+import dynamic from "next/dynamic";
+
+const EventShowcase = dynamic(() => import('@/app/work/Components/EventShowcase'))
 
 export default function WorkHome() {
 
@@ -24,7 +27,7 @@ export default function WorkHome() {
                 trigger: triggerRef.current,
                 start: "top top",
                 end: "2000 top",
-                scrub: 1,
+                scrub: 0.5,
                 pin: true,
                 snap: 1 / (5 - 1),
             }
@@ -37,7 +40,7 @@ export default function WorkHome() {
     }, [])
 
     return (
-        <div className={"overflow-hidden"}>
+        <div className={"overflow-x-hidden"}>
             <div ref={triggerRef}>
                 <div ref={sectionRef} className={"min-h-screen w-full flex flex-row relative"}>
                     <EventShowcase imgSrc={funactivity} title={"IT Tech Mela"} subTitle={""} description={"wonderful event"}/>
