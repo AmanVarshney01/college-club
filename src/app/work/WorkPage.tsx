@@ -1,12 +1,12 @@
 "use client";
-// import EventShowcase from "@/app/work/Components/EventShowcase";
+import EventShowcase from "@/app/work/Components/EventShowcase";
 import {gsap} from "gsap";
 import {ScrollTrigger} from "gsap/dist/ScrollTrigger";
 import {useEffect, useRef} from "react";
 import funactivity from 'public/funactivity.png'
 import dynamic from "next/dynamic";
 
-const EventShowcase = dynamic(() => import('@/app/work/Components/EventShowcase'))
+// const EventShowcase = dynamic(() => import('@/app/work/Components/EventShowcase'))
 
 export default function WorkHome() {
 
