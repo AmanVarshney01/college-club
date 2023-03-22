@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-    @apply snap-y overflow-y-scroll snap-always overflow-hidden scroll-smooth;
+    @apply overflow-y-scroll overflow-hidden scroll-smooth;
 }
 
 body {

@@ -45,31 +45,31 @@ export default function Home() {
             <main id="container" className={`text-white ${montserrat.className}`}>
                 {/*<Cursor />*/}
                 <GoToTop />
-                <section id="homepage" className={"snap-start"}>
+                <section id="homepage" className={""}>
                     <HomePage/>
                 </section>
 
-                <section id="aboutpage" className={"snap-start"}>
+                <section id="aboutpage" className={""}>
                     <About/>
                 </section>
 
-                <section id="workpage" className={"snap-start"}>
+                <section id="workpage" className={""}>
                     <Work />
                 </section>
 
-                <section id="teampage" className={"snap-start"}>
+                <section id="teampage" className={""}>
                     <Team />
                 </section>
 
-                <section id="faqspage" className={"snap-start"}>
+                <section id="faqspage" className={""}>
                     <Faqs />
                 </section>
 
-                <section id="contactpage" className={"snap-start"}>
+                <section id="contactpage" className={""}>
                     <Contact />
                 </section>
 
-                <section id="footer" className={"snap-start"}>
+                <section id="footer" className={""}>
                     <Footer />
                 </section>
             </main>

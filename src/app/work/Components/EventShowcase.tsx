@@ -4,17 +4,17 @@ export default function EventShowcase({title, subTitle, description, imgSrc}: {t
     return (
         <div className={"w-screen min-h-screen flex 2xl:flex-row flex-col flex-shrink-0 bg-transparent"}>
             <div className={"flex flex-col place-items-center basis-2/5"}>
-                <div className={"h-1/2 flex items-end justify-center"}>
+                <div className={"h-1/2 flex-1 flex items-center justify-center"}>
                     <div className={"flex flex-col text-left place-items-center"}>
                         <h2 className={"text-6xl mb-3.5"}>{title}</h2>
                         <h3 className={"text-xl text-gray-200"}>{subTitle}</h3>
                     </div>
                 </div>
-                <div className={"h-full w-full flex items-center justify-center"}>
+                <div className={"h-min w-full flex-1 flex items-center justify-center"}>
                     <div className={""}><p>{description}</p></div>
                 </div>
-                <div className={"w-full h-max flex justify-center"}>
-                    <div className={"flex flex-row text-xl px-6 py-10 border my-20"}>
+                <div className={"flex-1 w-full h-max flex justify-center"}>
+                    <div className={"flex flex-row text-xl px-6 py-10 border rounded-lg"}>
                         <span className={"mx-3.5"}>Number of Participants:</span>
                         <span className={""}>7000+</span>
                     </div>

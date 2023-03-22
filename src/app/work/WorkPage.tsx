@@ -39,7 +39,7 @@ export default function WorkHome() {
     return (
         <div className={"overflow-hidden"}>
             <div ref={triggerRef}>
-                <div ref={sectionRef} className={"h-screen w-full flex flex-row relative"}>
+                <div ref={sectionRef} className={"min-h-screen w-full flex flex-row relative"}>
                     <EventShowcase imgSrc={funactivity} title={"IT Tech Mela"} subTitle={""} description={"wonderful event"}/>
                     <EventShowcase imgSrc={funactivity} title={"Entrevista"} subTitle={"Mock Placement Drive"} description={"wonderful event"}/>
                     <EventShowcase imgSrc={funactivity} title={"Solving For India"} subTitle={"Fun Activities"} description={"wonderful event"}/>
