@@ -3,7 +3,7 @@ import portrait from 'public/portrait.jpg'
 
 export default function AboutHome() {
     return (
-        <div className={"montserrat bg-transparent w-full min-h-screen flex flex-col"}>
+        <section id="teampage" className={"montserrat bg-transparent w-full min-h-screen flex flex-col"}>
             <div className={"grow flex flex-row w-full items-center"}>
                 <div className={"w-fit h-fit m-10"}>
                     <h2 className={"2xl:text-8xl text-4xl"}>Our Team</h2>
@@ -19,6 +19,6 @@ export default function AboutHome() {
                 <Avatar name={"Aman Varshney"} post={"President"} photo={portrait}/>
                 <Avatar name={"Aman Varshney"} post={"President"} photo={portrait}/>
             </div>
-        </div>
+        </section>
     )
 }

@@ -72,7 +72,7 @@ export default function Navbar({timeline, ease}: {timeline: any, ease: any}) {
                     <a id="linkCursor"  ref={el => logo1 = el} href="https://www.gla.ac.in/" target="_blank" className={"2xl:w-full"}><Image loading="lazy" width={120} className={""} src={glaLogo} alt="gla university"/></a>
                     <Image loading="lazy" id="linkCursor" width={120}  ref={el => logo2 = el} className={"2xl:w-full"} src={glaGlauLogo} alt="gla university"/>
                 </div>
-                <ul className={"flex 2xl:gap-8 gap-3 dark:text-white text-black w-fit relative"}>
+                <nav className={"flex 2xl:gap-8 gap-3 dark:text-white text-black w-fit relative"}>
                     <NavButton scrollTo={scrollToAbout} name={"About"}/>
                     <NavButton scrollTo={scrollToWork} name={"Events"}/>
                     <NavButton scrollTo={scrollToTeam} name={"Team"}/>
@@ -80,7 +80,7 @@ export default function Navbar({timeline, ease}: {timeline: any, ease: any}) {
                     <NavButton scrollTo={scrollToContact} name={"Contact"}/>
                     <ThemeToggle />
                     {/*<div className={" w-[28rem] h-[28rem] absolute -top-48 -right-36 pointer-events-none bg-[#bedba8] rounded-full mix-blend-multiply filter blur-xl opacity-10"}></div>*/}
-                </ul>
+                </nav>
             </div>
         </div>
     )

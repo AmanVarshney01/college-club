@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function EventShowcase({title, subTitle, description, imgSrc}: {title: string, subTitle: string, description: string, imgSrc: any,}) {
     return (
-        <div className={"w-full h-screen flex 2xl:flex-row flex-col flex-shrink-0 bg-transparent"}>
+        <div className={"w-screen h-screen flex 2xl:flex-row flex-col bg-transparent justify-center items-center"}>
             <div className={"flex flex-col place-items-center basis-2/5"}>
                 <div className={" flex-1 flex items-center justify-center"}>
                     <div className={"flex flex-col text-left place-items-center"}>

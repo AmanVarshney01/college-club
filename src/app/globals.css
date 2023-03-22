@@ -2,12 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    @apply overflow-y-scroll overflow-hidden scroll-smooth;
+html, body, * {
+    @apply p-0 m-0 box-border
 }
 
+
 body {
-    @apply dark:bg-[#121212] bg-[#F2F2F2];
+    @apply dark:bg-[#121212] bg-[#F2F2F2] overflow-hidden overflow-y-scroll;
     cursor: url('cursor.svg') 15 15, default;
 }
 

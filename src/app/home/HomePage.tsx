@@ -14,7 +14,7 @@ export default function HomePage () {
     let ease: any = Power3.easeOut(2);
 
     return (
-        <div className={"relative h-screen flex flex-col justify-between items-center bg-transparent 2xl:px-20 px-4 "}>
+        <section id="homepage" className={"relative h-screen flex flex-col justify-between items-center bg-transparent 2xl:px-20 px-4 "}>
             <Bgicons/>
             <Navbar timeline={tl} ease={ease}/>
             <div className={"items-center justify-start h-full w-full flex"}>
@@ -25,6 +25,6 @@ export default function HomePage () {
             {/*    /!*<div className={"right-0 top-12 w-[20rem] h-[20rem] absolute pointer-events-none bg-[#bedba8] rounded-full mix-blend-multiply filter blur-xl opacity-10"}></div>*!/*/}
             {/*</div>*/}
             {/*<Image className={"absolute top-0 left-0 h-screen w-full "} src={gla} alt={"gla"}/>*/}
-        </div>
+        </section>
     )
 }

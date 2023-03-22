@@ -3,7 +3,7 @@ import SocialButton from "@/app/about/Components/socialButton";
 export default function AboutPage () {
 
     return (
-        <section className={"w-full min-h-screen bg-transparent flex-shrink-0 2xl:flex-row flex-col flex"}>
+        <section id="aboutpage" className={"w-full min-h-screen bg-transparent flex-shrink-0 2xl:flex-row flex-col flex"}>
             <div className={"max-h-full 2xl:w-1/2 2xl:m-24 m-5 flex flex-col 2xl:gap-16 gap-6 2xl:basis-2/5"}>
                 <h2 className={"2xl:text-7xl text-4xl"}>Who Are We?</h2>
                 <p className={"2xl:text-xl text-lg text-gray-200"}>GeeksforGeeks Student Chapter at GLA University is not just about serious technical
@@ -27,7 +27,7 @@ export default function AboutPage () {
                 <div className={'flex flex-col place-items-center flex-1'}>
                     <div className={"w-10 h-10 bg-[#4E9F3D] rounded-full relative"}>
                         {/*<span className={"text-white text-4xl"}>1</span>*/}
-                        <span className={"absolute right-20 text-2xl w-max"}>IT Tech Mela</span>
+                        <span className={"absolute right-20 2xl:text-2xl text-sm w-max"}>IT Tech Mela</span>
                     </div>
                     <div className={`w-1 grow bg-gray-100 opacity-50`}></div>
                 </div>
@@ -35,28 +35,28 @@ export default function AboutPage () {
                 <div className={'flex flex-col place-items-center opacity-50 flex-1'}>
                     <div className={" w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
                         {/*<span className={"text-white text-4xl"}>1</span>*/}
-                        <span className={"absolute left-20 text-2xl w-max"}>Entrevista</span>
+                        <span className={"absolute left-20 2xl:text-2xl text-sm w-max"}>Entrevista</span>
                     </div>
                     <div className={`w-1 grow bg-gray-100 opacity-20`}></div>
                 </div>
 
                 <div className={'mx-auto flex flex-col place-items-center opacity-50 flex-1'}>
                     <div className={"w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
-                        <span className={"absolute right-20 text-2xl w-max"}>Solving For India</span>
+                        <span className={"absolute right-20 2xl:text-2xl text-sm w-max"}>Solving For India</span>
                     </div>
                     <div className={`w-1 grow bg-gray-100 opacity-20`}></div>
                 </div>
 
                 <div className={'mx-auto flex flex-col place-items-center opacity-50 flex-1'}>
                     <div className={"w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
-                        <span className={"absolute left-20 text-2xl w-max"}>Brain It Out</span>
+                        <span className={"absolute left-20 2xl:text-2xl text-sm w-max"}>Brain It Out</span>
                     </div>
                     <div className={`w-1 grow bg-gray-100 opacity-20`}></div>
                 </div>
 
                 <div className={'mx-auto flex flex-col place-items-center opacity-50 relative'}>
                     <div className={"w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
-                        <span className={"absolute right-20 text-2xl w-man"}>Disha</span>
+                        <span className={"absolute right-20 2xl:text-2xl text-sm w-man"}>Disha</span>
                     </div>
                     {/*<div className={" w-[40rem] h-[40rem] absolute bottom-0 -right-38 z-50 pointer-events-none bg-[#bedba8] rounded-full mix-blend-multiply filter blur-xl opacity-10"}></div>*/}
 

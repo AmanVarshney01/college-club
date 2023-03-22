@@ -37,9 +37,9 @@ export default function Work() {
     }, [])
 
     return (
-        <div className={"overflow-x-hidden"}>
+        <section id="workpage" className={"overflow-hidden"}>
             <div ref={triggerRef}>
-                <div ref={sectionRef} className={"h-screen flex flex-row relative"}>
+                <div ref={sectionRef} className={"h-screen flex flex-row relative w-[500vw]"}>
                     <EventShowcase imgSrc={funactivity} title={"IT Tech Mela"} subTitle={""} description={"wonderful event"}/>
                     <EventShowcase imgSrc={funactivity} title={"Entrevista"} subTitle={"Mock Placement Drive"} description={"wonderful event"}/>
                     <EventShowcase imgSrc={funactivity} title={"Solving For India"} subTitle={"Fun Activities"} description={"wonderful event"}/>
@@ -47,7 +47,7 @@ export default function Work() {
                     <EventShowcase imgSrc={funactivity} title={"Disha"} subTitle={"Guide to what's next"} description={"wonderful event"}/>
                 </div>
             </div>
-        </div>
+        </section>
 
     )
 }

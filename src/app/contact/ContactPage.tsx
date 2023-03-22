@@ -2,7 +2,7 @@ import ContactForm from "@/app/contact/Components/ContactForm";
 
 export default function ContactPage() {
     return (
-        <section className={"flex flex-col bg-transparent px-4 py-8 min-h-screen w-full"}>
+        <section id="contactpage" className={"flex flex-col bg-transparent px-4 py-8 min-h-screen w-full"}>
             <div className={"h-min w-full"}>
                 <h2 className={"2xl:text-8xl text-4xl 2xl:m-10 m-2"}>Contact Us</h2>
             </div>

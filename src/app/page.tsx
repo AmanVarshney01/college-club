@@ -45,33 +45,13 @@ export default function Home() {
             <main id="container" className={`text-white ${montserrat.className}`}>
                 {/*<Cursor />*/}
                 <GoToTop />
-                <section id="homepage" className={""}>
-                    <HomePage/>
-                </section>
-
-                <section id="aboutpage" className={""}>
-                    <About/>
-                </section>
-
-                <section id="workpage" className={""}>
-                    <Work />
-                </section>
-
-                <section id="teampage" className={""}>
-                    <Team />
-                </section>
-
-                <section id="faqspage" className={""}>
-                    <Faqs />
-                </section>
-
-                <section id="contactpage" className={""}>
-                    <Contact />
-                </section>
-
-                <section id="footer" className={""}>
-                    <Footer />
-                </section>
+                <HomePage/>
+                <About/>
+                <Work />
+                <Team />
+                <Faqs />
+                <Contact />
+                <Footer />
             </main>
         </ThemeProvider>
     )
