@@ -6,7 +6,7 @@ import Image from "next/image";
 import {useRef, useEffect} from "react";
 import ThemeToggle from "@/app/themeToggle";
 
-export default function Navbar({timeline, ease}: {timeline: any, ease: any}) {
+export default function Navbar() {
 
     const scrollToFaqs = () => {
         const faqspage: any = document.querySelector('#faqspage')
@@ -48,29 +48,12 @@ export default function Navbar({timeline, ease}: {timeline: any, ease: any}) {
         }, 500)
     }
 
-    let logo1: any = useRef(null)
-    let logo2: any = useRef(null)
-
-    useEffect(() => {
-
-
-            timeline.from(logo1, 1, {
-                opacity: 0,
-                y:  '-100'
-            })
-            timeline.from(logo2, 1, {
-                opacity: 0,
-                y:  '-100'
-            })
-
-    }, [timeline])
-
     return (
-        <div className={"w-full z-20 bg-transparent transition duration-100 mt-16 px-10"}>
+        <div className={"w-full z-20 bg-transparent px-10"}>
             <div className={"flex flex-row justify-between items-center gap-16 w-full"}>
                 <div className={" z-10 flex flex-row gap-5 items-center w-fit"}>
-                    <a id="linkCursor"  ref={el => logo1 = el} href="https://www.gla.ac.in/" target="_blank" className={"2xl:w-full"}><Image loading="lazy" width={120} className={""} src={glaLogo} alt="gla university"/></a>
-                    <Image loading="lazy" id="linkCursor" width={120}  ref={el => logo2 = el} className={"2xl:w-full"} src={glaGlauLogo} alt="gla university"/>
+                    <a id="linkCursor" href="https://www.gla.ac.in/" target="_blank" className={"2xl:w-full"}><Image loading="lazy" width={120} className={""} src={glaLogo} alt="gla university"/></a>
+                    <Image loading="lazy" id="linkCursor" width={120} className={"2xl:w-full"} src={glaGlauLogo} alt="gla university"/>
                 </div>
                 <nav className={"flex 2xl:gap-8 gap-3 dark:text-white text-black w-fit relative"}>
                     <NavButton scrollTo={scrollToAbout} name={"About"}/>

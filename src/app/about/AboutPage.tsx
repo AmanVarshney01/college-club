@@ -1,6 +1,6 @@
 import instagram from 'public/socialIcons/instagram.png'
 import Image from "next/image";
-import linkedin from "../../../public/socialIcons/linkedin.png";
+import linkedin from "public/socialIcons/linkedin.png";
 
 export default function AboutPage () {
 
