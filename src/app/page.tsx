@@ -29,21 +29,10 @@ const Team = dynamic(() => import('@/app/team/TeamPage'))
 const GoToTop = dynamic(() => import('@/app/GoToTop'))
 
 export default function Home() {
-    //
-    //
-    // gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
-    // useEffect(() => {
-    //
-    //     let smoother = ScrollSmoother.create({
-    //         wrapper: '#body',
-    //         content: '#container'
-    //     })
-    // })
 
     return (
         <ThemeProvider attribute="class" defaultTheme={"dark"} disableTransitionOnChange enableSystem={false}>
             <main id="container" className={`text-white ${montserrat.className}`}>
-                {/*<Cursor />*/}
                 <GoToTop />
                 <HomePage/>
                 <About/>

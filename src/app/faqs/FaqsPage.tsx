@@ -15,9 +15,6 @@ export default function FaqsPage() {
         const a4 = document.querySelector("#answer-4") as HTMLElement
 
         q1.addEventListener("click", () => {
-            // a2.classList.remove("answer")
-            // a3.classList.remove("answer")
-            // a4.classList.remove("answer")
             a1.classList.toggle("answer")
         })
 
