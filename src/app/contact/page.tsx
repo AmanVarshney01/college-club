@@ -1,6 +1,6 @@
 import ContactForm from "@/app/contact/Components/ContactForm";
 
-export default function ContactPage() {
+export default function Page() {
     return (
         <section id="contactpage" className={"flex flex-col bg-transparent px-4 py-8 min-h-screen w-full"}>
             <div className={"h-min w-full"}>

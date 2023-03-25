@@ -1,10 +1,10 @@
 export default function MainTitle() {
     return (
         <div className={`flex flex-col z-10  relative`}>
-            <h1 className={" drop-shadow-lg"}>
+            <h1 className={" drop-shadow-lg w-max h-max"}>
                 <span
                     id="title"
-                    className={`text-[14vw] flex flex-col drop-shadow-lg leading-none bg-gradient-to-br from-[#4E9F3D] text-transparent bg-clip-text to-[#4E9F3D] via-[#D8E9A8]`}>
+                    className={`text-[15vw] flex flex-col drop-shadow-lg leading-none bg-gradient-to-br from-[#4E9F3D] text-transparent bg-clip-text to-[#4E9F3D] via-[#D8E9A8]`}>
                     <span>GFG</span>
                     <span>GLAU</span>
                 </span>

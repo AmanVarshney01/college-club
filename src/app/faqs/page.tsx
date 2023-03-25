@@ -1,6 +1,7 @@
+"use client";
 import {useEffect} from "react";
 
-export default function FaqsPage() {
+export default function Page() {
 
     useEffect(() => {
 

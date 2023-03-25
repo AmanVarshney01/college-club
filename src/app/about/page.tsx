@@ -2,7 +2,7 @@ import instagram from 'public/socialIcons/instagram.png'
 import Image from "next/image";
 import linkedin from "public/socialIcons/linkedin.png";
 
-export default function AboutPage () {
+export default function Page () {
 
     return (
         <section id="aboutpage" className={"w-full min-h-screen bg-transparent flex-shrink-0 2xl:flex-row flex-col flex"}>

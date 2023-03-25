@@ -1,5 +1,7 @@
+"use client";
 import Image from "next/image";
 import arrow from "../../public/arrow.svg";
+
 import {useEffect, useState} from "react";
 
 export default function GoToTop () {

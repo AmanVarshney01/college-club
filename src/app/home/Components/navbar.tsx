@@ -3,8 +3,7 @@ import NavButton from "@/app/home/Components/NavButton";
 import glaLogo from 'public/gla logo A+.png';
 import glaGlauLogo from 'public/gfgglau.png';
 import Image from "next/image";
-import {useRef, useEffect} from "react";
-import ThemeToggle from "@/app/themeToggle";
+// import ThemeToggle from "@/app/themeToggle";
 
 export default function Navbar() {
 
@@ -55,13 +54,13 @@ export default function Navbar() {
                     <a id="linkCursor" href="https://www.gla.ac.in/" target="_blank" className={"2xl:w-full"}><Image loading="lazy" width={120} className={""} src={glaLogo} alt="gla university"/></a>
                     <Image loading="lazy" id="linkCursor" width={120} className={"2xl:w-full"} src={glaGlauLogo} alt="gla university"/>
                 </div>
-                <nav className={"flex 2xl:gap-8 gap-3 dark:text-white text-black w-fit relative"}>
-                    <NavButton scrollTo={scrollToAbout} name={"About"}/>
-                    <NavButton scrollTo={scrollToWork} name={"Events"}/>
-                    <NavButton scrollTo={scrollToTeam} name={"Team"}/>
-                    <NavButton scrollTo={scrollToFaqs} name={"FAQs"}/>
-                    <NavButton scrollTo={scrollToContact} name={"Contact"}/>
-                    <ThemeToggle />
+                <nav className={"flex 2xl:gap-8 gap-3 w-fit relative"}>
+                    <NavButton href={"/about"} scrollTo={scrollToAbout} name={"About"}/>
+                    <NavButton href={"/event"} scrollTo={scrollToWork} name={"Events"}/>
+                    <NavButton href={"/team"} scrollTo={scrollToTeam} name={"Team"}/>
+                    <NavButton href={"/faqs"} scrollTo={scrollToFaqs} name={"FAQs"}/>
+                    <NavButton href={"/contact"} scrollTo={scrollToContact} name={"Contact"}/>
+                    {/*<ThemeToggle />*/}
                     {/*<div className={" w-[28rem] h-[28rem] absolute -top-48 -right-36 pointer-events-none bg-[#bedba8] rounded-full mix-blend-multiply filter blur-xl opacity-10"}></div>*/}
                 </nav>
             </div>

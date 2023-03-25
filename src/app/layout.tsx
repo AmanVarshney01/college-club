@@ -1,5 +1,11 @@
 import './globals.css'
 import {AnalyticsWrapper} from './analytics';
+import {Montserrat} from "next/font/google";
+
+const montserrat = Montserrat({
+    subsets: ['latin'],
+    display: 'swap',
+})
 
 export const metadata = {
     title: 'GFG GLAU',
@@ -33,7 +39,7 @@ export default function RootLayout({
             {/*<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"*/}
             {/*      rel="stylesheet"/>*/}
         </head>
-        <body id="body" className={""}>
+        <body id="body" className={`text-white ${montserrat.className}`}>
         {/*<Alert  text={"Register Now! Entrevista: Mock placement Drive"}/>*/}
             {children}
         <AnalyticsWrapper/>
