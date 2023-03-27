@@ -10,7 +10,7 @@ export default function NavButton(props: ButtonProps) {
 
     return (
             <Link href={href} id="linkCursor" onClick={scrollTo}
-                    className={" transition ease-in duration-200 2xl:text-2xl text-md hover:text-[#D8E9A8]"}><span
+                    className={" transition ease-in duration-200 lg:text-2xl text-sm hover:text-[#D8E9A8]"}><span
                 className={""}>{name}</span></Link>
 )
 }

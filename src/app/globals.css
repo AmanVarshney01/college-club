@@ -8,7 +8,7 @@ html, body, * {
 
 
 body {
-    @apply bg-[#1f1f1f] overflow-hidden overflow-y-scroll;
+    @apply bg-[#1f1f1f] overflow-hidden overflow-y-auto;
     cursor: url('cursor.svg') 15 15, default;
     /*bg-[#121212]*/
 }
@@ -24,7 +24,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    @apply bg-[#D8E9A8] dark:bg-[#D8E9A8]
+    @apply bg-[#D8E9A8]
 }
 
 ::-webkit-scrollbar-thumb:hover {
