@@ -7,7 +7,7 @@ import Navbar from "@/app/home/Components/navbar";
 export default function HomeSection () {
 
     return (
-        <section id="homepage" className={"min-h-screen flex flex-col justify-between items-center bg-transparent lg:px-4 lg:py-2 px-2 py-1"}>
+        <section id="homepage" className={"min-h-[100svh] flex flex-col justify-between items-center bg-transparent lg:px-4 lg:py-2 px-2 py-1"}>
             {/*<Bgicons/>*/}
             <Navbar/>
             <div className={" h-full w-full"}>
