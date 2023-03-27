@@ -33,7 +33,7 @@ export default function Navbar() {
     }
 
     return (
-        <div className={"w-full z-20 bg-transparent px-10"}>
+        <div className={"w-full z-20 bg-transparent"}>
             <div className={"flex flex-row justify-between items-center gap-16 w-full"}>
                 <div className={" z-10 flex flex-row gap-5 items-center w-fit"}>
                     {/*<m.a initial={{scale: 0, opacity: 0}} animate={{opacity: 1, scale: 1}} id="linkCursor" href="https://www.gla.ac.in/" target="_blank" className={""}><Image loading="lazy" width={60} className={""} src={glaLogo} alt="gla university"/></m.a>*/}
