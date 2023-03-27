@@ -8,9 +8,9 @@ html, body, * {
 
 
 body {
-    @apply bg-[#121212] overflow-hidden overflow-y-scroll;
+    @apply bg-[#1f1f1f] overflow-hidden overflow-y-scroll;
     cursor: url('cursor.svg') 15 15, default;
-    /*bg-[#1f1f1f]*/
+    /*bg-[#121212]*/
 }
 
 ::-webkit-scrollbar {
