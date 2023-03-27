@@ -1,6 +1,6 @@
 export default function MainTitle() {
     return (
-        <div className={`flex flex-col z-10  relative`}>
+        <div className={`flex flex-col z-10  relative m-4`}>
             <h1 className={" drop-shadow-lg w-max h-max"}>
                 <span
                     id="title"

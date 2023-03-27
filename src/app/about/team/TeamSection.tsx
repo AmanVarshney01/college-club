@@ -1,7 +1,7 @@
-import Avatar from "@/app/team/Components/Avatar";
+import Avatar from "@/app/about/team/Components/Avatar";
 import portrait from 'public/portrait.jpg'
 
-export default function AboutHome() {
+export default function TeamSection() {
     return (
         <section id="teampage" className={"montserrat bg-transparent w-full min-h-screen flex flex-col"}>
             <div className={"grow flex flex-row w-full items-center"}>
