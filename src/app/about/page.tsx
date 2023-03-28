@@ -5,7 +5,7 @@ export default function Page () {
 
     return (
         <PageWrapper>
-            <section className={"w-full bg-transparent min-h-screen"}>
+            <section className={"bg-transparent"}>
                 <TeamSection />
             </section>
         </PageWrapper>
