@@ -1,6 +1,8 @@
 import './globals.css'
 import {AnalyticsWrapper} from './analytics';
 import {Montserrat} from "next/font/google";
+import Navbar from "@/app/home/Components/navbar";
+
 
 const montserrat = Montserrat({
     subsets: ['latin'],
@@ -41,6 +43,7 @@ export default function RootLayout({
         </head>
         <body id="body" className={`text-white ${montserrat.className}`}>
         {/*<Alert  text={"Register Now! Entrevista: Mock placement Drive"}/>*/}
+        <Navbar />
             {children}
         <AnalyticsWrapper/>
         </body>
