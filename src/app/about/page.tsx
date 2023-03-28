@@ -1,4 +1,4 @@
-import TeamSection from "@/app/about/team/TeamSection";
+import TeamSection from "@/app/about/Components/TeamSection";
 import {PageWrapper} from "@/app/page-wrapper";
 
 export default function Page () {

@@ -1,4 +1,4 @@
-import Avatar from "@/app/about/team/Components/Avatar";
+import Avatar from "@/app/about/Components/Avatar";
 import portrait from 'public/portrait.jpg'
 
 export default function TeamSection() {
