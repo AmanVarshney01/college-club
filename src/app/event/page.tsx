@@ -4,6 +4,7 @@ import {gsap} from "gsap";
 import {ScrollTrigger} from "gsap/dist/ScrollTrigger";
 import {useEffect, useRef} from "react";
 import funactivity from 'public/funactivity.png'
+import {PageWrapper} from "@/app/page-wrapper";
 
 export default function Work() {
 
@@ -37,17 +38,24 @@ export default function Work() {
     }, [])
 
     return (
-        <section id="workpage" className={"overflow-hidden"}>
-            <div ref={triggerRef}>
-                <div ref={sectionRef} className={"min-h-screen flex flex-row relative w-[500vw]"}>
-                    <EventShowcase imgSrc={funactivity} title={"IT Tech Mela"} subTitle={""} description={"wonderful event"}/>
-                    <EventShowcase imgSrc={funactivity} title={"Entrevista"} subTitle={"Mock Placement Drive"} description={"wonderful event"}/>
-                    <EventShowcase imgSrc={funactivity} title={"Solving For India"} subTitle={"Fun Activities"} description={"wonderful event"}/>
-                    <EventShowcase imgSrc={funactivity} title={"Brain It Out"} subTitle={""} description={"wonderful event"}/>
-                    <EventShowcase imgSrc={funactivity} title={"Disha"} subTitle={"Guide to what's next"} description={"wonderful event"}/>
+        <PageWrapper>
+            <section id="workpage" className={"overflow-hidden"}>
+                <div ref={triggerRef}>
+                    <div ref={sectionRef} className={"min-h-screen flex flex-row relative w-[500vw]"}>
+                        <EventShowcase imgSrc={funactivity} title={"IT Tech Mela"} subTitle={""}
+                                       description={"wonderful event"}/>
+                        <EventShowcase imgSrc={funactivity} title={"Entrevista"} subTitle={"Mock Placement Drive"}
+                                       description={"wonderful event"}/>
+                        <EventShowcase imgSrc={funactivity} title={"Solving For India"} subTitle={"Fun Activities"}
+                                       description={"wonderful event"}/>
+                        <EventShowcase imgSrc={funactivity} title={"Brain It Out"} subTitle={""}
+                                       description={"wonderful event"}/>
+                        <EventShowcase imgSrc={funactivity} title={"Disha"} subTitle={"Guide to what's next"}
+                                       description={"wonderful event"}/>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </PageWrapper>
 
     )
 }
