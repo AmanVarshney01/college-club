@@ -6,7 +6,8 @@ export default function Page () {
     return (
         <PageWrapper>
             <section className={"w-full bg-transparent min-h-screen"}>
-                <TeamSection />
+                {/*<TeamSection />*/}
+                <h1>hello</h1>
             </section>
         </PageWrapper>
     )

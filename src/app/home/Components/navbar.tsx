@@ -3,8 +3,6 @@ import NavButton from "@/app/home/Components/NavButton";
 // import glaLogo from 'public/gla logo A+.png';
 import glaGlauLogo from 'public/gfg.png';
 import Image from "next/image";
-// import {motion as m} from "framer-motion";
-// import ThemeToggle from "@/app/themeToggle";
 
 export default function Navbar() {
 
