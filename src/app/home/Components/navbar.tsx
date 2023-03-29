@@ -35,7 +35,7 @@ export default function Navbar() {
             <div className={"flex flex-row justify-between items-center gap-16 w-full py-1 px-4 lg:py-2 lg:px-6"}>
                 <div className={" z-10 flex flex-row gap-5 items-center w-fit"}>
                     {/*<m.a initial={{scale: 0, opacity: 0}} animate={{opacity: 1, scale: 1}} id="linkCursor" href="https://www.gla.ac.in/" target="_blank" className={""}><Image loading="lazy" width={60} className={""} src={glaLogo} alt="gla university"/></m.a>*/}
-                    <a href="/" className={""}><Image placeholder="blur" id="linkCursor" className={"h-auto w-[20%]"} src={glaGlauLogo} alt="gla glau "/></a>
+                    <a href="/" className={""}><Image placeholder="blur" width={5000} id="linkCursor" className={"h-auto w-[20%]"} src={glaGlauLogo} alt="gla glau "/></a>
                 </div>
                 <nav className={"flex 2xl:gap-8 gap-3 w-fit relative"}>
                     <NavButton href={"/about"} scrollTo={scrollToAbout} name={"About"}/>
