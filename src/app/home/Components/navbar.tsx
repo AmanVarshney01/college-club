@@ -30,7 +30,7 @@ export default function Navbar() {
     }
 
     return (
-        <div className={"bg-gradient-to-b from-[#121212]/10up0 from-20% via-[#121212]/70 via-30% to-[#121212]/0 to-50% fixed left-0 top-0 w-full h-min z-20"}>
+        <div className={"bg-gradient-to-b from-[#121212]/100 from-20% via-[#121212]/70 via-30% to-[#121212]/0 to-50% fixed left-0 top-0 w-full h-min z-20"}>
             <div className={"flex flex-row justify-between items-center gap-16 w-full py-1 px-4 lg:py-2 lg:px-6"}>
                 <div className={" z-10 flex flex-row gap-5 items-center w-fit"}>
                     {/*<m.a initial={{scale: 0, opacity: 0}} animate={{opacity: 1, scale: 1}} id="linkCursor" href="https://www.gla.ac.in/" target="_blank" className={""}><Image loading="lazy" width={60} className={""} src={glaLogo} alt="gla university"/></m.a>*/}
