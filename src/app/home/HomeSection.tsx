@@ -1,6 +1,5 @@
 // import Bgicons from "@/app/home/Components/bgicons";
 import MainTitle from "@/app/home/Components/maintitle";
-
 // import Image from "next/image";
 // import gla from 'public/admin-block.svg'
 

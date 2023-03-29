@@ -1,6 +1,9 @@
+"use client";
 import HomeSection from "@/app/home/HomeSection";
-import MissionSection from "@/app/home/MissionSection";
+import dynamic from "next/dynamic";
 import {PageWrapper} from "@/app/page-wrapper";
+
+const MissionSection = dynamic(() => import("@/app/home/MissionSection"));
 
 export default function Home() {
 
