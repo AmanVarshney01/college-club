@@ -4,7 +4,7 @@ export default function MainTitle() {
             <h1 className={" drop-shadow-lg w-max h-max"}>
                 <span
                     id="title"
-                    className={`lg:text-[28vh] text-[15vh] flex flex-col drop-shadow-lg leading-none bg-gradient-to-br from-[#4E9F3D] text-transparent bg-clip-text to-[#4E9F3D] via-[#D8E9A8]`}>
+                    className={" lg:text-[28vh] text-[15vh] flex flex-col drop-shadow-lg leading-none bg-gradient-to-br from-[#4E9F3D] text-transparent bg-clip-text to-[#4E9F3D] via-[#D8E9A8]"}>
                     <span>GFG</span>
                     <span>GLAU</span>
                     <span className={"lg:ml-8 ml-3 text-[.8rem] lg:text-2xl text-white"}>GeeksForGeeks Student Chapter GLA University</span>

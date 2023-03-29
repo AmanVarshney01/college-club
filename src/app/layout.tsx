@@ -8,6 +8,12 @@ const montserrat = Montserrat({
     subsets: ['latin'],
     display: 'swap',
 })
+//
+// const martianMono = Cousine({
+//     subsets: ['latin'],
+//     display: 'swap',
+//     weight: ["400", "700"],
+// })
 
 export const metadata = {
     title: 'GFG GLAU',
@@ -36,15 +42,10 @@ export default function RootLayout({
         <html lang="en">
         <head>
             <title>GFG GLAU</title>
-            {/*<link rel="preconnect" href="https://fonts.googleapis.com"/>*/}
-            {/*<link rel="preconnect" href="https://fonts.gstatic.com"/>*/}
-            {/*<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"*/}
-            {/*      rel="stylesheet"/>*/}
         </head>
         <body id="body" className={`text-white ${montserrat.className}`}>
-        {/*<Alert  text={"Register Now! Entrevista: Mock placement Drive"}/>*/}
-        <Navbar />
-            {children}
+        <Navbar/>
+        {children}
         <AnalyticsWrapper/>
         </body>
         </html>
