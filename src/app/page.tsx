@@ -1,11 +1,9 @@
 "use client";
 import HomeSection from "@/app/home/HomeSection";
-// import {ThemeProvider} from "next-themes";
-import dynamic from "next/dynamic";
+import MissionSection from "@/app/home/MissionSection";
 // import Navbar from "@/app/home/Components/navbar";
 import {PageWrapper} from "@/app/page-wrapper";
-
-const AboutSection = dynamic(() => import("@/app/home/AboutSection"));
+// import Notification from "@/app/home/Components/notification";
 
 export default function Home() {
 
@@ -14,7 +12,8 @@ export default function Home() {
             <PageWrapper>
                 <main id="container" className={""}>
                     <HomeSection/>
-                    <AboutSection />
+                    {/*<Notification />*/}
+                    <MissionSection />
                 </main>
             </PageWrapper>
         // </ThemeProvider>

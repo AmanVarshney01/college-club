@@ -2,9 +2,9 @@ import Image from "next/image";
 import instagram from "../../../public/socialIcons/instagram.png";
 import linkedin from "../../../public/socialIcons/linkedin.png";
 
-export default function Aboutsection () {
+export default function MissionSection () {
     return (
-        <section id="about-section" className={"w-full min-h-screen bg-transparent flex-shrink-0 2xl:flex-row flex-col flex"}>
+        <section id="about-section" className={"w-full min-h-[100svh] bg-transparent flex-shrink-0 2xl:flex-row flex-col flex"}>
             <div className={"max-h-full 2xl:w-1/2 2xl:m-24 m-5 flex flex-col 2xl:gap-16 gap-6 2xl:basis-2/5"}>
                 <h2 className={"2xl:text-7xl text-4xl"}>Who Are We?</h2>
                 <p className={"2xl:text-xl text-lg text-gray-200"}>GeeksforGeeks Student Chapter at GLA University is not just about serious technical
