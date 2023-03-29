@@ -8,6 +8,17 @@ export default function page() {
     return (
         <PageWrapper>
             <section id="workpage" className={"overflow-hidden"}>
+
+                <div className={`flex flex-col justify-end min-h-screen w-full`}>
+                    <h1 className={" drop-shadow-lg w-max h-max"}>
+                <span
+                    id="title"
+                    className={" lg:text-[28vh] text-[15vh] flex flex-col drop-shadow-lg leading-none bg-gradient-to-br from-[#4E9F3D] text-transparent bg-clip-text to-[#4E9F3D] via-[#D8E9A8]"}>
+                    <span>Events</span>
+                </span>
+                    </h1>
+                </div>
+
                 <div className={"w-full min-h-screen py-24 flex flex-col justify-center"}>
                     <div className={'flex flex-col place-items-center flex-1'}>
                         <div className={"w-10 h-10 bg-[#4E9F3D] rounded-full relative"}>
