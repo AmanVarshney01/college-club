@@ -1,4 +1,4 @@
-// import Bgicons from "@/app/home/Components/bgicons";
+import Bgicons from "@/app/home/Components/bgicons";
 import MainTitle from "@/app/home/Components/maintitle";
 // import Image from "next/image";
 // import gla from 'public/gla3.png'
@@ -9,7 +9,7 @@ export default function HomeSection () {
 
     return (
         <section id="homepage" className={"min-h-[100svh] w-full relative flex justify-center items-center flex-row bg-transparent lg:px-4 lg:py-2 px-2 py-1"}>
-            {/*<Bgicons/>*/}
+            <Bgicons/>
             <MainTitle />
             {/*<div className={"absolute -bottom-10 lg:-right-24 lg:w-7/12 w-11/12 h-auto"}>*/}
             {/*    <div className={"relative"}>*/}
