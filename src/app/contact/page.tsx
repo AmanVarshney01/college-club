@@ -4,7 +4,18 @@ import {PageWrapper} from "@/app/page-wrapper";
 
 export default function Page() {
     return (<PageWrapper>
-            <section id="contactpage" className={"flex flex-col bg-transparent px-4 py-8 min-h-screen w-full"}>
+            <section id="contactpage" className={"flex flex-col bg-transparent min-h-[100svh] w-full lg:px-4 lg:py-2 px-2 py-1"}>
+
+                <div className={"flex flex-col justify-end min-h-[100svh] w-full"}>
+                    <h1 className={" drop-shadow-lg w-max h-max"}>
+                <span
+                    id="title"
+                    className={" lg:text-[28vh] text-[15vh] flex flex-col drop-shadow-lg leading-none bg-gradient-to-br from-[#4E9F3D] text-transparent bg-clip-text to-[#4E9F3D] via-[#D8E9A8]"}>
+                    <span>Contact</span>
+                </span>
+                    </h1>
+                </div>
+
                 <div className={"h-min w-full"}>
                     <h2 className={"2xl:text-8xl text-4xl 2xl:m-10 m-2"}>Contact Us</h2>
                 </div>

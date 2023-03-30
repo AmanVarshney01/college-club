@@ -7,9 +7,9 @@ export default function page() {
 
     return (
         <PageWrapper>
-            <section id="workpage" className={"overflow-hidden"}>
+            <section id="workpage" className={"overflow-hidden lg:px-4 lg:py-2 px-2 py-1"}>
 
-                <div className={`flex flex-col justify-end min-h-screen w-full`}>
+                <div className={"flex flex-col justify-end min-h-[100svh] w-full"}>
                     <h1 className={" drop-shadow-lg w-max h-max"}>
                 <span
                     id="title"

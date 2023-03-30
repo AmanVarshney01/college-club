@@ -6,7 +6,7 @@ import linkedin from "../../../public/socialIcons/linkedin.png";
 export default function Page() {
 
     return (<PageWrapper>
-            <section id="about-section" className={"w-full min-h-screen bg-transparent flex flex-col"}>
+            <section id="about-section" className={"w-full min-h-[100svh] bg-transparent flex flex-col lg:px-4 lg:py-2 px-2 py-1"}>
 
                 <div className={`flex flex-col justify-end min-h-screen w-full`}>
                     <h1 className={" drop-shadow-lg w-max h-max"}>
