@@ -3,8 +3,8 @@ import gfg from 'public/gfg_logo.png'
 
 export default function MainTitle() {
     return (
-        <div className={"flex z-20 flex-col relative w-full px-[6vw]"}>
-            <Image className={""} width={600} src={gfg} alt={"gfg"}/>
+        <div className={"flex z-20 flex items-center justify-end relative w-full basis-2/5"}>
+            <Image className={""} width={400} src={gfg} alt={"gfg"}/>
             {/*<h1 className={" drop-shadow-lg w-max h-max"}>*/}
             {/*    <span*/}
             {/*        id="title"*/}
