@@ -3,6 +3,7 @@ import {AnalyticsWrapper} from './analytics';
 import {Montserrat} from "next/font/google";
 import Navbar from "@/app/home/Components/navbar";
 import Bgicons from "@/app/home/Components/bgicons";
+import Footer from "@/app/footer/Footer";
 
 
 const montserrat = Montserrat({
@@ -48,6 +49,7 @@ export default function RootLayout({
         <Navbar/>
         <Bgicons/>
         {children}
+        <Footer />
         <AnalyticsWrapper/>
         </body>
         </html>

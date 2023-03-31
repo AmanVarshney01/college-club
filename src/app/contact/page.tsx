@@ -16,9 +16,6 @@ export default function Page() {
                     </h1>
                 </div>
 
-                <div className={"h-min w-full"}>
-                    <h2 className={"2xl:text-8xl text-4xl 2xl:m-10 m-2"}>Contact Us</h2>
-                </div>
                 <div className={"flex 2xl:flex-row flex-col h-full"}>
                     <div className={"flex-1 w-full h-full"}>
                         <div className={"m-20 flex flex-col gap-12"}>
