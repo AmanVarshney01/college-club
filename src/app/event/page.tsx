@@ -7,7 +7,7 @@ export default function page() {
 
     return (
         <PageWrapper>
-            <section id="workpage" className={"overflow-hidden lg:px-4 lg:py-2 px-2 py-1"}>
+            <section id="event-page" className={"overflow-hidden lg:px-4 lg:py-2 px-2 py-1 z-10"}>
 
                 <div className={"flex flex-col justify-end min-h-[100svh] w-full"}>
                     <h1 className={" drop-shadow-lg w-max h-max"}>

@@ -47,9 +47,9 @@ export default function RootLayout({
         </head>
         <body id="body" className={`text-white ${montserrat.className}`}>
         <Navbar/>
-        <Bgicons/>
         {children}
         <Footer />
+        <Bgicons/>
         <AnalyticsWrapper/>
         </body>
         </html>

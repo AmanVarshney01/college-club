@@ -11,7 +11,7 @@ export default function Footer () {
         //     <a id="linkCursor" target="_blank" className={"w-9 bg-white rounded-full border border-white hover:border-[#D8E9A8] hover:bg-[#D8E9A8]"} href="https://github.com/AmanVarshney01/gfg-glau"><Image height={50} width={50} src={github} alt={"github"} /></a>
         //     <a id="linkCursor" target="_blank" className={"w-9 bg-white rounded-full border border-white hover:border-[#D8E9A8] hover:bg-[#D8E9A8]"} href="https://www.linkedin.com/in/amanvarshney11/"><Image height={50} width={50} src={linkedin} alt={"linkedin"} /></a>
         // </section>
-        <section className={"w-full h-[40vh] bg-[#141414] z-10"}>
+        <section className={"w-full h-[40vh] bg-[#141414] z-10 relative"}>
 
         </section>
     )

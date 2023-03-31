@@ -4,7 +4,7 @@ import {PageWrapper} from "@/app/page-wrapper";
 
 export default function Page() {
     return (<PageWrapper>
-            <section id="contactpage" className={"flex flex-col bg-transparent min-h-[100svh] w-full lg:px-4 lg:py-2 px-2 py-1"}>
+            <section id="contactpage" className={"flex flex-col z-10 bg-transparent min-h-[100svh] w-full lg:px-4 lg:py-2 px-2 py-1"}>
 
                 <div className={"flex flex-col justify-end min-h-[100svh] w-full"}>
                     <h1 className={" drop-shadow-lg w-max h-max"}>

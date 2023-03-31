@@ -7,7 +7,7 @@ import TeamSection from "@/app/about/Components/TeamSection";
 export default function Page() {
 
     return (<PageWrapper>
-            <section id="about-section" className={"w-full min-h-[100svh] bg-transparent flex flex-col lg:px-4 lg:py-2 px-2 py-1"}>
+            <section id="about-section" className={"w-full z-10 min-h-[100svh] bg-transparent flex flex-col lg:px-4 lg:py-2 px-2 py-1"}>
 
                 <div className={`flex flex-col justify-end min-h-[100svh] w-full`}>
                     <h1 className={" drop-shadow-lg w-max h-max"}>
