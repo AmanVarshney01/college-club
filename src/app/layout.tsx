@@ -2,6 +2,7 @@ import './globals.css'
 import {AnalyticsWrapper} from './analytics';
 import {Montserrat} from "next/font/google";
 import Navbar from "@/app/home/Components/navbar";
+import Bgicons from "@/app/home/Components/bgicons";
 
 
 const montserrat = Montserrat({
@@ -45,6 +46,7 @@ export default function RootLayout({
         </head>
         <body id="body" className={`text-white ${montserrat.className}`}>
         <Navbar/>
+        <Bgicons/>
         {children}
         <AnalyticsWrapper/>
         </body>

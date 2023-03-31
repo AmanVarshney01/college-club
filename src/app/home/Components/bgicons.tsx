@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function Bgicons() {
     return (
         <div
-            className={"fixed top-0 right-0 opacity-10 left-0 bg-transparent h-screen max-w-full grid grid-cols-5 grid-rows-5 gap-10 place-items-center pointer-events-none blur-[1px]"}>
+            className={"fixed top-0 right-0 opacity-10 left-0 bg-transparent h-screen max-w-full grid grid-cols-5 grid-rows-4 gap-10 place-items-center pointer-events-none blur-[1px]"}>
             <Image className={"w-5 h-5"} width={5} height={5} src="/bg-icons/3.svg" alt=""/>
             <Image className={"w-5 h-5"} width={5} height={5} src="/bg-icons/1.svg" alt=""/>
             <Image className={"w-5 h-5"} width={5} height={5} src="/bg-icons/4.svg" alt=""/>
@@ -23,11 +23,6 @@ export default function Bgicons() {
             <Image className={"w-5 h-5"} width={5} height={5} src="/bg-icons/8.svg" alt=""/>
             <Image className={"w-5 h-5"} width={5} height={5} src="/bg-icons/9.svg" alt=""/>
             <Image className={"w-5 h-5"} width={5} height={5} src="/bg-icons/10.svg" alt=""/>
-            <Image className={"w-5 h-5"} width={5} height={5} src="/bg-icons/3.svg" alt=""/>
-            <Image className={"w-5 h-5"} width={5} height={5} src="/bg-icons/7.svg" alt=""/>
-            <Image className={"w-5 h-5"} width={5} height={5} src="/bg-icons/5.svg" alt=""/>
-            <Image className={"w-5 h-5"} width={5} height={5} src="/bg-icons/1.svg" alt=""/>
-            <Image className={"w-5 h-5"} width={5} height={5} src="/bg-icons/9.svg" alt=""/>
         </div>
     )
 }
