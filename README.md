@@ -1,4 +1,4 @@
-## Currently in development
+## Currently, in development
 
 # Free College Club Website Template
 
