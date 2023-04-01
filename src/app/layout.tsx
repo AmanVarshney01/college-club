@@ -18,18 +18,18 @@ const montserrat = Montserrat({
 // })
 
 export const metadata = {
-    title: 'GFG GLAU',
-    description: 'Official Website of GFG GLAU',
+    title: 'College Club',
+    description: 'Official Website of club name',
     creator: 'Aman Varshney',
-    keywords: ['geeksforgeeks', 'gla university', 'gfg glau', "geeksforgeeks student chapter gla university"],
+    keywords: ['college club', 'club website template'],
     icons: {
-        icon: '/gfgglau.png',
-        shortcut: '/gfgglau.png'
+        icon: '',
+        shortcut: ''
     },
     category: 'technology',
     appLinks: {
         web: {
-            url: 'https://gfg-glau.vercel.app/',
+            url: 'https://college-club.vercel.app/',
         }
     },
     themeColor: '#121212'
