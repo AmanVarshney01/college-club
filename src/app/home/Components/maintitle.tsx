@@ -1,10 +1,9 @@
-import Image from "next/image";
-import gfg from 'public/gfg_logo.png'
+// import Image from "next/image";
 
 export default function MainTitle() {
     return (
         <div className={"flex z-20 flex items-center relative w-full justify-center"}>
-            <Image className={""} width={400} src={gfg} alt={"gfg"}/>
+            {/*<Image className={""} width={400} src={null} alt={""}/>*/}
             {/*<h1 className={" drop-shadow-lg w-max h-max"}>*/}
             {/*    <span*/}
             {/*        id="title"*/}
