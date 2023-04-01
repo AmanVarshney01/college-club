@@ -1,3 +1,3 @@
 ## Currently in development
 
-# Official website of GeeksforGeeks student chapter Gla University
+# Free College Club Website Template
