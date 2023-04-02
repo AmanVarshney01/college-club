@@ -44,3 +44,16 @@ body {
     /*@apply border-white*/
     cursor: url('cursor_pointer.svg') 15 15, pointer;
 }
+
+#marquee-container h2 {
+    animation: move-rtl 6000ms linear infinite;
+}
+
+@keyframes move-rtl {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
