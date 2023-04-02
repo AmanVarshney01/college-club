@@ -1,9 +1,10 @@
-// import Image from "next/image";
+import Image from "next/image";
+import clubLogo from 'public/club_logo.png'
 
 export default function MainTitle() {
     return (
         <div className={"flex z-20 flex items-center relative w-full justify-center"}>
-            {/*<Image className={""} width={400} src={null} alt={""}/>*/}
+            <Image className={""} width={400} src={clubLogo} alt={"club logo"}/>
             {/*<h1 className={" drop-shadow-lg w-max h-max"}>*/}
             {/*    <span*/}
             {/*        id="title"*/}
@@ -14,7 +15,6 @@ export default function MainTitle() {
             {/*    </span>*/}
             {/*    /!*<div className={"w-[22rem] h-[22rem] absolute -bottom-52 -left-56 pointer-events-none bg-[#bedba8] rounded-full mix-blend-multiply filter blur-xl opacity-10"}></div>*!/*/}
             {/*</h1>*/}
-
         </div>
     )
 }
