@@ -1,35 +1,10 @@
 "use client";
 import NavButton from "@/app/home/Components/NavButton";
-import Image from "next/image";
 import {motion as m} from "framer-motion";
-import clubLogoNav from "public/club_logo_nav.png"
+import Image from "next/image";
+import clubLogoNav from "public/club_logo_nav.png";
 
 export default function Navbar() {
-
-    // const scrollToAbout = () => {
-    //     const aboutpage: any = document.querySelector('#aboutpage')
-    //
-    //     aboutpage.scrollIntoView({
-    //         behavior: 'smooth'
-    //     }, 500)
-    // }
-    //
-    // const scrollToWork = () => {
-    //     const workpage: any = document.querySelector('#workpage')
-    //
-    //     workpage.scrollIntoView({
-    //         behavior: 'smooth'
-    //     }, 500)
-    // }
-    //
-    // const scrollToContact = () => {
-    //     const contactpage: any = document.querySelector('#contactpage')
-    //
-    //     contactpage.scrollIntoView({
-    //         behavior: 'smooth'
-    //     }, 500)
-    // }
-
     return (
         // bg-gradient-to-b from-[#121212]/70 from-10% via-[#121212]/50 via-30% to-[#121212]/0 to-60%
         <div className={"bg-gradient-to-b from-[#121212]/100 to-[#121212]/0 fixed left-0 top-0 w-full h-min z-50"}>

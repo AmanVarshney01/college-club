@@ -3,7 +3,8 @@ import FaqsSection from "@/app/contact/faqs/FaqsSection";
 import {PageWrapper} from "@/app/page-wrapper";
 
 export default function Page() {
-    return (<PageWrapper>
+    return (
+        <PageWrapper>
             <section id="contactpage" className={"flex flex-col z-10 bg-transparent min-h-[100svh] w-full lg:px-4 lg:py-2 px-2 py-1"}>
 
                 <div className={"flex flex-col justify-end min-h-[100svh] w-full"}>

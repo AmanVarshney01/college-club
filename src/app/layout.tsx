@@ -1,7 +1,7 @@
 import './globals.css'
 import {AnalyticsWrapper} from './analytics';
 import {Montserrat} from "next/font/google";
-import Navbar from "@/app/home/Components/navbar";
+import Navbar from "@/app/home/Components/Navbar";
 import Bgicons from "@/app/home/Components/bgicons";
 import Footer from "@/app/footer/Footer";
 
