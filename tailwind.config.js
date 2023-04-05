@@ -11,8 +11,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-      },
     },
   },
   plugins: [require("@tailwindcss/forms")],
