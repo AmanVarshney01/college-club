@@ -1,10 +1,11 @@
-import Image from "next/image";
-import clubLogo from 'public/club_logo.png'
+// import Image from "next/image";
+// import clubLogo from 'public/club_logo.png'
 
 export default function MainTitle() {
     return (
         <div className={"flex z-20 flex items-center relative w-full justify-center"}>
-            <Image className={""} width={400} src={clubLogo} alt={"club logo"}/>
+            <video autoPlay muted src="./main.mp4" width={750}/>
+            {/*<Image className={""} width={400} src={clubLogo} alt={"club logo"}/>*/}
             {/*<h1 className={" drop-shadow-lg w-max h-max"}>*/}
             {/*    <span*/}
             {/*        id="title"*/}
