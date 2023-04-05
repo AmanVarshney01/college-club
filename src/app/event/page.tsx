@@ -51,7 +51,7 @@ export default function page() {
 
                     <div className={'mx-auto flex flex-col place-items-center opacity-50 relative'}>
                         <div className={"w-10 h-10 bg-[#D8E9A8] rounded-full relative"}>
-                            <span className={"absolute right-20 2xl:text-2xl text-sm w-man"}>Event 1</span>
+                            <span className={"absolute right-20 2xl:text-2xl text-sm w-max"}>Event 1</span>
                         </div>
                         {/*<div className={" w-[40rem] h-[40rem] absolute bottom-0 -right-38 z-50 pointer-events-none bg-[#bedba8] rounded-full mix-blend-multiply filter blur-xl opacity-10"}></div>*/}
 
@@ -59,7 +59,7 @@ export default function page() {
                     </div>
                 </div>
                 <div>
-                    <div className={"min-h-screen flex flex-col relative w-[500vw]"}>
+                    <div className={"min-h-screen flex flex-col relative"}>
                         <EventShowcase imgSrc={null} title={"Event5"} subTitle={""}
                                        description={"wonderful event"}/>
                         <EventShowcase imgSrc={null} title={"Event4"} subTitle={""}

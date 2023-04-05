@@ -1,8 +1,7 @@
-import Image from "next/image";
 
 export default function EventShowcase({title, subTitle, description, imgSrc}: {title: string, subTitle: string, description: string, imgSrc: any,}) {
     return (
-        <div className={"w-screen min-h-screen flex 2xl:flex-row flex-col bg-transparent justify-center items-center"}>
+        <div className={"w-full min-h-screen flex bg-transparent justify-center items-center"}>
             <div className={"flex flex-col place-items-center basis-2/5"}>
                 <div className={" flex-1 flex items-center justify-center"}>
                     <div className={"flex flex-col text-left place-items-center"}>

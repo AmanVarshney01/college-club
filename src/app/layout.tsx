@@ -2,7 +2,7 @@ import './globals.css'
 import {AnalyticsWrapper} from './analytics';
 import {Montserrat} from "next/font/google";
 import Navbar from "@/app/home/Components/Navbar";
-import Bgicons from "@/app/home/Components/bgicons";
+// import Bgicons from "@/app/home/Components/bgicons";
 import Footer from "@/app/footer/Footer";
 
 
@@ -49,7 +49,7 @@ export default function RootLayout({
         <Navbar/>
         {children}
         <Footer />
-        <Bgicons/>
+        {/*<Bgicons/>*/}
         <AnalyticsWrapper/>
         </body>
         </html>

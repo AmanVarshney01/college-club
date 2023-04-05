@@ -5,7 +5,6 @@ export default function TitleMarquee() {
            <h2 className={"px-12"}>Geeksforgeeks Student Chapter Amla University</h2>
            <h2 className={"px-12"}>Geeksforgeeks Student Chapter Amla University</h2>
            <h2 className={"px-12"}>Geeksforgeeks Student Chapter Amla University</h2>
-           <h2 className={"px-12"}>Geeksforgeeks Student Chapter Amla University</h2>
        </div>
     )
 }
