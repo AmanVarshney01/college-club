@@ -1,6 +1,8 @@
 // import github from 'public/socialIcons/github.png'
-// import linkedin from 'public/socialIcons/linkedin.png'
-// import Image from "next/image";
+import linkedin from 'public/socialIcons/linkedin.png'
+import whatsapp from 'public/socialIcons/whatsapp.png'
+import instagram from 'public/socialIcons/instagram.png'
+import Image from "next/image";
 export default function Footer () {
     return (
         // <section id="footer" className={"px-[6vw] border-t h-min w-full py-2 flex flex-row items-center justify-end gap-4 text-sm"}>
@@ -11,8 +13,17 @@ export default function Footer () {
         //     <a id="linkCursor" target="_blank" className={"w-9 bg-white rounded-full border border-white hover:border-[#D8E9A8] hover:bg-[#D8E9A8]"} href="https://github.com/AmanVarshney01/gfg-glau"><Image height={50} width={50} src={github} alt={"github"} /></a>
         //     <a id="linkCursor" target="_blank" className={"w-9 bg-white rounded-full border border-white hover:border-[#D8E9A8] hover:bg-[#D8E9A8]"} href="https://www.linkedin.com/in/amanvarshney11/"><Image height={50} width={50} src={linkedin} alt={"linkedin"} /></a>
         // </section>
-        <section className={"w-full h-[40vh] bg-[#141414] z-10 relative"}>
-
+        <section className={"w-full h-[40vh] bg-[#141414] z-10 relative flex flex-col"}>
+            <div className={"h-full"}></div>
+            <div className={"flex flex-row h-min justify-center items-center gap-3 py-8 "}>
+                <a href="/"><Image className={"bg-white rounded-full h-min w-min border"} width={30} height={30} src={linkedin} alt={"linkedin"} />
+                </a>
+                <a href="/"><Image className={"bg-white rounded-full h-min w-min border"} width={30} height={30} src={whatsapp} alt={"whatsapp"} />
+                </a>
+                <a href="/"><Image className={"bg-white rounded-full h-min w-min border"} width={30} height={30} src={instagram} alt={"instagram"} />
+                </a>
+                {/*<Image src={github} alt={"github"} />*/}
+            </div>
         </section>
     )
 }

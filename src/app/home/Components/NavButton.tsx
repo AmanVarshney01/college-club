@@ -13,7 +13,7 @@ export default function NavButton(props: ButtonProps) {
     const path = usePathname()
 
     return (
-            <Link href={href} id="linkCursor" className={"relative transition ease-in duration-200 lg:text-xl text-sm hover:text-[#D8E9A8]"}>
+            <Link href={href} id="linkCursor" className={"relative transition ease-in duration-200 font-medium lg:text-xl text-sm hover:text-[#D8E9A8]"}>
                 {href === path && (<m.span layoutId="nav-underline" className={"absolute left-0 top-full block h-[1px] bg-white w-full"} />)}
                 {name}
             </Link>
