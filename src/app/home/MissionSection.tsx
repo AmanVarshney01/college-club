@@ -6,8 +6,7 @@ export default function MissionSection () {
         <section className={"h-full bg-transparent flex flex-row lg:px-8 py-24 px-2 relative justify-between"}>
             <div className={"w-fit flex flex-col justify-center gap-2 z-10"}>
                 <p className={"flex flex-col gap-3"}>
-                    <span className={"text-5xl"}>Our Mission </span>
-                    <span className={"text-2xl"}>is to cultivate a vibrant </span>
+                    <span className={"text-2xl"}><span className={"text-5xl"}>Our Mission </span>is to cultivate a vibrant </span>
                     <span className={"text-7xl font-semibold"}>Coding Culture </span>
                     <span className={"text-2xl"}>on Campus and empower students to develop</span>
                     <span className={"text-2xl"}>their coding skills and <span className={"text-7xl"}>creativity.</span></span>
