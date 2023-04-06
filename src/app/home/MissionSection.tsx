@@ -1,5 +1,5 @@
-import Image from "next/image";
-import university from 'public/cambridge.jpeg'
+// import Image from "next/image";
+// import university from 'public/cambridge.jpeg'
 
 export default function MissionSection () {
     return (
@@ -13,7 +13,7 @@ export default function MissionSection () {
             </div>
             {/*our mission is to cultivate a vibrant coding culture on campus*/}
             <div className={"w-1/2 h-full z-0"}>
-                <Image className={""} src={university} alt={"University"}/>
+                {/*<Image className={""} src={university} alt={"University"}/>*/}
             </div>
 
         </section>
