@@ -11,7 +11,6 @@ export default function ContactForm () {
     const onSubmit = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault()
         try {
-
             await fetch('/api/contact', {
                 method: 'POST',
                 body: JSON.stringify({
