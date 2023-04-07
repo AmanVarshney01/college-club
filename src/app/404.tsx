@@ -1,4 +1,4 @@
-import mrincredible from 'public/cute_mr_incredible.png'
+import mrincredible from '../../public/cute_mr_incredible.png'
 import Image from "next/image";
 import "./errorpage.css"
 
