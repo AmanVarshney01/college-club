@@ -42,9 +42,6 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-        <head>
-            <title>GFG GLAU</title>
-        </head>
         <body id="body" className={`text-white ${montserrat.className}`}>
         <Navbar/>
         {children}
