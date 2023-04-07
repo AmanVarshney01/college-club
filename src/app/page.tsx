@@ -7,12 +7,13 @@ import EventSection from "@/app/home/EventSection";
 export default function Home() {
 
     return (
-            <PageWrapper>
+            // <PageWrapper>
                 <main id="container" className={"z-10"}>
+                    hello
                     {/*<HomeSection/>*/}
-                    <MissionSection />
-                    <EventSection />
+                    {/*<MissionSection />*/}
+                    {/*<EventSection />*/}
                 </main>
-            </PageWrapper>
+            // {/*</PageWrapper>*/}
     )
 }
