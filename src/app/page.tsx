@@ -10,7 +10,6 @@ import EventSection from "@/app/home/EventSection";
 export default function Home() {
 
     return (
-        // <ThemeProvider attribute="class" defaultTheme={"dark"} disableTransitionOnChange enableSystem={false}>
             <PageWrapper>
                 <main id="container" className={"z-10"}>
                     <HomeSection/>
@@ -18,6 +17,5 @@ export default function Home() {
                     <EventSection />
                 </main>
             </PageWrapper>
-        // </ThemeProvider>
     )
 }
