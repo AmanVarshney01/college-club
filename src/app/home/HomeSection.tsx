@@ -1,4 +1,4 @@
-import MainTitle from "@/app/home/Components/maintitle";
+import HeroTitle from "@/app/home/Components/heroTitle";
 import TitleMarquee from "@/app/home/Components/TitleMarquee";
 // import Image from "next/image";
 // import gla from 'public/gla3.png'
@@ -10,7 +10,7 @@ export default function HomeSection () {
     return (
         <section id="homepage" className={"min-h-[100svh] z-10 w-full flex justify-center items-center flex-col relative bg-transparent lg:px-4 lg:py-2 px-2 py-1"}>
             <div className={""}>
-                <MainTitle />
+                <HeroTitle />
             </div>
             {/*<div className={"absolute -bottom-10 lg:-right-24 lg:w-7/12 w-11/12 h-auto"}>*/}
             {/*    <div className={"relative"}>*/}

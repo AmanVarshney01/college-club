@@ -1,7 +1,7 @@
 import './globals.css'
 import {AnalyticsWrapper} from './analytics';
 import {Montserrat} from "next/font/google";
-import Navbar from "@/app/home/Components/Navbar";
+import Navbar from "@/app/home/Components/navbar";
 // import Bgicons from "@/app/home/Components/bgicons";
 import Footer from "@/app/footer/Footer";
 
@@ -37,9 +37,9 @@ export default function RootLayout({
     return (
         <html lang="en">
         <body id="body" className={`text-white ${montserrat.className}`}>
-        {/*<Navbar/>*/}
+        <Navbar/>
         {children}
-        {/*<Footer />*/}
+        <Footer />
         {/*<Bgicons/>*/}
         <AnalyticsWrapper/>
         </body>

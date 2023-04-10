@@ -1,7 +1,7 @@
 // import Image from "next/image";
 // import clubLogo from 'public/club_logo.png'
 
-export default function MainTitle() {
+export default function HeroTitle() {
     return (
         <div className={"flex z-20 flex items-center relative w-full justify-center"}>
             <video className={"h-[45vh]"} autoPlay muted src="./MainLogoVideo.webm" width={400}/>
