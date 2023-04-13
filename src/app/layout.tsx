@@ -36,12 +36,12 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-        <body id="body" className={`text-white ${montserrat.className}`}>
-        <Navbar/>
-        {children}
-        <Footer />
-        {/*<Bgicons/>*/}
-        <AnalyticsWrapper/>
+        <body id="body" className={`${montserrat.className}`}>
+            <Navbar/>
+            {children}
+            <Footer />
+            {/*<Bgicons/>*/}
+            <AnalyticsWrapper/>
         </body>
         </html>
     )

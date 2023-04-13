@@ -1,5 +1,6 @@
 import Image from "next/image";
-import university from 'public/cambridge.jpeg'
+// import university from 'public/cambridge.jpeg'
+import gla from 'public/gla1.webp'
 
 export default function MissionSection () {
     return (
@@ -15,7 +16,7 @@ export default function MissionSection () {
             </div>
             {/*our mission is to cultivate a vibrant coding culture on campus*/}
             <div className={"justify-end w-auto h-full z-0"}>
-                <Image loading={"lazy"} placeholder={"blur"} className={""} src={university} alt={"University"}/>
+                <Image loading={"lazy"} placeholder={"blur"} className={""} src={gla} alt={"University"}/>
             </div>
 
         </section>

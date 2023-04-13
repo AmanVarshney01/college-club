@@ -1,5 +1,5 @@
 import ContactForm from "@/app/contact/Components/ContactForm";
-import FaqsSection from "@/app/contact/faqs/FaqsSection";
+import FaqsSection from "@/app/contact/Components/FaqsSection";
 import {PageWrapper} from "@/app/page-wrapper";
 
 export default function Page() {
@@ -11,7 +11,7 @@ export default function Page() {
                     <h1 className={" drop-shadow-lg w-max h-max"}>
                 <span
                     id="title"
-                    className={" lg:text-[28vh] text-[15vh] flex flex-col drop-shadow-lg leading-none bg-gradient-to-br from-[#4E9F3D] text-transparent bg-clip-text to-[#4E9F3D] via-[#D8E9A8]"}>
+                    className={"lg:text-[28vh] text-9xl flex flex-col drop-shadow-lg leading-none bg-gradient-to-br from-[#4E9F3D] text-transparent bg-clip-text to-[#4E9F3D] via-[#D8E9A8]"}>
                     <span>Contact</span>
                 </span>
                     </h1>
