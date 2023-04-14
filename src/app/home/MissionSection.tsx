@@ -1,5 +1,4 @@
 import Image from "next/image";
-// import university from 'public/cambridge.jpeg'
 import gla from 'public/gla1.webp'
 
 export default function MissionSection () {

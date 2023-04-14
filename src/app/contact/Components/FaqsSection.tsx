@@ -40,7 +40,7 @@ export default function FaqsSection() {
                     <div id="linkCursor"  className={""}>
                         <div id={"question-1"}
                              className={"rounded-md shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
-                            <h3 className={"text-sm 2xl:text-2xl"}>question</h3>
+                            <h3 className={"text-sm 2xl:text-2xl"}>Question</h3>
                         </div>
                         <div id='answer-1'
                              className={"rounded-md answer bg-[#D3D3D3] text-black p-8 shadow text-semibold"}>
@@ -70,7 +70,7 @@ export default function FaqsSection() {
                     <div id="linkCursor" className={""}>
                         <div id={"question-4"}
                              className={"rounded-md shadow-black bg-[#181818] py-8 px-10 shadow hover:text-[#D8E9A8] transition duration-400"}>
-                            <h3 className={"2xl:text-2xl text-sm"}>Qquestion</h3>
+                            <h3 className={"2xl:text-2xl text-sm"}>Question</h3>
                         </div>
                         <div id='answer-4'
                              className={"rounded-md answer bg-[#D3D3D3] text-black p-8 shadow text-semibold"}>

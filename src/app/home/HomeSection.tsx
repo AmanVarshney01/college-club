@@ -19,9 +19,9 @@ export default function HomeSection () {
             {/*    </div>*/}
             {/*</div>*/}
             {/*<Image className={"fixed bottom-0 right-0 w-1/2 opacity-90"} src={gla} alt={"gla"} />*/}
-            <div className={"absolute bottom-0 left-0"}>
-                <TitleMarquee />
-            </div>
+            {/*<div className={"absolute bottom-0 left-0"}>*/}
+            {/*    <TitleMarquee />*/}
+            {/*</div>*/}
         </section>
     )
 }

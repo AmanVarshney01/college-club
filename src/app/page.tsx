@@ -1,4 +1,3 @@
-"use client";
 import HomeSection from "@/app/home/HomeSection";
 import MissionSection from "@/app/home/MissionSection";
 import {PageWrapper} from "@/app/page-wrapper";
